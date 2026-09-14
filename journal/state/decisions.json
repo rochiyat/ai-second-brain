@@ -53,8 +53,8 @@
   "DEC-0003": {
    "id": "DEC-0003",
    "title": "Penundaan fitur multi-role ke sprint depan (solusi role gabungan baru)",
-   "status": "open",
-   "decision": null,
+   "status": "decided",
+   "decision": "Fitur multi-role user ditunda ke sprint depan karena butuh waktu ~1 minggu dev dan penyesuaian DB. Solusi sementara: membuat role gabungan baru (misal Admin + Employee).",
    "decider": "Tim Dev LMS & Ratih",
    "decider_slug": "tim-dev-lms-ratih",
    "stakeholder_slugs": [],
@@ -72,8 +72,8 @@
    "superseded_by": null,
    "notes": null,
    "created_at": 1789395399.4377546,
-   "decided_at": null,
-   "updated_at": 1789395399.4377546
+   "decided_at": 1789395431.0134206,
+   "updated_at": 1789395431.0134206
   }
  },
  "next_seq": 4
