@@ -1,0 +1,10 @@
+{
+ "_note": "portfolio.json initiative id -> work_tree.json node id. Two id spaces drift by default, so this table is validated on every work_tree_link.py --check.",
+ "schema_version": 1,
+ "map": {
+  "INIT-BH-1": "lms-platform",
+  "INIT-AB-1": "amor-pos",
+  "INIT-WC-1": "sit-akademik"
+ },
+ "updated_wib": "2026-09-14T12:32+07:00"
+}

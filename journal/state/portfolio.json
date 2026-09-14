@@ -1,0 +1,119 @@
+{
+  "updated_wib": "2026-09-14 08:50 WIB",
+  "teams": [
+    {
+      "name": "SIT Widya Cendekia",
+      "world": "work",
+      "owner": "Rochiyat",
+      "initiatives": [
+        {
+          "id": "INIT-WC-1",
+          "name": "Sistem Informasi Akademik",
+          "status": "in_progress",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Digitalisasi operasional dan akademik SIT Widya Cendekia",
+          "now": "Perancangan arsitektur teknis dan pendataan kebutuhan sistem",
+          "next_milestone": "Finalisasi PRD Modul Akademik",
+          "blockers": [],
+          "workstreams": [
+            {
+              "name": "Arsitektur & Database Schema",
+              "phase": "Design",
+              "status": "in_progress",
+              "prd": "Pending",
+              "blocker": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AMOR BAKERY",
+      "world": "work",
+      "owner": "Rochiyat",
+      "initiatives": [
+        {
+          "id": "INIT-AB-1",
+          "name": "Retail & POS Platform",
+          "status": "in_progress",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Modernisasi sistem POS dan supply chain bakery",
+          "now": "Jadwal eksekusi 15 Sept: PROMPT 2f (Backend), 4b, 4c, 4e (POS Client)",
+          "next_milestone": "Selesai Prompt 2f, 4b, 4c, 4e (15 Sept 2026)",
+          "blockers": [],
+          "workstreams": [
+            {
+              "name": "PROMPT 2f — Backend: kunci periode, audit, dan pengerasan",
+              "phase": "Development",
+              "status": "todo",
+              "prd": "amor-erp-backend",
+              "blocker": null
+            },
+            {
+              "name": "PROMPT 4b — POS: pembayaran",
+              "phase": "Development",
+              "status": "todo",
+              "prd": "amor-pos-client",
+              "blocker": null
+            },
+            {
+              "name": "PROMPT 4c — POS: simpan nota dan pratinjau struk",
+              "phase": "Development",
+              "status": "todo",
+              "prd": "amor-pos-client",
+              "blocker": null
+            },
+            {
+              "name": "PROMPT 4e — POS: otorisasi supervisor, void, dan retur",
+              "phase": "Development",
+              "status": "todo",
+              "prd": "amor-pos-client",
+              "blocker": null
+            }
+          ],
+          "links": {
+            "docs": [
+              "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "LMS BITHEALTH",
+      "world": "work",
+      "owner": "Rochiyat",
+      "initiatives": [
+        {
+          "id": "INIT-BH-1",
+          "name": "Healthcare LMS Platform",
+          "status": "in_progress",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Learning management system untuk tenaga kesehatan",
+          "now": "Penyelesaian penyesuaian menu Department, Job Role, Level (take out kolom code)",
+          "next_milestone": "Tech Stack Recommendation & System Architecture",
+          "blockers": [],
+          "workstreams": [
+            {
+              "name": "Core LMS Engine & Video Delivery",
+              "phase": "Evaluation",
+              "status": "in_progress",
+              "prd": "Pending",
+              "blocker": null
+            },
+            {
+              "name": "Menu Master (Department, Job Role, Level - take out kolom code)",
+              "phase": "Development",
+              "status": "in_progress",
+              "prd": "Internal Task",
+              "blocker": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

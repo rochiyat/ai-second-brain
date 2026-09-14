@@ -25,6 +25,57 @@
        "summary": "The level most tickets file against: a thing with a start, an end, and someone waiting on it."
       }
      ]
+    },
+    {
+     "id": "bithealth",
+     "label": "BitHealth",
+     "kind": "client",
+     "status": "active",
+     "summary": "BitHealth Client",
+     "children": [
+      {
+       "id": "lms-platform",
+       "label": "Healthcare LMS Platform",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Healthcare LMS Platform",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "amor-bakery",
+     "label": "AMOR Bakery",
+     "kind": "client",
+     "status": "active",
+     "summary": "AMOR Bakery Retail POS",
+     "children": [
+      {
+       "id": "amor-pos",
+       "label": "Retail & POS Platform",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Retail and POS Platform",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "sit-widya",
+     "label": "SIT Widya Cendekia",
+     "kind": "client",
+     "status": "active",
+     "summary": "SIT Widya Cendekia School",
+     "children": [
+      {
+       "id": "sit-akademik",
+       "label": "Sistem Informasi Akademik",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Sistem Informasi Akademik",
+       "children": []
+      }
+     ]
     }
    ]
   },
@@ -35,5 +86,6 @@
    "status": "active",
    "summary": "Work that is yours rather than a client's. Delete this root if you do not want it here."
   }
- ]
+ ],
+ "refreshed_wib": "2026-09-14T12:32+07:00"
 }

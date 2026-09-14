@@ -1,8 +1,34 @@
-# Master Follow-up & External Dependencies Tracker
+# 🎯 Master Follow-up & To-Do Tracker
 
-> Items where other people owe YOU a deliverable.
-> Review this daily. Escalate anything overdue.
+> [!IMPORTANT]
+> **GENERATED FILE - do not edit by hand.** Sources: `journal/state/commitments.json`, `journal/state/waiting_on.json`, `journal/state/decisions.json`. To change what appears here, edit the ledgers (`commitment_ledger.py`, `waiting_watchdog.py`, `decision_log.py`), then regenerate: `python3 .agent/skills/project-tracking-update/scripts/render_followup_tracker.py`
+>
+> **Every id below is clickable.** `COM-`/`WAIT-`/`DEC-` links open that record on the local dashboard (http://localhost:3737) with its owner, SLA, source, timeline and notes. If a link does nothing, the dashboard is down: `bash .agent/scripts/ensure_dashboard.sh`
 
-| # | Item | Owner | Committed Date | Status | Notes |
-|---|------|-------|----------------|--------|-------|
-| 1 | | | | Pending | |
+**Last generated**: 2026-09-14 12:32 WIB
+
+---
+
+_(could not render: ! commitments report exited 1: Traceback (most recent call last):
+  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/commitment-ledger/scripts/commitment_ledger.py", line 1405, in <module>
+    main()
+  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/commitment-ledger/scripts/commitment_ledge)_
+
+---
+
+No open waiting-on items. Watchdog is clean.
+
+---
+
+No decisions tracked. Ledger is clean.
+
+---
+
+## 📊 Health Check
+
+| Metric | Value |
+|:---|:---|
+| Open commitments (the owner owes) | 1 |
+| Overdue commitments | 0 |
+| Active waiting-on (others owe the owner) | 0 |
+| Flagged for escalation | 0 |

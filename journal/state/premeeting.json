@@ -1,0 +1,25 @@
+{
+ "dates": {
+  "2026-09-14": {
+   "generated_at": 1789362264.963798,
+   "cards": [
+    {
+     "file": "journal\\premeeting\\2026-09-14\\1330_bithealth-learning-management-system-dis.md",
+     "title": "[Bithealth] - Learning Management System - Discussion Merge Code ",
+     "time_wib": "13:30",
+     "attendee_slugs": [],
+     "n_decisions": 0,
+     "n_pings": 0,
+     "n_you_owe": 0,
+     "n_they_owe": 0,
+     "n_tickets": 0,
+     "has_last_meeting": false,
+     "portfolios": [],
+     "n_filtered_out": 0,
+     "has_sprint": false
+    }
+   ]
+  }
+ },
+ "last_run": 1789362264.963798
+}

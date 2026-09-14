@@ -1,0 +1,44 @@
+{
+ "generated_from": "journal\\state\\portfolio.json",
+ "source_updated_wib": "2026-09-14 08:50 WIB",
+ "note": "Lean index. Full body (now/blockers/links/workstreams) lives in portfolio.json; look up by id.",
+ "count": 3,
+ "initiatives": [
+  {
+   "id": "INIT-WC-1",
+   "title": "Sistem Informasi Akademik",
+   "status": "in_progress",
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "SIT Widya Cendekia",
+   "due": "Finalisasi PRD Modul Akademik",
+   "blocker_count": 0,
+   "workstream_count": 1,
+   "workstreams_open": 1
+  },
+  {
+   "id": "INIT-AB-1",
+   "title": "Retail & POS Platform",
+   "status": "in_progress",
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "AMOR BAKERY",
+   "due": "Selesai Prompt 2f, 4b, 4c, 4e (15 Sept 2026)",
+   "blocker_count": 0,
+   "workstream_count": 4,
+   "workstreams_open": 4
+  },
+  {
+   "id": "INIT-BH-1",
+   "title": "Healthcare LMS Platform",
+   "status": "in_progress",
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "LMS BITHEALTH",
+   "due": "Tech Stack Recommendation & System Architecture",
+   "blocker_count": 0,
+   "workstream_count": 2,
+   "workstreams_open": 2
+  }
+ ]
+}
