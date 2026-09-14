@@ -393,6 +393,21 @@
       "start_date": "2026-09-17",
       "due": "2026-09-17",
       "notes": "Catatan lokal: dipindahkan dari Rabu ke Kamis pekan ini. Kalender Gmail tidak diubah (PIC: PM)."
+    },
+    {
+      "id": "TICK-033",
+      "title": "Review PR Koh Elly (maksimal sore ini)",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "LMS BITHEALTH",
+      "initiative_id": "INIT-BH-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-14",
+      "due": "2026-09-14",
+      "source_url": "https://github.com/bithealth-dnx/bithealth-circle/pull/32",
+      "notes": "Target review PR Koh Elly maksimal sore ini (17:00 WIB).",
+      "commitment_id": "COM-0002"
     }
   ]
 }

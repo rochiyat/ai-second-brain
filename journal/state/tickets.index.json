@@ -2,7 +2,7 @@
  "generated_from": "journal\\state\\tickets.json",
  "source_updated_wib": null,
  "note": "Lean index. Full body (note/comments/links) lives in tickets.json; look up by id.",
- "count": 32,
+ "count": 33,
  "tickets": [
   {
    "id": "TICK-001",
@@ -322,6 +322,16 @@
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
    "due": "2026-09-17",
+   "initiative_id": "INIT-BH-1"
+  },
+  {
+   "id": "TICK-033",
+   "title": "Review PR Koh Elly (maksimal sore ini)",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "LMS BITHEALTH",
+   "due": "2026-09-14",
    "initiative_id": "INIT-BH-1"
   }
  ]
