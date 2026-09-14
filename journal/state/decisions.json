@@ -24,7 +24,32 @@
    "created_at": 1789395383.5362816,
    "decided_at": null,
    "updated_at": 1789395383.5362816
+  },
+  "DEC-0002": {
+   "id": "DEC-0002",
+   "title": "Flow password user: auto-generate & email plaintext (tanpa input UI)",
+   "status": "open",
+   "decision": null,
+   "decider": "Tim Dev LMS",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789395391.6521683,
+   "decided_at": null,
+   "updated_at": 1789395391.6521683
   }
  },
- "next_seq": 2
+ "next_seq": 3
 }
