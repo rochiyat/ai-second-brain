@@ -5,12 +5,13 @@
 >
 > **Every id below is clickable.** `COM-`/`WAIT-`/`DEC-` links open that record on the local dashboard (http://localhost:3737) with its owner, SLA, source, timeline and notes. If a link does nothing, the dashboard is down: `bash .agent/scripts/ensure_dashboard.sh`
 
-**Last generated**: 2026-09-14 12:33 WIB
+**Last generated**: 2026-09-14 12:39 WIB
 
 ---
 
-## ðŸ“Œ Outbound Commitments (1 open)
+## ðŸ“Œ Outbound Commitments (2 open)
 
+- ðŸ”¥ **Review PR koh Elly** -> Koh Elly (due 2026-09-14) Â· 0h old Â· high conf  [`COM-0002`](http://localhost:3737/#find/COM-0002) [manual]
 - **Kirim ERD My Assessment BE (Employee) ke Dean** -> Dean (due 2026-09-16) Â· 0h old Â· high conf  [`COM-0001`](http://localhost:3737/#find/COM-0001) [manual]
 
 ---
@@ -27,7 +28,7 @@ No decisions tracked. Ledger is clean.
 
 | Metric | Value |
 |:---|:---|
-| Open commitments (the owner owes) | 1 |
+| Open commitments (the owner owes) | 2 |
 | Overdue commitments | 0 |
 | Active waiting-on (others owe the owner) | 0 |
 | Flagged for escalation | 0 |

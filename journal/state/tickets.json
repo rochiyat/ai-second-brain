@@ -377,7 +377,9 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-15",
       "due": "2026-09-16",
-      "figma_reference": "https://www.figma.com/design/4BYZkae6jpEd1bwFbqiz0h/-BitHealth--LMS-Module?node-id=2322-20353&t=Jz6GZMYGiDJhVfkN-0"
+      "figma_reference": "https://www.figma.com/design/4BYZkae6jpEd1bwFbqiz0h/-BitHealth--LMS-Module?node-id=2322-20353&t=Jz6GZMYGiDJhVfkN-0",
+      "notes": "Target kirim ERD ke Dean maksimal hari Rabu 16 Sept siang (12:00 WIB).",
+      "commitment_id": "COM-0001"
     },
     {
       "id": "TICK-032",

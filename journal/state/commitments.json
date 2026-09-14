@@ -25,9 +25,34 @@
    "priority": false,
    "notes": [],
    "ticket_id": "TICK-031"
+  },
+  "COM-0002": {
+   "id": "COM-0002",
+   "text": "Review PR koh Elly",
+   "to": "Koh Elly",
+   "to_slug": "koh-elly",
+   "channel": null,
+   "channel_name": null,
+   "thread_ts": null,
+   "permalink": "",
+   "due": "2026-09-14",
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "source": {
+    "type": "manual",
+    "ref": "https://github.com/bithealth-dnx/bithealth-circle/pull/32"
+   },
+   "status": "open",
+   "confidence": "high",
+   "first_seen": 1789364345.7863917,
+   "closed_at": null,
+   "closed_by": null,
+   "priority": true,
+   "notes": []
   }
  },
- "next_seq": 2,
+ "next_seq": 3,
  "slack_search_watermark": 0.0,
  "local_watermark": 0.0,
  "processed_fathom_ids": [],

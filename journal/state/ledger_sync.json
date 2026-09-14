@@ -1,7 +1,7 @@
 {
  "last_error": "push failed after 3 attempts: remote: Permission to rochiyat/ai-second-brain.git denied to baituna-studio.\nfatal: unable to access 'https://github.com/rochiyat/ai-second-brain/': The requested URL returned error: 403; commit is local only",
  "last_render_problems": null,
- "last_sync_wib": "2026-09-14 12:33:20 WIB",
+ "last_sync_wib": "2026-09-14 12:39:13 WIB",
  "ledgers": {
   "chase_queue": {
    "commit": "4cc0e20",
@@ -11,11 +11,11 @@
    "reason": "end-of-turn ledger sync"
   },
   "commitments": {
-   "commit": "be16411",
-   "last_sync_epoch": 1789364000.788783,
-   "last_sync_wib": "2026-09-14 12:33:20 WIB",
+   "commit": "a71798b",
+   "last_sync_epoch": 1789364353.972043,
+   "last_sync_wib": "2026-09-14 12:39:13 WIB",
    "pushed": false,
-   "reason": "commitments: link COM-0001 --ticket TICK-031"
+   "reason": "commitments: add --text Review PR koh Elly --to Koh Elly --due 2026-09-14 --project LMS BITHE"
   },
   "decisions": {
    "commit": "4cc0e20",

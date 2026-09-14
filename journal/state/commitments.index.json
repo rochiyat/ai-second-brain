@@ -1,7 +1,7 @@
 {
  "generated_from": "journal\\state\\commitments.json",
  "note": "Lean index. Full body (permalink/source/confidence/notes) lives in commitments.json; look up by id.",
- "count": 1,
+ "count": 2,
  "commitments": [
   {
    "id": "COM-0001",
@@ -9,6 +9,13 @@
    "status": "open",
    "to": "Dean",
    "due": "2026-09-16"
+  },
+  {
+   "id": "COM-0002",
+   "title": "Review PR koh Elly",
+   "status": "open",
+   "to": "Koh Elly",
+   "due": "2026-09-14"
   }
  ]
 }
