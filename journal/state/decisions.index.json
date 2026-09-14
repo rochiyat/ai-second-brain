@@ -13,7 +13,7 @@
   {
    "id": "DEC-0002",
    "title": "Flow password user: auto-generate & email plaintext (tanpa input UI)",
-   "status": "open",
+   "status": "decided",
    "decider": "Tim Dev LMS",
    "deadline": null
   },

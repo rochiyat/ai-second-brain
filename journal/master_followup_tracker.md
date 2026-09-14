@@ -5,7 +5,7 @@
 >
 > **Every id below is clickable.** `COM-`/`WAIT-`/`DEC-` links open that record on the local dashboard (http://localhost:3737) with its owner, SLA, source, timeline and notes. If a link does nothing, the dashboard is down: `bash .agent/scripts/ensure_dashboard.sh`
 
-**Last generated**: 2026-09-14 21:16 WIB
+**Last generated**: 2026-09-14 21:17 WIB
 
 ---
 

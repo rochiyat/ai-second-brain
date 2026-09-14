@@ -28,8 +28,8 @@
   "DEC-0002": {
    "id": "DEC-0002",
    "title": "Flow password user: auto-generate & email plaintext (tanpa input UI)",
-   "status": "open",
-   "decision": null,
+   "status": "decided",
+   "decision": "Saat add user, password di-generate otomatis dan dikirim plaintext via email (tanpa input password di UI). Reset password admin diletakkan sebagai action terpisah di row list.",
    "decider": "Tim Dev LMS",
    "decider_slug": "tim-dev-lms",
    "stakeholder_slugs": [],
@@ -47,8 +47,8 @@
    "superseded_by": null,
    "notes": null,
    "created_at": 1789395391.6521683,
-   "decided_at": null,
-   "updated_at": 1789395391.6521683
+   "decided_at": 1789395422.2168727,
+   "updated_at": 1789395422.2168727
   },
   "DEC-0003": {
    "id": "DEC-0003",
