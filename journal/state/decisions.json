@@ -49,7 +49,32 @@
    "created_at": 1789395391.6521683,
    "decided_at": null,
    "updated_at": 1789395391.6521683
+  },
+  "DEC-0003": {
+   "id": "DEC-0003",
+   "title": "Penundaan fitur multi-role ke sprint depan (solusi role gabungan baru)",
+   "status": "open",
+   "decision": null,
+   "decider": "Tim Dev LMS & Ratih",
+   "decider_slug": "tim-dev-lms-ratih",
+   "stakeholder_slugs": [],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789395399.4377546,
+   "decided_at": null,
+   "updated_at": 1789395399.4377546
   }
  },
- "next_seq": 3
+ "next_seq": 4
 }

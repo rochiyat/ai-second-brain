@@ -3,7 +3,7 @@
  "last_render_problems": [
   "master_followup_tracker.md: exit 1 ! decisions report exited 1: Traceback (most recent call last):\n  File \"D:\\PROJECT\\MYSELF\\HERMES\\BroBri\\ai-second-brain\\.agent/skills/decision-log/scripts/decision_log.py\", line 428, in <module>\n    m"
  ],
- "last_sync_wib": "2026-09-14 21:16:38 WIB",
+ "last_sync_wib": "2026-09-14 21:16:46 WIB",
  "ledgers": {
   "chase_queue": {
    "commit": "4cc0e20",
@@ -20,11 +20,11 @@
    "reason": "commitments: link COM-0002 --ticket TICK-033"
   },
   "decisions": {
-   "commit": "f72c897",
-   "last_sync_epoch": 1789395398.9966633,
-   "last_sync_wib": "2026-09-14 21:16:38 WIB",
+   "commit": "99d1fe8",
+   "last_sync_epoch": 1789395406.4666715,
+   "last_sync_wib": "2026-09-14 21:16:46 WIB",
    "pushed": false,
-   "reason": "decisions: add --title Flow password user: auto-generate & email plaintext (tanpa input UI)"
+   "reason": "decisions: add --title Penundaan fitur multi-role ke sprint depan (solusi role gabungan bar"
   },
   "waiting_on": {
    "commit": "4cc0e20",
