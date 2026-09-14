@@ -5,14 +5,14 @@
 >
 > **Every id below is clickable.** `COM-`/`WAIT-`/`DEC-` links open that record on the local dashboard (http://localhost:3737) with its owner, SLA, source, timeline and notes. If a link does nothing, the dashboard is down: `bash .agent/scripts/ensure_dashboard.sh`
 
-**Last generated**: 2026-09-14 12:39 WIB
+**Last generated**: 2026-09-14 21:16 WIB
 
 ---
 
 ## ðŸ“Œ Outbound Commitments (2 open)
 
-- ðŸ”¥ **Review PR koh Elly** -> Koh Elly (due 2026-09-14) Â· 0h old Â· high conf  [`COM-0002`](http://localhost:3737/#find/COM-0002) [manual]
-- **Kirim ERD My Assessment BE (Employee) ke Dean** -> Dean (due 2026-09-16) Â· 0h old Â· high conf  [`COM-0001`](http://localhost:3737/#find/COM-0001) [manual]
+- ðŸ”¥ **Review PR koh Elly** -> Koh Elly (due 2026-09-14) Â· 9h old Â· high conf  [`COM-0002`](http://localhost:3737/#find/COM-0002) [manual]
+- **Kirim ERD My Assessment BE (Employee) ke Dean** -> Dean (due 2026-09-16) Â· 9h old Â· high conf  [`COM-0001`](http://localhost:3737/#find/COM-0001) [manual]
 
 ---
 
@@ -20,7 +20,10 @@ No open waiting-on items. Watchdog is clean.
 
 ---
 
-No decisions tracked. Ledger is clean.
+_(could not render: ! decisions report exited 1: Traceback (most recent call last):
+  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/decision-log/scripts/decision_log.py", line 428, in <module>
+    main()
+  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/decision-log/scripts/decision_log.py", line 419, in m)_
 
 ---
 

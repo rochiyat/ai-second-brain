@@ -173,7 +173,32 @@
      ]
     }
    ],
-   "commits": []
+   "commits": [
+    {
+     "t": "2026-09-14T12:32",
+     "min": 752,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): commitments: add --text Kirim ERD My Assessment BE (Employee) ke Dean --to Dean --due"
+    },
+    {
+     "t": "2026-09-14T12:33",
+     "min": 753,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): commitments: link COM-0001 --ticket TICK-031"
+    },
+    {
+     "t": "2026-09-14T12:39",
+     "min": 759,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): commitments: link COM-0002 --ticket TICK-033"
+    },
+    {
+     "t": "2026-09-14T12:39",
+     "min": 759,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): commitments: add --text Review PR koh Elly --to Koh Elly --due 2026-09-14 --project L"
+    }
+   ]
   }
  },
  "gcal_cache": {
@@ -194,7 +219,7 @@
   ]
  },
  "calendar_ok": true,
- "last_sweep_wib": "2026-09-14T12:29:44+07:00",
+ "last_sweep_wib": "2026-09-14T12:49:50+07:00",
  "boundary_hour": 4,
  "ai_speed_factor": 2.5,
  "sources": {
@@ -243,5 +268,5 @@
   "antigravity",
   "claude-code"
  ],
- "sweep_seconds": 2.0
+ "sweep_seconds": 3.2
 }

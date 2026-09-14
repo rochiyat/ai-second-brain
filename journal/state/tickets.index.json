@@ -2,7 +2,7 @@
  "generated_from": "journal\\state\\tickets.json",
  "source_updated_wib": null,
  "note": "Lean index. Full body (note/comments/links) lives in tickets.json; look up by id.",
- "count": 33,
+ "count": 40,
  "tickets": [
   {
    "id": "TICK-001",
@@ -231,7 +231,7 @@
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "SIT Widya Cendekia",
-   "due": "2026-09-14",
+   "due": "2026-09-15",
    "initiative_id": "INIT-WC-1"
   },
   {
@@ -333,6 +333,76 @@
    "project": "LMS BITHEALTH",
    "due": "2026-09-14",
    "initiative_id": "INIT-BH-1"
+  },
+  {
+   "id": "TICK-034",
+   "title": "[SIT Widya] Telp Pak Irfan - Diskusi ERP Wicend (13:00 - 14:00 WIB)",
+   "status": "done",
+   "priority": "P0",
+   "owner": "Rochiyat, Pak Irfan",
+   "project": "SIT Widya Cendekia",
+   "due": "2026-09-14",
+   "initiative_id": "INIT-WC-1"
+  },
+  {
+   "id": "TICK-035",
+   "title": "Update Penamaan Yayasan & Unit di Sistem (Al-Kautsar Cendekia & KB Islam Widya Cendekia)",
+   "status": "todo",
+   "priority": "P2",
+   "owner": "Rochiyat",
+   "project": "SIT Widya Cendekia",
+   "due": "2026-09-16",
+   "initiative_id": "INIT-WC-1"
+  },
+  {
+   "id": "TICK-036",
+   "title": "Riset Pola Program Inden & Opsi Pilihan Tahun Ajaran SPMB",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "SIT Widya Cendekia",
+   "due": "2026-09-17",
+   "initiative_id": "INIT-WC-1"
+  },
+  {
+   "id": "TICK-037",
+   "title": "Konfigurasi Gelombang Internal vs Eksternal & Validasi Lookup NISN",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "SIT Widya Cendekia",
+   "due": "2026-09-18",
+   "initiative_id": "INIT-WC-1"
+  },
+  {
+   "id": "TICK-038",
+   "title": "Konfigurasi Fleksibel Skema Termin Pembayaran & Validasi Kuota Masuk",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "SIT Widya Cendekia",
+   "due": "2026-09-19",
+   "initiative_id": "INIT-WC-1"
+  },
+  {
+   "id": "TICK-039",
+   "title": "Dashboard Admin: Tampilan Log Notifikasi & Resend Manual per Calon Siswa",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "SIT Widya Cendekia",
+   "due": "2026-09-19",
+   "initiative_id": "INIT-WC-1"
+  },
+  {
+   "id": "TICK-040",
+   "title": "Uji Coba & UAT Alur SPMB Baru (Gelombang NISN, Pembayaran & Notifikasi)",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat, Pak Irfan",
+   "project": "SIT Widya Cendekia",
+   "due": "2026-09-20",
+   "initiative_id": "INIT-WC-1"
   }
  ]
 }

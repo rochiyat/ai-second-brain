@@ -274,7 +274,16 @@
       "initiative_id": "INIT-WC-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-14",
-      "due": "2026-09-14"
+      "due": "2026-09-15",
+      "note": "",
+      "comments": [
+        {
+          "ts_wib": "2026-09-14T12:49:21+07:00",
+          "by": "owner",
+          "change": "due 2026-09-14 to 2026-09-15; note None to ",
+          "text": ""
+        }
+      ]
     },
     {
       "id": "TICK-024",
@@ -408,6 +417,99 @@
       "source_url": "https://github.com/bithealth-dnx/bithealth-circle/pull/32",
       "notes": "Target review PR Koh Elly maksimal sore ini (17:00 WIB).",
       "commitment_id": "COM-0002"
+    },
+    {
+      "id": "TICK-034",
+      "title": "[SIT Widya] Telp Pak Irfan - Diskusi ERP Wicend (13:00 - 14:00 WIB)",
+      "status": "done",
+      "priority": "P0",
+      "owner": "Rochiyat, Pak Irfan",
+      "project": "SIT Widya Cendekia",
+      "initiative_id": "INIT-WC-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-14",
+      "due": "2026-09-14",
+      "calendar_event_link": "https://www.google.com/calendar/event?eid=OGNhNm0xM2I4dG1pczIwaGVnNHU2YWtqazAgcm9jaGl5YXRAYml0aGVhbHRoLmNvLmlk",
+      "notes": "Selesai jam 13:00 - 14:00 WIB. Notulensi & action items: https://notes.wisprflow.ai/shared/338-BMnft5a7BnxLvJ7wNAhcZIfVqkt6T_J-ZGYpyt0",
+      "completed_at": "2026-09-14T14:00:00+07:00"
+    },
+    {
+      "id": "TICK-035",
+      "title": "Update Penamaan Yayasan & Unit di Sistem (Al-Kautsar Cendekia & KB Islam Widya Cendekia)",
+      "status": "todo",
+      "priority": "P2",
+      "owner": "Rochiyat",
+      "project": "SIT Widya Cendekia",
+      "initiative_id": "INIT-WC-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-16",
+      "due": "2026-09-16",
+      "notes": "Ganti nama yayasan ke Al-Kautsar Cendekia dan unit KB ke KB Islam Widya Cendekia di sistem setelah konfirmasi WA dari Pak Irfan."
+    },
+    {
+      "id": "TICK-036",
+      "title": "Riset Pola Program Inden & Opsi Pilihan Tahun Ajaran SPMB",
+      "status": "todo",
+      "priority": "P1",
+      "owner": "Rochiyat",
+      "project": "SIT Widya Cendekia",
+      "initiative_id": "INIT-WC-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-17",
+      "due": "2026-09-17",
+      "notes": "Riset alur pendaftaran Program Inden dan tambahkan opsi pilihan Tahun Ajaran pada form pendaftaran SPMB."
+    },
+    {
+      "id": "TICK-037",
+      "title": "Konfigurasi Gelombang Internal vs Eksternal & Validasi Lookup NISN",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "SIT Widya Cendekia",
+      "initiative_id": "INIT-WC-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-18",
+      "due": "2026-09-18",
+      "notes": "2 pekan pertama (5-19) khusus pendaftar internal, selanjutnya umum. Wajibkan input NISN dengan lookup ke database siswa & auto-populate biodata."
+    },
+    {
+      "id": "TICK-038",
+      "title": "Konfigurasi Fleksibel Skema Termin Pembayaran & Validasi Kuota Masuk",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "SIT Widya Cendekia",
+      "initiative_id": "INIT-WC-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-19",
+      "due": "2026-09-19",
+      "notes": "Skema: Formulir -> Uang Muka Rp1.5jt -> Daftar Ulang. Kuota berkurang hanya setelah bayar daftar ulang. Hapus refund. Integrasi ke modul finance."
+    },
+    {
+      "id": "TICK-039",
+      "title": "Dashboard Admin: Tampilan Log Notifikasi & Resend Manual per Calon Siswa",
+      "status": "todo",
+      "priority": "P1",
+      "owner": "Rochiyat",
+      "project": "SIT Widya Cendekia",
+      "initiative_id": "INIT-WC-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-19",
+      "due": "2026-09-19",
+      "notes": "Tampilkan log status pengiriman notifikasi tahapan (Email & WA) di dashboard admin dan sediakan tombol tracking serta resend manual per siswa."
+    },
+    {
+      "id": "TICK-040",
+      "title": "Uji Coba & UAT Alur SPMB Baru (Gelombang NISN, Pembayaran & Notifikasi)",
+      "status": "todo",
+      "priority": "P1",
+      "owner": "Rochiyat, Pak Irfan",
+      "project": "SIT Widya Cendekia",
+      "initiative_id": "INIT-WC-1",
+      "created_at": "2026-09-14",
+      "start_date": "2026-09-20",
+      "due": "2026-09-20",
+      "notes": "Testing akhir menyeluruh alur pendaftaran baru dengan aturan NISN internal, skema termin pembayaran diskon gelombang, dan notifikasi ke orang tua."
     }
   ]
 }
