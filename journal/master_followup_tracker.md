@@ -5,14 +5,13 @@
 >
 > **Every id below is clickable.** `COM-`/`WAIT-`/`DEC-` links open that record on the local dashboard (http://localhost:3737) with its owner, SLA, source, timeline and notes. If a link does nothing, the dashboard is down: `bash .agent/scripts/ensure_dashboard.sh`
 
-**Last generated**: 2026-09-14 12:32 WIB
+**Last generated**: 2026-09-14 12:33 WIB
 
 ---
 
-_(could not render: ! commitments report exited 1: Traceback (most recent call last):
-  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/commitment-ledger/scripts/commitment_ledger.py", line 1405, in <module>
-    main()
-  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/commitment-ledger/scripts/commitment_ledge)_
+## ðŸ“Œ Outbound Commitments (1 open)
+
+- **Kirim ERD My Assessment BE (Employee) ke Dean** -> Dean (due 2026-09-16) Â· 0h old Â· high conf  [`COM-0001`](http://localhost:3737/#find/COM-0001) [manual]
 
 ---
 

@@ -23,7 +23,8 @@
    "closed_at": null,
    "closed_by": null,
    "priority": false,
-   "notes": []
+   "notes": [],
+   "ticket_id": "TICK-031"
   }
  },
  "next_seq": 2,
