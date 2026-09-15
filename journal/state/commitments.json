@@ -53,9 +53,34 @@
     "Review PR Koh Elly selesai kemarin sore."
    ],
    "ticket_id": "TICK-033"
+  },
+  "COM-0003": {
+   "id": "COM-0003",
+   "text": "Arrange penawaran modul SPMB, Finance, Unit Usaha, dan HR (dengan diskon package)",
+   "to": "Pak Yudi",
+   "to_slug": "pak-yudi",
+   "channel": null,
+   "channel_name": null,
+   "thread_ts": null,
+   "permalink": "",
+   "due": "2026-09-16",
+   "project": "ERP WICEND",
+   "node": "sit-widya",
+   "node_why": null,
+   "source": {
+    "type": "manual",
+    "ref": ""
+   },
+   "status": "open",
+   "confidence": "high",
+   "first_seen": 1789457115.4215045,
+   "closed_at": null,
+   "closed_by": null,
+   "priority": true,
+   "notes": []
   }
  },
- "next_seq": 3,
+ "next_seq": 4,
  "slack_search_watermark": 0.0,
  "local_watermark": 0.0,
  "processed_fathom_ids": [],

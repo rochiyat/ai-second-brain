@@ -37,7 +37,7 @@
     {
       "id": "TICK-004",
       "title": "Menu Department, Job Role, Level: take out kolom code",
-      "status": "in_progress",
+      "status": "blocked",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
@@ -46,12 +46,19 @@
       "due": "2026-09-14",
       "time_wib": "11:00",
       "notes": "Dijadwalkan pengerjaan di kantor jam 11:00 WIB.",
+      "blocker": "Tunggu hasil merged FE dari Dean",
       "comments": [
         {
           "ts_wib": "2026-09-15T07:32:00+07:00",
           "by": "owner",
           "change": "scheduled time to 11:00 WIB",
           "text": "Dijadwalkan di kantor sekitar jam 11:00 WIB."
+        },
+        {
+          "ts_wib": "2026-09-15T14:07:00+07:00",
+          "by": "owner",
+          "change": "status in_progress to blocked; blocker None to Tunggu hasil merged FE dari Dean",
+          "text": "Blocker: Tunggu hasil merged FE dari Dean"
         }
       ]
     },
@@ -324,7 +331,7 @@
     {
       "id": "TICK-021",
       "title": "Testing negatif test saat import employee",
-      "status": "todo",
+      "status": "blocked",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
@@ -334,6 +341,7 @@
       "due": "2026-09-15",
       "time_wib": "11:00",
       "notes": "Dijadwalkan pengerjaan di kantor jam 11:00 WIB bersama TICK-004.",
+      "blocker": "Tunggu hasil merged FE dari Dean",
       "comments": [
         {
           "ts_wib": "2026-09-15T07:32:00+07:00",
@@ -346,6 +354,12 @@
           "by": "owner",
           "change": "title Exclude Super Admin dari API get role pada menu user to Testing negatif test saat import employee; note None to Cek validasinya, apakah hanya tampil atau sudah disimpan ke database\nJika satu gagal, apa yang akan terjadi dengan data lainnya\nCek yang lainnya juga ya",
           "text": ""
+        },
+        {
+          "ts_wib": "2026-09-15T14:07:00+07:00",
+          "by": "owner",
+          "change": "status todo to blocked; blocker None to Tunggu hasil merged FE dari Dean",
+          "text": "Blocker: Tunggu hasil merged FE dari Dean"
         }
       ],
       "note": "Cek validasinya, apakah hanya tampil atau sudah disimpan ke database\nJika satu gagal, apa yang akan terjadi dengan data lainnya\nCek yang lainnya juga ya"

@@ -37,7 +37,7 @@
   {
    "id": "TICK-004",
    "title": "Menu Department, Job Role, Level: take out kolom code",
-   "status": "in_progress",
+   "status": "blocked",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -207,7 +207,7 @@
   {
    "id": "TICK-021",
    "title": "Testing negatif test saat import employee",
-   "status": "todo",
+   "status": "blocked",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",

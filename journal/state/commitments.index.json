@@ -1,7 +1,7 @@
 {
  "generated_from": "journal\\state\\commitments.json",
  "note": "Lean index. Full body (permalink/source/confidence/notes) lives in commitments.json; look up by id.",
- "count": 2,
+ "count": 3,
  "commitments": [
   {
    "id": "COM-0001",
@@ -16,6 +16,13 @@
    "status": "closed",
    "to": "Koh Elly",
    "due": "2026-09-14"
+  },
+  {
+   "id": "COM-0003",
+   "title": "Arrange penawaran modul SPMB, Finance, Unit Usaha, dan HR (dengan diskon package)",
+   "status": "open",
+   "to": "Pak Yudi",
+   "due": "2026-09-16"
   }
  ]
 }
