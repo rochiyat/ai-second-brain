@@ -2,16 +2,52 @@
  "generated_from": "journal\\state\\portfolio.json",
  "source_updated_wib": "2026-09-14 08:50 WIB",
  "note": "Lean index. Full body (now/blockers/links/workstreams) lives in portfolio.json; look up by id.",
- "count": 3,
+ "count": 8,
  "initiatives": [
   {
-   "id": "INIT-WC-1",
-   "title": "Sistem Informasi Akademik",
+   "id": "INIT-WC-SPMB",
+   "title": "Modul SPMB",
    "status": "in_progress",
    "health": "on_track",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
-   "due": "Finalisasi PRD Modul Akademik",
+   "project": "ERP WICEND",
+   "due": "Uji Coba & UAT Alur SPMB Baru (20 Sept 2026)",
+   "blocker_count": 0,
+   "workstream_count": 4,
+   "workstreams_open": 4
+  },
+  {
+   "id": "INIT-WC-FIN",
+   "title": "Modul Finance",
+   "status": "in_progress",
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "Integrasi Payment Gateway & Rekonsiliasi Keuangan",
+   "blocker_count": 0,
+   "workstream_count": 2,
+   "workstreams_open": 2
+  },
+  {
+   "id": "INIT-WC-UU",
+   "title": "Modul Unit Usaha",
+   "status": "todo",
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "Perancangan Skema Database Unit Usaha",
+   "blocker_count": 0,
+   "workstream_count": 1,
+   "workstreams_open": 1
+  },
+  {
+   "id": "INIT-WC-HR",
+   "title": "Modul HR",
+   "status": "todo",
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "Desain Modul Kepegawaian & Presensi",
    "blocker_count": 0,
    "workstream_count": 1,
    "workstreams_open": 1
@@ -26,7 +62,7 @@
    "due": "Selesai Prompt 2f, 4b, 4c, 4e (15 Sept 2026)",
    "blocker_count": 0,
    "workstream_count": 4,
-   "workstreams_open": 4
+   "workstreams_open": 3
   },
   {
    "id": "INIT-BH-1",
@@ -39,6 +75,30 @@
    "blocker_count": 0,
    "workstream_count": 2,
    "workstreams_open": 2
+  },
+  {
+   "id": "INIT-IQ-1",
+   "title": "Core Learning Platform",
+   "status": null,
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "LEARNING IQROLIFE",
+   "due": null,
+   "blocker_count": 0,
+   "workstream_count": 0,
+   "workstreams_open": 0
+  },
+  {
+   "id": "INIT-KSS-1",
+   "title": "Core KSS & PPDB Platform",
+   "status": null,
+   "health": "on_track",
+   "owner": "Rochiyat",
+   "project": "SI KSS",
+   "due": null,
+   "blocker_count": 0,
+   "workstream_count": 0,
+   "workstreams_open": 0
   }
  ]
 }

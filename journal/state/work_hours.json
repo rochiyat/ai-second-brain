@@ -126,33 +126,33 @@
    "date": "2026-09-14",
    "weekday": "Mon",
    "start_min": 600,
-   "end_min": 660,
+   "end_min": 1050,
    "start": "10:00",
-   "end": "11:00",
-   "wall_h": 1.0,
-   "actual_h": 1.0,
-   "effective_h": 1.0,
-   "attention_h": 1.0,
+   "end": "17:30",
+   "wall_h": 7.5,
+   "actual_h": 5.0,
+   "effective_h": 5.0,
+   "attention_h": 5.0,
    "leverage": 1.0,
-   "human_equiv_h": 1.0,
+   "human_equiv_h": 5.0,
    "output_x": 1.0,
    "ai_speed": 2.5,
-   "meeting_h": 1.0,
+   "meeting_h": 5.0,
    "ai_h": 0.0,
    "lane_hours": {
-    "meetings": 1.0,
+    "meetings": 5.0,
     "work": 0.0,
     "you": 0.0,
     "other": 0.0
    },
    "sessions": 0,
-   "meetings_count": 1,
+   "meetings_count": 2,
    "automated_runs": 0,
    "runtimes": {
     "meetings": {
-     "streams": 1,
-     "hours": 1.0,
-     "minutes": 60,
+     "streams": 2,
+     "hours": 5.0,
+     "minutes": 300,
      "automated_runs": 0
     }
    },
@@ -169,6 +169,21 @@
       [
        600,
        660
+      ]
+     ]
+    },
+    {
+     "id": "meet-2026-09-14-1",
+     "lane": "meetings",
+     "kind": "meeting",
+     "runtime": "meetings",
+     "label": "[Bithealth] - Learning Management System - Discussion Merge Code ",
+     "source": "recorded",
+     "minutes": 240,
+     "blocks": [
+      [
+       810,
+       1050
       ]
      ]
     }
@@ -197,8 +212,163 @@
      "min": 759,
      "repo": "ai-second-brain",
      "msg": "chore(ledger): commitments: add --text Review PR koh Elly --to Koh Elly --due 2026-09-14 --project L"
+    },
+    {
+     "t": "2026-09-14T21:16",
+     "min": 1276,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: decide DEC-0001 --decision Base branch bersama frontend: app-feature-theme"
+    },
+    {
+     "t": "2026-09-14T21:16",
+     "min": 1276,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: add --title Penundaan fitur multi-role ke sprint depan (solusi role gabung"
+    },
+    {
+     "t": "2026-09-14T21:16",
+     "min": 1276,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: add --title Flow password user: auto-generate & email plaintext (tanpa inp"
+    },
+    {
+     "t": "2026-09-14T21:16",
+     "min": 1276,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: add --title Base branch bersama frontend LMS: app-feature-theme --decider"
+    },
+    {
+     "t": "2026-09-14T21:17",
+     "min": 1277,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: decide DEC-0003 --decision Fitur multi-role user ditunda ke sprint depan k"
+    },
+    {
+     "t": "2026-09-14T21:17",
+     "min": 1277,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: decide DEC-0002 --decision Saat add user, password di-generate otomatis da"
     }
    ]
+  },
+  "2026-09-15": {
+   "date": "2026-09-15",
+   "weekday": "Tue",
+   "start_min": 450,
+   "end_min": 716,
+   "start": "07:30",
+   "end": "11:56",
+   "wall_h": 4.4,
+   "actual_h": 3.2,
+   "effective_h": 3.2,
+   "attention_h": 1.6,
+   "leverage": 1.0,
+   "human_equiv_h": 6.4,
+   "output_x": 2.03,
+   "ai_speed": 2.5,
+   "meeting_h": 1.0,
+   "ai_h": 2.2,
+   "lane_hours": {
+    "meetings": 1.0,
+    "work": 0.0,
+    "you": 0.0,
+    "other": 2.2
+   },
+   "sessions": 4,
+   "meetings_count": 1,
+   "automated_runs": 0,
+   "runtimes": {
+    "claude-code": {
+     "streams": 4,
+     "hours": 2.2,
+     "minutes": 130,
+     "automated_runs": 0
+    },
+    "meetings": {
+     "streams": 1,
+     "hours": 1.0,
+     "minutes": 60,
+     "automated_runs": 0
+    }
+   },
+   "streams": [
+    {
+     "id": "sess-3c3071b4",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "Amor ERP non-fungsional requirements",
+     "minutes": 42,
+     "human_msgs": 1,
+     "blocks": [
+      [
+       450,
+       492
+      ]
+     ]
+    },
+    {
+     "id": "sess-efcc4edd",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "Dialog pembayaran AMOR POS",
+     "minutes": 23,
+     "human_msgs": 2,
+     "blocks": [
+      [
+       500,
+       523
+      ]
+     ]
+    },
+    {
+     "id": "sess-2422ba52",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "AMOR POS nota dan struk",
+     "minutes": 28,
+     "human_msgs": 2,
+     "blocks": [
+      [
+       534,
+       562
+      ]
+     ]
+    },
+    {
+     "id": "meet-2026-09-15-0",
+     "lane": "meetings",
+     "kind": "meeting",
+     "runtime": "meetings",
+     "label": "[Bithealth] LMS Daily Meet",
+     "source": "scheduled",
+     "minutes": 60,
+     "blocks": [
+      [
+       600,
+       660
+      ]
+     ]
+    },
+    {
+     "id": "sess-0131b3b7",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "Diskon, void, dan retur dengan otorisasi supervisor",
+     "minutes": 37,
+     "human_msgs": 4,
+     "blocks": [
+      [
+       679,
+       716
+      ]
+     ]
+    }
+   ],
+   "commits": []
   }
  },
  "gcal_cache": {
@@ -216,10 +386,18 @@
     "title": "[Bithealth] - Learning Management System - Discussion Merge Code ",
     "resp": "none"
    }
+  ],
+  "2026-09-15": [
+   {
+    "s": "2026-09-15T10:00+07:00",
+    "e": "2026-09-15T11:00+07:00",
+    "title": "[Bithealth] LMS Daily Meet",
+    "resp": "none"
+   }
   ]
  },
  "calendar_ok": true,
- "last_sweep_wib": "2026-09-14T12:49:50+07:00",
+ "last_sweep_wib": "2026-09-15T11:55:14+07:00",
  "boundary_hour": 4,
  "ai_speed_factor": 2.5,
  "sources": {
@@ -238,12 +416,12 @@
    "caveats": []
   },
   "antigravity": {
-   "present": true,
+   "present": false,
    "paths": [
     "C:\\Users\\ROCHIYAT\\.gemini\\antigravity-cli\\conversations"
    ],
-   "conversations_scanned": 1,
-   "one_shot_excluded": 1,
+   "conversations_scanned": 0,
+   "one_shot_excluded": 0,
    "interactive_counted": 0,
    "measured": [
     "activity timestamps",
@@ -257,16 +435,13 @@
     "model attribution"
    ],
    "caveats": [
-    "interactive vs automation is inferred from user-turn count (< 2 turns = one-shot call, excluded), not from a recorded entrypoint flag as on Claude Code",
-    "no model attribution: the Antigravity conversation store records no model id, so these hours cannot be split by model",
-    "all 1 conversation(s) looked like one-shot calls, so zero Antigravity hours were counted. If you use Antigravity interactively and expected hours here, the user-turn heuristic may not match your build: set WORK_HOURS_AGY_MIN_TURNS=1 to count every conversation",
-    "100 legacy protobuf conversation(s) in C:\\Users\\ROCHIYAT\\.gemini\\antigravity\\conversations are not parseable and are excluded entirely"
+    "100 legacy protobuf conversation(s) in C:\\Users\\ROCHIYAT\\.gemini\\antigravity\\conversations are not parseable and are excluded entirely",
+    "Antigravity conversation store at C:\\Users\\ROCHIYAT\\.gemini\\antigravity-cli\\conversations exists but contains no conversation database files; no Antigravity hours counted"
    ]
   }
  },
  "runtimes_counted": [
-  "antigravity",
   "claude-code"
  ],
- "sweep_seconds": 3.2
+ "sweep_seconds": 1.9
 }

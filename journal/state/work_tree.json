@@ -62,17 +62,75 @@
     },
     {
      "id": "sit-widya",
-     "label": "SIT Widya Cendekia",
+     "label": "ERP WICEND",
      "kind": "client",
      "status": "active",
-     "summary": "SIT Widya Cendekia School",
+     "summary": "ERP WICEND (SIT Widya Cendekia): Modul SPMB, Finance, Unit Usaha, dan HR",
      "children": [
       {
-       "id": "sit-akademik",
-       "label": "Sistem Informasi Akademik",
+       "id": "wicend-spmb",
+       "label": "Modul SPMB",
        "kind": "initiative",
        "status": "active",
-       "summary": "Sistem Informasi Akademik",
+       "summary": "Sistem Penerimaan Murid Baru, alur pendaftaran, tes seleksi, formulir & pengumuman",
+       "children": []
+      },
+      {
+       "id": "wicend-finance",
+       "label": "Modul Finance",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Pengelolaan keuangan, termin pembayaran SPP/SPMB, invoice, dan integrasi payment gateway",
+       "children": []
+      },
+      {
+       "id": "wicend-unit-usaha",
+       "label": "Modul Unit Usaha",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Pengelolaan unit bisnis yayasan, komersial, katering/kantin, seragam, buku, dan koperasi",
+       "children": []
+      },
+      {
+       "id": "wicend-hr",
+       "label": "Modul HR",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Manajemen SDM kepegawaian guru & karyawan, presensi, payroll, dan struktur organisasi",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "learning-iqrolife",
+     "label": "LEARNING IQROLIFE",
+     "kind": "client",
+     "status": "active",
+     "summary": "Platform Learning & Edukasi IQROLIFE",
+     "children": [
+      {
+       "id": "iqrolife-core",
+       "label": "Core Learning Platform",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Inisiasi dan arsitektur platform Learning Iqrolife",
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "si-kss",
+     "label": "SI KSS",
+     "kind": "client",
+     "status": "active",
+     "summary": "Sistem Informasi KSS & PPDB",
+     "children": [
+      {
+       "id": "kss-core",
+       "label": "Core KSS & PPDB Platform",
+       "kind": "initiative",
+       "status": "active",
+       "summary": "Platform SI KSS, migrasi PPDB, infrastruktur DNS, dan fitur broadcast",
        "children": []
       }
      ]

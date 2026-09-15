@@ -2,25 +2,113 @@
   "updated_wib": "2026-09-14 08:50 WIB",
   "teams": [
     {
-      "name": "SIT Widya Cendekia",
+      "name": "ERP WICEND",
       "world": "work",
       "owner": "Rochiyat",
       "initiatives": [
         {
-          "id": "INIT-WC-1",
-          "name": "Sistem Informasi Akademik",
+          "id": "INIT-WC-SPMB",
+          "name": "Modul SPMB",
           "status": "in_progress",
           "health": "on_track",
           "owner": "Rochiyat",
-          "one_liner": "Digitalisasi operasional dan akademik SIT Widya Cendekia",
-          "now": "Perancangan arsitektur teknis dan pendataan kebutuhan sistem",
-          "next_milestone": "Finalisasi PRD Modul Akademik",
+          "one_liner": "Sistem Penerimaan Murid Baru, formulir, tes seleksi, dan pengumuman",
+          "now": "Testing notifikasi Email & WA, flow end-to-end, konfigurasi gelombang & validasi NISN",
+          "next_milestone": "Uji Coba & UAT Alur SPMB Baru (20 Sept 2026)",
           "blockers": [],
           "workstreams": [
             {
-              "name": "Arsitektur & Database Schema",
-              "phase": "Design",
+              "name": "Notifikasi Email & WhatsApp",
+              "phase": "Testing",
               "status": "in_progress",
+              "prd": "SPMB Notification",
+              "blocker": null
+            },
+            {
+              "name": "Flow End-to-End Pendaftaran (Superadmin, Admin, Ortu)",
+              "phase": "Testing",
+              "status": "in_progress",
+              "prd": "SPMB Flow",
+              "blocker": null
+            },
+            {
+              "name": "Program Inden & Pilihan Tahun Ajaran",
+              "phase": "Design",
+              "status": "todo",
+              "prd": "SPMB Inden",
+              "blocker": null
+            },
+            {
+              "name": "Gelombang Internal vs Eksternal & Lookup NISN",
+              "phase": "Development",
+              "status": "todo",
+              "prd": "SPMB Tracks",
+              "blocker": null
+            }
+          ]
+        },
+        {
+          "id": "INIT-WC-FIN",
+          "name": "Modul Finance",
+          "status": "in_progress",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Pengelolaan keuangan, skema termin pembayaran SPP/SPMB & integrasi invoice",
+          "now": "Konfigurasi fleksibel skema termin pembayaran & validasi kuota masuk",
+          "next_milestone": "Integrasi Payment Gateway & Rekonsiliasi Keuangan",
+          "blockers": [],
+          "workstreams": [
+            {
+              "name": "Skema Termin Pembayaran & Kuota Masuk",
+              "phase": "Development",
+              "status": "todo",
+              "prd": "Finance Payment Plans",
+              "blocker": null
+            },
+            {
+              "name": "Invoicing & Payment Verification",
+              "phase": "Design",
+              "status": "todo",
+              "prd": "Finance Invoicing",
+              "blocker": null
+            }
+          ]
+        },
+        {
+          "id": "INIT-WC-UU",
+          "name": "Modul Unit Usaha",
+          "status": "todo",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Pengelolaan unit bisnis yayasan, katering, kantin, seragam, dan koperasi",
+          "now": "Pemetaan alur bisnis unit usaha komersial sekolah",
+          "next_milestone": "Perancangan Skema Database Unit Usaha",
+          "blockers": [],
+          "workstreams": [
+            {
+              "name": "Katalog Produk & Inventaris Unit Usaha",
+              "phase": "Design",
+              "status": "todo",
+              "prd": "Pending",
+              "blocker": null
+            }
+          ]
+        },
+        {
+          "id": "INIT-WC-HR",
+          "name": "Modul HR",
+          "status": "todo",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Manajemen SDM kepegawaian guru & karyawan, presensi, dan payroll",
+          "now": "Pendataan struktur organisasi, data guru & pegawai",
+          "next_milestone": "Desain Modul Kepegawaian & Presensi",
+          "blockers": [],
+          "workstreams": [
+            {
+              "name": "Master Data Pegawai & Struktur Jabatan",
+              "phase": "Design",
+              "status": "todo",
               "prd": "Pending",
               "blocker": null
             }
@@ -40,33 +128,33 @@
           "health": "on_track",
           "owner": "Rochiyat",
           "one_liner": "Modernisasi sistem POS dan supply chain bakery",
-          "now": "Jadwal eksekusi 15 Sept: PROMPT 2f (Backend), 4b, 4c, 4e (POS Client)",
+          "now": "Jadwal eksekusi 15 Sept: PROMPT 4b (in progress), 4c, 4e (POS Client)",
           "next_milestone": "Selesai Prompt 2f, 4b, 4c, 4e (15 Sept 2026)",
           "blockers": [],
           "workstreams": [
             {
-              "name": "PROMPT 2f — Backend: kunci periode, audit, dan pengerasan",
+              "name": "PROMPT 2f - Backend: kunci periode, audit, dan pengerasan",
               "phase": "Development",
-              "status": "todo",
+              "status": "done",
               "prd": "amor-erp-backend",
               "blocker": null
             },
             {
-              "name": "PROMPT 4b — POS: pembayaran",
+              "name": "PROMPT 4b - POS: pembayaran",
+              "phase": "Development",
+              "status": "in_progress",
+              "prd": "amor-pos-client",
+              "blocker": null
+            },
+            {
+              "name": "PROMPT 4c - POS: simpan nota dan pratinjau struk",
               "phase": "Development",
               "status": "todo",
               "prd": "amor-pos-client",
               "blocker": null
             },
             {
-              "name": "PROMPT 4c — POS: simpan nota dan pratinjau struk",
-              "phase": "Development",
-              "status": "todo",
-              "prd": "amor-pos-client",
-              "blocker": null
-            },
-            {
-              "name": "PROMPT 4e — POS: otorisasi supervisor, void, dan retur",
+              "name": "PROMPT 4e - POS: otorisasi supervisor, void, dan retur",
               "phase": "Development",
               "status": "todo",
               "prd": "amor-pos-client",
@@ -112,6 +200,48 @@
               "blocker": null
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "team-iqrolife",
+      "name": "LEARNING IQROLIFE",
+      "health": "on_track",
+      "initiatives": [
+        {
+          "id": "INIT-IQ-1",
+          "name": "Core Learning Platform",
+          "team": "LEARNING IQROLIFE",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Inisiasi dan arsitektur platform Learning Iqrolife",
+          "summary": "Pengembangan ekosistem edukasi dan platform digital Learning Iqrolife.",
+          "progress_pct": 5,
+          "due": "2026-10-15",
+          "tasks_total": 1,
+          "tasks_done": 0,
+          "blockers": []
+        }
+      ]
+    },
+    {
+      "id": "team-si-kss",
+      "name": "SI KSS",
+      "health": "on_track",
+      "initiatives": [
+        {
+          "id": "INIT-KSS-1",
+          "name": "Core KSS & PPDB Platform",
+          "team": "SI KSS",
+          "health": "on_track",
+          "owner": "Rochiyat",
+          "one_liner": "Platform SI KSS, migrasi PPDB, dan infrastruktur",
+          "summary": "Pengembangan dan migrasi sistem informasi KSS, PPDB, Cloudflare, dan modul broadcast.",
+          "progress_pct": 0,
+          "due": "2026-09-30",
+          "tasks_total": 4,
+          "tasks_done": 0,
+          "blockers": []
         }
       ]
     }

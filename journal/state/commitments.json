@@ -43,13 +43,15 @@
     "type": "manual",
     "ref": "https://github.com/bithealth-dnx/bithealth-circle/pull/32"
    },
-   "status": "open",
+   "status": "closed",
    "confidence": "high",
    "first_seen": 1789364345.7863917,
-   "closed_at": null,
-   "closed_by": null,
+   "closed_at": 1789380000.0,
+   "closed_by": "owner",
    "priority": true,
-   "notes": [],
+   "notes": [
+    "Review PR Koh Elly selesai kemarin sore."
+   ],
    "ticket_id": "TICK-033"
   }
  },

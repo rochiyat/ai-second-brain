@@ -2,17 +2,17 @@
  "generated_from": "journal\\state\\tickets.json",
  "source_updated_wib": null,
  "note": "Lean index. Full body (note/comments/links) lives in tickets.json; look up by id.",
- "count": 40,
+ "count": 46,
  "tickets": [
   {
    "id": "TICK-001",
-   "title": "Pemetaan kebutuhan sistem & arsitektur teknis SIT Widya Cendekia",
+   "title": "Pemetaan kebutuhan sistem & arsitektur teknis ERP WICEND",
    "status": "in_progress",
    "priority": "P1",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-18",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-002",
@@ -47,7 +47,7 @@
   {
    "id": "TICK-005",
    "title": "Merge Code Tim Dev",
-   "status": "in_progress",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat, Danny, Dean",
    "project": "LMS BITHEALTH",
@@ -167,7 +167,7 @@
   {
    "id": "TICK-017",
    "title": "PROMPT 2f - Backend: kunci periode, audit, dan pengerasan (amor-erp-backend)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -177,7 +177,7 @@
   {
    "id": "TICK-018",
    "title": "PROMPT 4b - POS: pembayaran (amor-pos-client)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -187,7 +187,7 @@
   {
    "id": "TICK-019",
    "title": "PROMPT 4c - POS: simpan nota dan pratinjau struk (amor-pos-client)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -197,7 +197,7 @@
   {
    "id": "TICK-020",
    "title": "PROMPT 4e - POS: otorisasi supervisor, void, dan retur (amor-pos-client)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -206,12 +206,12 @@
   },
   {
    "id": "TICK-021",
-   "title": "Exclude Super Admin dari API get role pada menu user",
+   "title": "Testing negatif test saat import employee",
    "status": "todo",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
-   "due": "2026-09-14",
+   "due": "2026-09-15",
    "initiative_id": "INIT-BH-1"
   },
   {
@@ -220,9 +220,9 @@
    "status": "todo",
    "priority": "P0",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-14",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-023",
@@ -230,14 +230,14 @@
    "status": "todo",
    "priority": "P0",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-15",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-024",
    "title": "PROMPT 4f - POS: tahan nota, waste, dan tutup shift (amor-pos-client)",
-   "status": "todo",
+   "status": "in_progress",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -296,13 +296,13 @@
   },
   {
    "id": "TICK-030",
-   "title": "Meeting Weekly: Sosialisasi SIT Widya (13:15 - 14:30 WIB)",
+   "title": "Meeting Weekly: Sosialisasi ERP WICEND (13:15 - 14:30 WIB)",
    "status": "todo",
    "priority": "P1",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-16",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-031",
@@ -327,7 +327,7 @@
   {
    "id": "TICK-033",
    "title": "Review PR Koh Elly (maksimal sore ini)",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -336,13 +336,13 @@
   },
   {
    "id": "TICK-034",
-   "title": "[SIT Widya] Telp Pak Irfan - Diskusi ERP Wicend (13:00 - 14:00 WIB)",
+   "title": "[ERP WICEND] Telp Pak Irfan - Diskusi ERP Wicend (13:00 - 14:00 WIB)",
    "status": "done",
    "priority": "P0",
    "owner": "Rochiyat, Pak Irfan",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-14",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-035",
@@ -350,9 +350,9 @@
    "status": "todo",
    "priority": "P2",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-16",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-036",
@@ -360,9 +360,9 @@
    "status": "todo",
    "priority": "P1",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-17",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-037",
@@ -370,9 +370,9 @@
    "status": "todo",
    "priority": "P0",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-18",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-038",
@@ -380,9 +380,9 @@
    "status": "todo",
    "priority": "P0",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-19",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-FIN"
   },
   {
    "id": "TICK-039",
@@ -390,9 +390,9 @@
    "status": "todo",
    "priority": "P1",
    "owner": "Rochiyat",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-19",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
   },
   {
    "id": "TICK-040",
@@ -400,9 +400,69 @@
    "status": "todo",
    "priority": "P1",
    "owner": "Rochiyat, Pak Irfan",
-   "project": "SIT Widya Cendekia",
+   "project": "ERP WICEND",
    "due": "2026-09-20",
-   "initiative_id": "INIT-WC-1"
+   "initiative_id": "INIT-WC-SPMB"
+  },
+  {
+   "id": "TICK-041",
+   "title": "Ketemuan bareng Pak Hendra dan Pak Yusuf di Cafe (Diskusi Inisiasi Learning Iqrolife)",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "LEARNING IQROLIFE",
+   "due": "2026-09-16",
+   "initiative_id": "INIT-IQ-1"
+  },
+  {
+   "id": "TICK-042",
+   "title": "Deploy perubahan di localhost (button remove foto tampilan HP & perbaikan lainnya)",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "SI KSS",
+   "due": "2026-09-15",
+   "initiative_id": "INIT-KSS-1"
+  },
+  {
+   "id": "TICK-043",
+   "title": "Migrasi sistem PPDB lama ke sistem KSS",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "SI KSS",
+   "due": "2026-09-17",
+   "initiative_id": "INIT-KSS-1"
+  },
+  {
+   "id": "TICK-044",
+   "title": "Pindah DNS dari hosting ke Cloudflare",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "SI KSS",
+   "due": "2026-09-17",
+   "initiative_id": "INIT-KSS-1"
+  },
+  {
+   "id": "TICK-045",
+   "title": "Penambahan fitur broadcast di sistem KSS",
+   "status": "todo",
+   "priority": "P2",
+   "owner": "Rochiyat",
+   "project": "SI KSS",
+   "due": "2026-09-25",
+   "initiative_id": "INIT-KSS-1"
+  },
+  {
+   "id": "TICK-046",
+   "title": "Makan Siang & Obrolan Penjajakan Aplikasi Mobile bareng Pak Yusuf",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "Exploration",
+   "due": "2026-09-15",
+   "initiative_id": null
   }
  ]
 }

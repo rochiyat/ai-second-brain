@@ -1,6 +1,70 @@
 {
- "last_sweep": 1789362021.6766021,
+ "last_sweep": 1789446242.0099974,
  "items": {
+  "gmail:t:1a09f427c9a2f31b": {
+   "id": "gmail:t:1a09f427c9a2f31b",
+   "source": "gmail",
+   "ts": 1789378327.0,
+   "from": "tl;dv Team",
+   "from_id": "\"tl;dv Team\" <no-reply@tldv.io>",
+   "channel": "Work inbox",
+   "title": "‘[Bithealth] ...’ - don’t lose your recording and AI summary",
+   "text": "[tl;dv Team] Unlock unlimited AI Summaries on Pro ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a09f427c9a2f31b",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789397959.0775518,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "tl;dv Team",
+     "ts": 1789378327.0,
+     "text": "Unlock unlimited AI Summaries on Pro ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a09ea6a348552d6": {
+   "id": "gmail:t:1a09ea6a348552d6",
+   "source": "gmail",
+   "ts": 1789368115.0,
+   "from": "Human Resources",
+   "from_id": "Human Resources <humanresources@bithealth.co.id>",
+   "channel": "Work inbox",
+   "title": "Invitation:  [Wellness Month] Health Talk #2: See Better Work Better ... @ Wed Sep 16, 2026 2pm - 5pm (WIB) (Rochiyat Rochiyat)",
+   "text": "[Human Resources] [Wellness Month] Health Talk #2: See Better Work Better + Eye Check Halo BitHealthers! Melanjutkan rangkaian kegiatan Wellness Month 2026, kami mengundang seluruh rekan-rekan untuk hadir dalam sesi",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a09ea6a348552d6",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789397959.0775518,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Human Resources",
+     "ts": 1789368115.0,
+     "text": "[Wellness Month] Health Talk #2: See Better Work Better + Eye Check Halo BitHealthers! Melanjutkan rangkaian kegiatan Wellness Month 2026, kami mengundang seluruh rekan-rekan untuk hadir dalam sesi"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
   "gmail:t:1a09e14f26531ef2": {
    "id": "gmail:t:1a09e14f26531ef2",
    "source": "gmail",
@@ -11,9 +75,9 @@
    "title": "Invitation: [Bithealth] - Learning Management System - Discussion Mer... @ Mon Sep 14, 2026 1:30pm - 2:30pm (WIB) (Rochiyat Rochiyat)",
    "text": "[Teuku Danny Ramdani] [Bithealth] - Learning Management System - Discussion Merge Code Join with Google Meet – You have been invited by Teuku Danny Ramdani to attend an event named [Bithealth] - Learning Management System -",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a09e14f26531ef2",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789397975.2197363,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -107,9 +171,9 @@
    "title": "Pendaftaran RAWAT JALAN a/n YULI WIDIASTUTIK - 2026-09-12",
    "text": "[noreply@meditap.id] Dengan hormat, Terdapat pendaftaran RAWAT JALAN berhasil atas nama YULI WIDIASTUTIK di RS HERMINA BOGOR pada 12-Sep-2026 13:14 WIB. Apabila Anda tidak mengenal transaksi ini, silakan menghubungi",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a094408c5aa8048",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789397981.1974175,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -139,9 +203,9 @@
    "title": "(Provider-Ditanggung Penuh) ROCHIYAT - BITHEALTH TEKNOLOGI PINTAR - 2026-09-12 - 2608054152",
    "text": "[Do Not Reply-LGI] Dengan hormat, Terima kasih atas kepercayaan Anda kepada LGI. Dengan ini kami informasikan bahwa pengajuan klaim untuk perawatan Anda di Rumah Sakit/ Klinik telah selesai kami proses. Silakan memeriksa",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0927e12af24dcc",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789433136.2451546,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -159,7 +223,8 @@
    "send_channel": null,
    "send_thread_ts": null,
    "sent_permalink": null,
-   "sent_at": null
+   "sent_at": null,
+   "closed_by": "source"
   },
   "gmail:t:1a09196d71e8cc86": {
    "id": "gmail:t:1a09196d71e8cc86",
@@ -171,9 +236,9 @@
    "title": "Buy one month of Pro or Pro+, get double the Credits",
    "text": "[Qoder] Through Sep 30: 4000 Credits in your first Pro month, 12000 on Pro+. Plus, the new Qoder Desktop. Buy one month of Pro or Pro+, get double the Credits Hi Rochiyat Bithealth, Through September 30, your",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a09196d71e8cc86",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789433136.2451546,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -191,7 +256,8 @@
    "send_channel": null,
    "send_thread_ts": null,
    "sent_permalink": null,
-   "sent_at": null
+   "sent_at": null,
+   "closed_by": "source"
   },
   "gmail:t:1a0854777a4aba19": {
    "id": "gmail:t:1a0854777a4aba19",
@@ -203,9 +269,9 @@
    "title": "Re: [bithealth-dnx/bithealth-circle] Implement Network Client, Secure Storage, and Auth Flow (PR #30)",
    "text": "[deanamilush] @amilushmajid pushed 1 commit. 9e35ea1 implement profile screen and centralized go-router session guard — View it on GitHub or unsubscribe. Triage notifications, keep track of coding agent tasks and",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0854777a4aba19",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789397953.6349614,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -223,7 +289,8 @@
    "send_channel": null,
    "send_thread_ts": null,
    "sent_permalink": null,
-   "sent_at": null
+   "sent_at": null,
+   "closed_by": "source"
   },
   "gmail:t:1a090c3e0fffa38f": {
    "id": "gmail:t:1a090c3e0fffa38f",
@@ -235,9 +302,9 @@
    "title": "Kilo Weekly: Frontier Research & Shiny New Models",
    "text": "[Kilo Team] Hey there! Four new models dropped this week, alongside some fresh research on why model freedom stopped being optional. 💳 Never run out of credits mid-task Auto Top-Ups are live for individuals and",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a090c3e0fffa38f",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789397953.6349614,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -255,7 +322,8 @@
    "send_channel": null,
    "send_thread_ts": null,
    "sent_permalink": null,
-   "sent_at": null
+   "sent_at": null,
+   "closed_by": "source"
   },
   "gmail:t:1a08fab601b423f2": {
    "id": "gmail:t:1a08fab601b423f2",
@@ -267,9 +335,9 @@
    "title": "[LMS] MOM & Materials - Weekly Meeting #4 | 9 September 2026",
    "text": "[Ratih Pinandita] Selamat sore HR Team, Berikut kami lampirkan beberapa dokumen terkait Weekly Meeting ke-4 yang telah dilaksanakan pada 9 September 2026: MOM Weekly Meeting ke-4 Materi Weekly Meeting ke-4 Mohon",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a08fab601b423f2",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789397953.6349614,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -287,7 +355,8 @@
    "send_channel": null,
    "send_thread_ts": null,
    "sent_permalink": null,
-   "sent_at": null
+   "sent_at": null,
+   "closed_by": "source"
   },
   "gmail:t:1a08f8ea59ebccd4": {
    "id": "gmail:t:1a08f8ea59ebccd4",
@@ -299,9 +368,9 @@
    "title": "[Wellness Month] Health Talk #2 & Eye Check: SEE BETTER, WORK BETTER!",
    "text": "[Human Resources] Health Talk #2 & Eye Check: SEE BETTER, WORK BETTER! Halo BitHealthers! Setelah keseruan sesi Health Talk kemarin dalam rangkaian Wellness Month 2026, kita akan melanjutkan ke Health Talk Series #2",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a08f8ea59ebccd4",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789397953.6349614,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -319,7 +388,8 @@
    "send_channel": null,
    "send_thread_ts": null,
    "sent_permalink": null,
-   "sent_at": null
+   "sent_at": null,
+   "closed_by": "source"
   }
  },
  "sources": {
@@ -330,8 +400,8 @@
   },
   "gmail": {
    "ok": true,
-   "n": 10,
-   "note": "10 msgs -> 10 threads (3d window)"
+   "n": 6,
+   "note": "6 msgs -> 6 threads (3d window)"
   },
   "gdoc": {
    "ok": true,
@@ -344,5 +414,5 @@
    "note": "Jira not in use (tracked via Google Sheets)"
   }
  },
- "last_sweep_wib": "2026-09-14T12:00:26+07:00"
+ "last_sweep_wib": "2026-09-15T11:24:06+07:00"
 }

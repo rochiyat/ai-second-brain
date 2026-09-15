@@ -1,3 +1,25 @@
 {
-  "items": {}
+ "items": {
+  "WAIT-0001": {
+   "id": "WAIT-0001",
+   "owner": "Dean",
+   "owner_slug": "dean",
+   "what": "Hasil merged FE (Menu Department, Job Role, Level & Import Employee)",
+   "initiative_id": "INIT-BH-1",
+   "node": "lms-platform",
+   "node_why": null,
+   "since": 1789455970.256901,
+   "sla_hours": 24.0,
+   "escalate_to": "",
+   "escalation_path": "",
+   "source": {},
+   "status": "open",
+   "breached_at": null,
+   "last_nudge_at": null,
+   "first_seen": 1789455970.256901,
+   "closed_at": null,
+   "notes": ""
+  }
+ },
+ "next_seq": 2
 }
