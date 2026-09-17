@@ -2,12 +2,12 @@
  "generated_from": "journal\\state\\tickets.json",
  "source_updated_wib": null,
  "note": "Lean index. Full body (note/comments/links) lives in tickets.json; look up by id.",
- "count": 46,
+ "count": 47,
  "tickets": [
   {
    "id": "TICK-001",
    "title": "Pemetaan kebutuhan sistem & arsitektur teknis ERP WICEND",
-   "status": "in_progress",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -17,7 +17,7 @@
   {
    "id": "TICK-002",
    "title": "Inisialisasi arsitektur sistem & tech backlog AMOR BAKERY",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -217,7 +217,7 @@
   {
    "id": "TICK-022",
    "title": "Testing notifikasi Email dan WhatsApp",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -227,7 +227,7 @@
   {
    "id": "TICK-023",
    "title": "Flow end-to-end testing (Superadmin, Admin, Orang Tua)",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -237,7 +237,7 @@
   {
    "id": "TICK-024",
    "title": "PROMPT 4f - POS: tahan nota, waste, dan tutup shift (amor-pos-client)",
-   "status": "in_progress",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -247,7 +247,7 @@
   {
    "id": "TICK-025",
    "title": "PROMPT 5b - Android: printer sungguhan dan pengujian lapangan (amor-pos-android)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -257,7 +257,7 @@
   {
    "id": "TICK-026",
    "title": "PROMPT 4d - POS: jembatan cetak (amor-pos-client)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -267,7 +267,7 @@
   {
    "id": "TICK-027",
    "title": "Running end-to-end (AMOR BAKERY)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -277,11 +277,11 @@
   {
    "id": "TICK-028",
    "title": "Konfigurasi VPS untuk diberikan ke Kang Hasan buat dicoba",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
-   "due": "2026-09-17",
+   "due": "2026-09-16",
    "initiative_id": "INIT-AB-1"
   },
   {
@@ -297,7 +297,7 @@
   {
    "id": "TICK-030",
    "title": "Meeting Weekly: Sosialisasi ERP WICEND (13:15 - 14:30 WIB)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -347,7 +347,7 @@
   {
    "id": "TICK-035",
    "title": "Update Penamaan Yayasan & Unit di Sistem (Al-Kautsar Cendekia & KB Islam Widya Cendekia)",
-   "status": "todo",
+   "status": "done",
    "priority": "P2",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -397,7 +397,7 @@
   {
    "id": "TICK-040",
    "title": "Uji Coba & UAT Alur SPMB Baru (Gelombang NISN, Pembayaran & Notifikasi)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat, Pak Irfan",
    "project": "ERP WICEND",
@@ -431,7 +431,7 @@
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "SI KSS",
-   "due": "2026-09-17",
+   "due": "2026-09-21",
    "initiative_id": "INIT-KSS-1"
   },
   {
@@ -441,7 +441,7 @@
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "SI KSS",
-   "due": "2026-09-17",
+   "due": "2026-09-21",
    "initiative_id": "INIT-KSS-1"
   },
   {
@@ -457,12 +457,22 @@
   {
    "id": "TICK-046",
    "title": "Makan Siang & Obrolan Penjajakan Aplikasi Mobile bareng Pak Yusuf",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "Exploration",
    "due": "2026-09-15",
    "initiative_id": null
+  },
+  {
+   "id": "TICK-047",
+   "title": "Arrange penawaran modul SPMB, Finance, Unit Usaha, dan HR (Diskon Package) ke Pak Yudi",
+   "status": "done",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-16",
+   "initiative_id": "INIT-WC-SPMB"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T22:00:00+07:00",
+  "last_updated": "2026-09-15T17:15:00+07:00",
   "items": {
     "IDEA-001": {
       "id": "IDEA-001",
@@ -78,6 +78,19 @@
       "notes": "Diskusi makan siang 15 Sept 2026 (rescheduled dari semalam). Hasil obrolan menentukan apakah akan diformalkan menjadi project atau tidak.",
       "created_at": "2026-09-15T07:50:00+07:00",
       "updated_at": "2026-09-15T07:50:00+07:00"
+    },
+    "IDEA-007": {
+      "id": "IDEA-007",
+      "title": "Platform Kursus Koding Berbasis Teks Interaktif (Text-First EdTech)",
+      "project": "Exploration",
+      "category": "EdTech Business",
+      "status": "exploring",
+      "impact": "High",
+      "effort": "Medium",
+      "description": "Membangun platform pembelajaran programming interaktif berbasis teks (text-first) serupa Dicoding, Codecademy, dan Educative.io. Model monetisasi bertingkat (Free, Freemium/Free Sebagian, Full Paid) dengan keunggulan kecepatan baca, kemudahan copy code, dan biaya produksi yang jauh lebih efisien dibanding video course.\n\nRekomendasi & Strategi Pengembangan:\n1. Monetisasi Tambahan:\n- All-Access Subscription (SaaS model bulanan/tahunan) untuk recurring revenue yang lebih terprediksi dibanding penjualan one-off.\n- Monetisasi Code Review & Submission Proyek: Materi teks gratis/murah, tetapi submission proyek portfolio dengan review manual dari mentor menjadi produk berbayar premium (kunci diferensiasi Dicoding).\n- Pay-for-Certificate: Akses materi gratis 100% untuk mendominasi traffic dan SEO organik, bayar hanya jika membutuhkan sertifikat kelulusan resmi.\n- B2B Corporate Onboarding: Lisensi tim untuk perusahaan/software house meng-onboard junior developer atau intern.\n\n2. Keunggulan SEO & Akuisisi Pengguna:\n- Konten teks dapat diindeks penuh oleh Google Search (SEO organic magnet), menghasilkan ribuan pencarian tutorial teknis harian tanpa biaya iklan.\n\n3. Fitur Interaktivitas Kunci:\n- In-browser Code Runner / WebContainer (Monaco Editor + Node/Python runtime langsung di browser) agar siswa tidak terhambat setup environment lokal.\n- Interactive Checkpoints / Mini Quiz di akhir setiap modul untuk memvalidasi pemahaman secara otomatis.\n\n4. Pemilihan Niche Awal:\n- Hindari materi generalis pemula (Basic HTML/CSS/Python) yang sudah jenuh di YouTube.\n- Masuk ke spesialisasi produksi bernilai tinggi: Golang Microservices & Clean Arch, Spring Boot Enterprise, Flutter Advanced Architecture, Fullstack AI Apps (LangChain/LLM Integration), dan DevOps CI/CD.",
+      "notes": "Ide bisnis edtech text-first. Keuntungan besar: biaya produksi konten jauh lebih murah dan cepat direvisi dibanding video; retensi dan completion rate teks interaktif terbukti lebih tinggi bagi software engineer.",
+      "created_at": "2026-09-15T17:15:00+07:00",
+      "updated_at": "2026-09-15T17:15:00+07:00"
     }
   }
 }

@@ -3,25 +3,41 @@
     {
       "id": "TICK-001",
       "title": "Pemetaan kebutuhan sistem & arsitektur teknis ERP WICEND",
-      "status": "in_progress",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
       "initiative_id": "INIT-WC-SPMB",
       "created_at": "2026-09-14",
       "due": "2026-09-18",
-      "notes": "[Modul SPMB]"
+      "notes": "[Modul SPMB]",
+      "comments": [
+        {
+          "ts_wib": "2026-09-15T16:58:06+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": ""
+        }
+      ]
     },
     {
       "id": "TICK-002",
       "title": "Inisialisasi arsitektur sistem & tech backlog AMOR BAKERY",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "AMOR BAKERY",
       "initiative_id": "INIT-AB-1",
       "created_at": "2026-09-14",
-      "due": "2026-09-20"
+      "due": "2026-09-20",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T10:46:16+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": ""
+        }
+      ]
     },
     {
       "id": "TICK-003",
@@ -367,7 +383,7 @@
     {
       "id": "TICK-022",
       "title": "Testing notifikasi Email dan WhatsApp",
-      "status": "todo",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -375,12 +391,20 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-14",
       "due": "2026-09-14",
-      "notes": "[Modul SPMB]"
+      "notes": "[Modul SPMB]",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T08:45:51+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": ""
+        }
+      ]
     },
     {
       "id": "TICK-023",
       "title": "Flow end-to-end testing (Superadmin, Admin, Orang Tua)",
-      "status": "todo",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -395,6 +419,12 @@
           "by": "owner",
           "change": "due 2026-09-14 to 2026-09-15; note None to ",
           "text": ""
+        },
+        {
+          "ts_wib": "2026-09-17T08:45:56+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": ""
         }
       ],
       "notes": "[Modul SPMB]"
@@ -402,7 +432,7 @@
     {
       "id": "TICK-024",
       "title": "PROMPT 4f - POS: tahan nota, waste, dan tutup shift (amor-pos-client)",
-      "status": "in_progress",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "AMOR BAKERY",
@@ -410,6 +440,7 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-15",
       "due": "2026-09-16",
+      "closed_at": "2026-09-15",
       "reference": "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md",
       "comments": [
         {
@@ -417,39 +448,69 @@
           "by": "owner",
           "change": "status todo to in_progress",
           "text": "Mulai pengerjaan PROMPT 4f - POS: tahan nota, waste, dan tutup shift."
+        },
+        {
+          "ts_wib": "2026-09-15T15:45:00+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": "PROMPT 4f selesai dikerjakan."
         }
       ]
     },
     {
       "id": "TICK-025",
       "title": "PROMPT 5b - Android: printer sungguhan dan pengujian lapangan (amor-pos-android)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "AMOR BAKERY",
       "initiative_id": "INIT-AB-1",
       "created_at": "2026-09-14",
-      "start_date": "2026-09-16",
+      "start_date": "2026-09-15",
       "due": "2026-09-16",
-      "reference": "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md"
+      "closed_at": "2026-09-15",
+      "reference": "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md",
+      "comments": [
+        {
+          "ts_wib": "2026-09-15T15:45:00+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress; start_date 2026-09-16 to 2026-09-15",
+          "text": "Mulai pengerjaan PROMPT 5b - Android: printer sungguhan dan pengujian lapangan."
+        },
+        {
+          "ts_wib": "2026-09-15T17:00:00+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": "PROMPT 5b selesai dikerjakan."
+        }
+      ]
     },
     {
       "id": "TICK-026",
       "title": "PROMPT 4d - POS: jembatan cetak (amor-pos-client)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "AMOR BAKERY",
       "initiative_id": "INIT-AB-1",
       "created_at": "2026-09-14",
-      "start_date": "2026-09-16",
+      "start_date": "2026-09-15",
       "due": "2026-09-16",
-      "reference": "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md"
+      "closed_at": "2026-09-15",
+      "reference": "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md",
+      "comments": [
+        {
+          "ts_wib": "2026-09-15T17:22:00+07:00",
+          "by": "owner",
+          "change": "status todo to done; start_date 2026-09-16 to 2026-09-15",
+          "text": "PROMPT 4d selesai dikerjakan."
+        }
+      ]
     },
     {
       "id": "TICK-027",
       "title": "Running end-to-end (AMOR BAKERY)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "AMOR BAKERY",
@@ -457,19 +518,37 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-16",
       "due": "2026-09-16",
-      "reference": "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md"
+      "closed_at": "2026-09-16",
+      "reference": "D:\\PROJECT\\MYSELF\\CODE\\AMOR\\ERP\\amor-docs\\prompt-kickoff-agent.md",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T17:30:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Running E2E terintegrasi (POS Client -> Android Wrapper -> Backend) selesai kemarin."
+        }
+      ]
     },
     {
       "id": "TICK-028",
       "title": "Konfigurasi VPS untuk diberikan ke Kang Hasan buat dicoba",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "AMOR BAKERY",
       "initiative_id": "INIT-AB-1",
       "created_at": "2026-09-14",
-      "start_date": "2026-09-17",
-      "due": "2026-09-17"
+      "start_date": "2026-09-16",
+      "due": "2026-09-16",
+      "closed_at": "2026-09-16",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T17:30:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Konfigurasi VPS staging untuk Kang Hasan selesai kemarin."
+        }
+      ]
     },
     {
       "id": "TICK-029",
@@ -486,7 +565,7 @@
     {
       "id": "TICK-030",
       "title": "Meeting Weekly: Sosialisasi ERP WICEND (13:15 - 14:30 WIB)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -494,9 +573,18 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-16",
       "due": "2026-09-16",
+      "closed_at": "2026-09-16",
       "calendar_event_link": "https://www.google.com/calendar/event?eid=ZHJkYWNudGI3MW41azdoY2M4ZXZ1MGRvczAgcm9jaGl5YXRAYml0aGVhbHRoLmNvLmlk",
       "meet_link": "https://meet.google.com/vax-gntg-fft",
-      "notes": "[Modul SPMB]"
+      "notes": "[Modul SPMB] Sosialisasi selesai; alur disepakati siap dipakai kecuali pembayaran yang akan dibuatkan dummy untuk simulasi pekan depan.",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T15:00:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Meeting sosialisasi dan walkthrough SPMB selesai. Alur penerimaan siap dipakai; tindak lanjut label uang muka, pemindahan form wawancara ke kepsek, broadcast WA, dan dummy payment untuk simulasi pekan depan."
+        }
+      ]
     },
     {
       "id": "TICK-031",
@@ -524,7 +612,15 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-17",
       "due": "2026-09-17",
-      "notes": "Catatan lokal: dipindahkan dari Rabu ke Kamis pekan ini. Kalender Gmail tidak diubah (PIC: PM)."
+      "notes": "Catatan meeting 16 Sept: Demo/meeting HR yang semula Kamis di-reschedule ke minggu depan (hari menyusul). Tim bebas WFH.",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T10:55:00+07:00",
+          "by": "owner",
+          "change": "notes updated",
+          "text": "Meeting HR di-reschedule ke minggu depan karena Ratih & Rafi fokus bikin PPT tenant sampai Jumat siang."
+        }
+      ]
     },
     {
       "id": "TICK-033",
@@ -567,7 +663,7 @@
     {
       "id": "TICK-035",
       "title": "Update Penamaan Yayasan & Unit di Sistem (Al-Kautsar Cendekia & KB Islam Widya Cendekia)",
-      "status": "todo",
+      "status": "done",
       "priority": "P2",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -575,7 +671,15 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-16",
       "due": "2026-09-16",
-      "notes": "Ganti nama yayasan ke Al-Kautsar Cendekia dan unit KB ke KB Islam Widya Cendekia di sistem setelah konfirmasi WA dari Pak Irfan. [Modul SPMB]"
+      "notes": "Ganti nama yayasan ke Al-Kautsar Cendekia dan unit KB ke KB Islam Widya Cendekia di sistem setelah konfirmasi WA dari Pak Irfan. [Modul SPMB]",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T12:50:30+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": ""
+        }
+      ]
     },
     {
       "id": "TICK-036",
@@ -632,7 +736,7 @@
     {
       "id": "TICK-040",
       "title": "Uji Coba & UAT Alur SPMB Baru (Gelombang NISN, Pembayaran & Notifikasi)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat, Pak Irfan",
       "project": "ERP WICEND",
@@ -640,7 +744,15 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-20",
       "due": "2026-09-20",
-      "notes": "Testing akhir menyeluruh alur pendaftaran baru dengan aturan NISN internal, skema termin pembayaran diskon gelombang, dan notifikasi ke orang tua. [Modul SPMB]"
+      "notes": "Testing akhir menyeluruh alur pendaftaran baru dengan aturan NISN internal, skema termin pembayaran diskon gelombang, dan notifikasi ke orang tua. [Modul SPMB]",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T16:01:35+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "gelombang dengan notifikasi belum, gelombang sudah dan general alurnya sudah di uji coba. Pekan depan mau dicoba lagi ke semuanya"
+        }
+      ]
     },
     {
       "id": "TICK-041",
@@ -679,9 +791,17 @@
       "project": "SI KSS",
       "initiative_id": "INIT-KSS-1",
       "created_at": "2026-09-15",
-      "start_date": "2026-09-17",
-      "due": "2026-09-17",
-      "notes": "Migrasi data dan alur dari sistem PPDB lama ke sistem KSS baru."
+      "start_date": "2026-09-21",
+      "due": "2026-09-21",
+      "notes": "Migrasi data dan alur dari sistem PPDB lama ke sistem KSS baru.",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T08:50:00+07:00",
+          "by": "owner",
+          "change": "due 2026-09-17 to 2026-09-21",
+          "text": "Target migrasi PPDB dipindah ke pekan depan hari Senin (21 Sept 2026). Tanya-tanya ke Pak Qodli terlebih dahulu untuk awalan mengetahui DNS di Wicend."
+        }
+      ]
     },
     {
       "id": "TICK-044",
@@ -692,9 +812,17 @@
       "project": "SI KSS",
       "initiative_id": "INIT-KSS-1",
       "created_at": "2026-09-15",
-      "start_date": "2026-09-17",
-      "due": "2026-09-17",
-      "notes": "Pengalihan nameserver dan manajemen DNS domain KSS dari hosting lama ke Cloudflare."
+      "start_date": "2026-09-21",
+      "due": "2026-09-21",
+      "notes": "Pengalihan nameserver dan manajemen DNS domain KSS dari hosting lama ke Cloudflare.",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T08:50:00+07:00",
+          "by": "owner",
+          "change": "due 2026-09-17 to 2026-09-21",
+          "text": "Target cutover Cloudflare dipindah ke pekan depan hari Senin (21 Sept 2026) sejalan dengan koordinasi DNS bersama Pak Qodli."
+        }
+      ]
     },
     {
       "id": "TICK-045",
@@ -712,7 +840,7 @@
     {
       "id": "TICK-046",
       "title": "Makan Siang & Obrolan Penjajakan Aplikasi Mobile bareng Pak Yusuf",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "Exploration",
@@ -722,7 +850,37 @@
       "due": "2026-09-15",
       "time_wib": "12:00 - 13:00",
       "source_url": "https://www.google.com/calendar/event?eid=bzM5dDdrbTd1aTUydWt0aXIxbm01YXVmMWMgcm9jaGl5YXRAYml0aGVhbHRoLmNvLmlk",
-      "notes": "Penjajakan project baru pembuatan aplikasi mobile bersama Pak Yusuf (rescheduled dari semalam). Status: explorasi, nantinya bisa jadi project resmi atau tidak tergantung hasil diskusi."
+      "notes": "Penjajakan project baru pembuatan aplikasi mobile bersama Pak Yusuf (rescheduled dari semalam). Status: explorasi, nantinya bisa jadi project resmi atau tidak tergantung hasil diskusi.",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T11:28:24+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Pak Yusuf ingin membuat aplikasi mobile dengan beberapa rincian seperti ini komunitas music chat transaksi, munghubungkan ke studio link maps ekperience dari user untuk cari teman terdekat nyaut disitu,"
+        }
+      ]
+    },
+    {
+      "id": "TICK-047",
+      "title": "Arrange penawaran modul SPMB, Finance, Unit Usaha, dan HR (Diskon Package) ke Pak Yudi",
+      "status": "done",
+      "priority": "P1",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-SPMB",
+      "created_at": "2026-09-15",
+      "start_date": "2026-09-15",
+      "due": "2026-09-16",
+      "notes": "Janji ke Pak Yudi: arrange penawaran untuk 4 modul (SPMB, Finance, Unit Usaha, HR) dengan skema diskon package. Deadline maksimal besok (16 Sept 2026). Terhubung ke COM-0003.",
+      "closed_at": "2026-09-16",
+      "comments": [
+        {
+          "ts_wib": "2026-09-16T17:30:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Finalisasi dan penyusunan dokumen proposal penawaran diskon package (SPMB, Finance, Unit Usaha, HR) ke Pak Yudi selesai kemarin. Terhubung ke COM-0003."
+        }
+      ]
     }
   ]
 }

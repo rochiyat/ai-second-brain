@@ -48,7 +48,6 @@
    "first_seen": 1789364345.7863917,
    "closed_at": 1789380000.0,
    "closed_by": "owner",
-   "priority": true,
    "notes": [
     "Review PR Koh Elly selesai kemarin sore."
    ],
@@ -71,13 +70,16 @@
     "type": "manual",
     "ref": ""
    },
-   "status": "open",
+   "status": "closed",
    "confidence": "high",
    "first_seen": 1789457115.4215045,
-   "closed_at": null,
-   "closed_by": null,
+   "closed_at": 1789545600.0,
+   "closed_by": "owner",
    "priority": true,
-   "notes": []
+   "notes": [
+    "Proposal penawaran paket 4 modul (SPMB, Finance, Unit Usaha, HR) diskon 50% flat Rp 12,5 jt/bln selesai disusun dan diajukan ke Pak Yudi pada 16 Sept 2026."
+   ],
+   "ticket_id": "TICK-047"
   }
  },
  "next_seq": 4,

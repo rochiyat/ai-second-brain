@@ -13,12 +13,14 @@
    "escalate_to": "",
    "escalation_path": "",
    "source": {},
-   "status": "open",
+   "status": "answered",
    "breached_at": null,
    "last_nudge_at": null,
    "first_seen": 1789455970.256901,
-   "closed_at": null,
-   "notes": ""
+   "closed_at": 1789618799.4127755,
+   "notes": "",
+   "needs_escalation": false,
+   "close_note": "Dean telah merge hasil FE (dengan revisi). TICK-004 selesai, unblocking testing import employee."
   }
  },
  "next_seq": 2
