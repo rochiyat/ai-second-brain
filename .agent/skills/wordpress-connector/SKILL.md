@@ -11,16 +11,18 @@ A zero-dependency Python connector for WordPress using the native WordPress REST
 
 1. **Test Auth**: Verify credentials against `/wp-json/wp/v2/users/me`.
 2. **Create Post**: Create a new post as `draft` or `publish` with HTML content.
-3. **List Posts**: View posts filtered by status (`publish`, `draft`, `any`).
-4. **Upload Media**: Upload images or attachments directly to the Media Library.
-5. **Get Post**: Retrieve full post details.
+3. **Update Post**: Update title, content, or status of an existing post.
+4. **Delete Post**: Move post to trash or permanently delete (`--force`).
+5. **List Posts**: View posts filtered by status (`publish`, `draft`, `any`).
+6. **Upload Media**: Upload images or attachments directly to the Media Library.
+7. **Get Post**: Retrieve full post details.
 
 ## Configuration
 
 Credentials are stored in `.agent/skills/wordpress-connector/token.env` (git-ignored):
 ```env
 WP_URL=https://lingkarayah.id
-WP_USER=AI-Second-Brain
+WP_USER=adminla
 WP_APP_PASS=mdDN 25OA xAJ8 0z4w F2fh p3jq
 ```
 
@@ -30,14 +32,21 @@ WP_APP_PASS=mdDN 25OA xAJ8 0z4w F2fh p3jq
 # Test connection & authentication
 python .agent/skills/wordpress-connector/scripts/wp_client.py --action test-auth
 
-# List latest posts
+# List latest posts (published)
 python .agent/skills/wordpress-connector/scripts/wp_client.py --action list-posts --limit 5
+
+# List draft posts
+python .agent/skills/wordpress-connector/scripts/wp_client.py --action list-posts --status draft
 
 # Create a draft post
 python .agent/skills/wordpress-connector/scripts/wp_client.py --action create-post --title "Judul Artikel" --content "<p>Isi artikel...</p>" --status draft
 
-# Create a post from markdown/HTML file
-python .agent/skills/wordpress-connector/scripts/wp_client.py --action create-post --title "Judul Artikel" --content-file "path/to/content.html" --status draft
+# Update a post
+python .agent/skills/wordpress-connector/scripts/wp_client.py --action update-post --id 123 --title "Judul Baru" --status draft
+
+# Delete a post (move to trash or permanent)
+python .agent/skills/wordpress-connector/scripts/wp_client.py --action delete-post --id 123
+python .agent/skills/wordpress-connector/scripts/wp_client.py --action delete-post --id 123 --force
 
 # Upload media
 python .agent/skills/wordpress-connector/scripts/wp_client.py --action upload-media --file "path/to/image.png"

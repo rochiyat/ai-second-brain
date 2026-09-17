@@ -133,6 +133,32 @@ def create_post(title, content, status="draft", excerpt="", categories=None, tag
         print(f"[FAILED] Could not create post: {res}")
     return res
 
+def update_post(post_id, title=None, content=None, status=None):
+    payload = {}
+    if title is not None:
+        payload["title"] = title
+    if content is not None:
+        payload["content"] = content
+    if status is not None:
+        payload["status"] = status
+
+    res = make_request(f"posts/{post_id}", method="POST", data=payload)
+    if isinstance(res, dict) and "id" in res:
+        print(f"[SUCCESS] Post {post_id} updated! Status: {res.get('status')} | URL: {res.get('link')}")
+    else:
+        print(f"[FAILED] Could not update post {post_id}: {res}")
+    return res
+
+def delete_post(post_id, force=False):
+    endpoint = f"posts/{post_id}?force=true" if force else f"posts/{post_id}"
+    res = make_request(endpoint, method="DELETE")
+    if isinstance(res, dict) and (res.get("deleted") or "id" in res):
+        action_word = "permanently deleted" if force else "moved to trash"
+        print(f"[SUCCESS] Post {post_id} {action_word}!")
+    else:
+        print(f"[FAILED] Could not delete post {post_id}: {res}")
+    return res
+
 def upload_media(file_path):
     if not os.path.exists(file_path):
         print(f"[ERROR] File not found: {file_path}", file=sys.stderr)
@@ -169,7 +195,7 @@ def upload_media(file_path):
 
 def main():
     parser = argparse.ArgumentParser(description="WordPress REST API Client")
-    parser.add_argument("--action", choices=["test-auth", "list-posts", "create-post", "upload-media", "get-post"], default="test-auth")
+    parser.add_argument("--action", choices=["test-auth", "list-posts", "create-post", "update-post", "delete-post", "upload-media", "get-post"], default="test-auth")
     parser.add_argument("--title", help="Post title")
     parser.add_argument("--content", help="Post HTML content or text")
     parser.add_argument("--content-file", help="Path to file containing post content")
@@ -177,6 +203,7 @@ def main():
     parser.add_argument("--file", help="File path for upload-media")
     parser.add_argument("--id", type=int, help="Post ID")
     parser.add_argument("--limit", type=int, default=10, help="Limit for list-posts")
+    parser.add_argument("--force", action="store_true", help="Permanently delete post (skip trash)")
 
     args = parser.parse_args()
 
@@ -199,6 +226,20 @@ def main():
             with open(args.content_file, "r", encoding="utf-8") as f:
                 content = f.read()
         create_post(args.title, content, status=args.status or "draft")
+    elif args.action == "update-post":
+        if not args.id:
+            print("[ERROR] --id is required for update-post", file=sys.stderr)
+            sys.exit(1)
+        content = args.content
+        if args.content_file and os.path.exists(args.content_file):
+            with open(args.content_file, "r", encoding="utf-8") as f:
+                content = f.read()
+        update_post(args.id, title=args.title, content=content, status=args.status)
+    elif args.action == "delete-post":
+        if not args.id:
+            print("[ERROR] --id is required for delete-post", file=sys.stderr)
+            sys.exit(1)
+        delete_post(args.id, force=args.force)
     elif args.action == "upload-media":
         if not args.file:
             print("[ERROR] --file is required for upload-media", file=sys.stderr)
