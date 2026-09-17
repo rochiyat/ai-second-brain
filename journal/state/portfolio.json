@@ -54,23 +54,36 @@
           "health": "on_track",
           "owner": "Rochiyat",
           "one_liner": "Pengelolaan keuangan, skema termin pembayaran SPP/SPMB & integrasi invoice",
-          "now": "Konfigurasi fleksibel skema termin pembayaran & validasi kuota masuk",
-          "next_milestone": "Integrasi Payment Gateway & Rekonsiliasi Keuangan",
-          "blockers": [],
+          "now": "Sentralisasi master tagihan ke Keuangan (TICK-048), skema Uang Muka Rp1.5jt (TICK-050) & engine diskon Uang Pangkal (TICK-051)",
+          "next_milestone": "Integrasi Payment Gateway BSI VA & Rekonsiliasi Keuangan",
+          "blockers": [
+            {
+              "what": "Penyelesaian SPK BSI dan kontak tim teknis BSI untuk integrasi VA SPMB (WAIT-0002)",
+              "owner": "Achmad Irfan & Pak Yudi",
+              "since": "2026-09-17"
+            }
+          ],
           "workstreams": [
             {
-              "name": "Skema Termin Pembayaran & Kuota Masuk",
+              "name": "Master Jenis & Paket Tagihan Keuangan (Global)",
+              "phase": "Development",
+              "status": "in_progress",
+              "prd": "Finance Billing Setup",
+              "blocker": null
+            },
+            {
+              "name": "Engine Diskon Uang Pangkal & Termin Pembayaran",
               "phase": "Development",
               "status": "todo",
               "prd": "Finance Payment Plans",
               "blocker": null
             },
             {
-              "name": "Invoicing & Payment Verification",
-              "phase": "Design",
+              "name": "Integrasi BSI Virtual Account & Template Invoice",
+              "phase": "Integration",
               "status": "todo",
-              "prd": "Finance Invoicing",
-              "blocker": null
+              "prd": "Finance Invoicing & BSI VA",
+              "blocker": "Tunggu SPK & kontak tim teknis BSI (WAIT-0002)"
             }
           ]
         },

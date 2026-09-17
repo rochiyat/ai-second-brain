@@ -5,11 +5,11 @@
 >
 > **Every id below is clickable.** `COM-`/`WAIT-`/`DEC-` links open that record on the local dashboard (http://localhost:3737) with its owner, SLA, source, timeline and notes. If a link does nothing, the dashboard is down: `bash .agent/scripts/ensure_dashboard.sh`
 
-**Last generated**: 2026-09-17 13:33 WIB
+**Last generated**: 2026-09-17 13:36 WIB
 
 ---
 
-_(could not render: ! commitments report failed to run: 'NoneType' object has no attribute 'strip')_
+No open commitments. Ledger is clean.
 
 ---
 
@@ -31,7 +31,7 @@ _(could not render: ! decisions report exited 1: Traceback (most recent call las
 
 | Metric | Value |
 |:---|:---|
-| Open commitments (the owner owes) | 1 |
-| Overdue commitments | 1 |
+| Open commitments (the owner owes) | 0 |
+| Overdue commitments | 0 |
 | Active waiting-on (others owe the owner) | 1 |
 | Flagged for escalation | 0 |

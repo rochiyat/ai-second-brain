@@ -23,10 +23,10 @@
    "health": "on_track",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
-   "due": "Integrasi Payment Gateway & Rekonsiliasi Keuangan",
-   "blocker_count": 0,
-   "workstream_count": 2,
-   "workstreams_open": 2
+   "due": "Integrasi Payment Gateway BSI VA & Rekonsiliasi Keuangan",
+   "blocker_count": 1,
+   "workstream_count": 3,
+   "workstreams_open": 3
   },
   {
    "id": "INIT-WC-UU",

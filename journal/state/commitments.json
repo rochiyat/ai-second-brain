@@ -17,13 +17,15 @@
     "type": "manual",
     "ref": ""
    },
-   "status": "open",
+   "status": "done",
    "confidence": "high",
    "first_seen": 1789363960.4944324,
-   "closed_at": null,
-   "closed_by": null,
+   "closed_at": 1789626977.0431833,
+   "closed_by": "manual",
    "priority": false,
-   "notes": [],
+   "notes": [
+    "ERD My Assessment BE untuk Dean selesai dibuat dan diselaraskan sesuai skema disederhanakan (DEC-0015)"
+   ],
    "ticket_id": "TICK-031"
   },
   "COM-0002": {

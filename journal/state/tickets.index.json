@@ -2,7 +2,7 @@
  "generated_from": "journal\\state\\tickets.json",
  "source_updated_wib": null,
  "note": "Lean index. Full body (note/comments/links) lives in tickets.json; look up by id.",
- "count": 47,
+ "count": 54,
  "tickets": [
   {
    "id": "TICK-001",
@@ -473,6 +473,76 @@
    "project": "ERP WICEND",
    "due": "2026-09-16",
    "initiative_id": "INIT-WC-SPMB"
+  },
+  {
+   "id": "TICK-048",
+   "title": "Pindahkan & tampilkan master jenis dan paket tagihan ke Modul Keuangan (SPMB View-Only)",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-17",
+   "initiative_id": "INIT-WC-FIN"
+  },
+  {
+   "id": "TICK-049",
+   "title": "Meeting Pembahasan Skema Pembayaran SPMB bareng Pak Irfan (11:31 - 12:43 WIB)",
+   "status": "done",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-17",
+   "initiative_id": "INIT-WC-SPMB"
+  },
+  {
+   "id": "TICK-050",
+   "title": "Implementasi alur tagihan Uang Muka Rp1.5jt flat pengunci kuota pendaftaran",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-18",
+   "initiative_id": "INIT-WC-SPMB"
+  },
+  {
+   "id": "TICK-051",
+   "title": "Engine perhitungan diskon Uang Pangkal & pembagian termin daftar ulang",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-19",
+   "initiative_id": "INIT-WC-FIN"
+  },
+  {
+   "id": "TICK-052",
+   "title": "Desain template invoice resmi SPMB ber-kop yayasan & breakdown legal BMS",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-20",
+   "initiative_id": "INIT-WC-FIN"
+  },
+  {
+   "id": "TICK-053",
+   "title": "Persiapan integrasi teknis BSI Virtual Account (Closed Payment & Webhook Callback)",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-22",
+   "initiative_id": "INIT-WC-FIN"
+  },
+  {
+   "id": "TICK-054",
+   "title": "Testing end-to-end integrasi VA BSI di production & simulasi pembayaran SPMB",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-23",
+   "initiative_id": "INIT-WC-FIN"
   }
  ]
 }

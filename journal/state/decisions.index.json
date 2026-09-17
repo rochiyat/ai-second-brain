@@ -1,7 +1,7 @@
 {
  "generated_from": "journal\\state\\decisions.json",
  "note": "Lean index. Full body (decision/sources/stakeholders) lives in decisions.json; look up by id.",
- "count": 15,
+ "count": 21,
  "decisions": [
   {
    "id": "DEC-0001",
@@ -106,6 +106,48 @@
    "title": "Simplifikasi ERD My Assessment: Single Source of Truth via assessment_task_id & Jawaban Numerik",
    "status": "decided",
    "decider": "Tim Dev LMS (Rochiyat & Danny)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0016",
+   "title": "Sentralisasi Pengaturan Tagihan: Master Jenis & Paket Tagihan di Modul Keuangan (SPMB View-Only)",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0017",
+   "title": "Skema Uang Muka Flat Rp1.500.000 Pengunci Kuota & Pengurang Uang Pangkal",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0018",
+   "title": "Alokasi Diskon Khusus Pemotong Uang Pangkal Sebelum Pembagian Termin",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0019",
+   "title": "Pemisahan Penagihan BMS: Penundaan Tagihan Seragam & Buku ke Tahap 2 (Feb/Mar 2027)",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0020",
+   "title": "Guardrail Jalur Internal via Lookup NIS / Database Siswa Eksisting",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0021",
+   "title": "Prasyarat Launching SPMB: Uji Coba BSI Virtual Account Settle di Production",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
    "deadline": null
   }
  ]

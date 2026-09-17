@@ -925,6 +925,113 @@
           "text": "Finalisasi dan penyusunan dokumen proposal penawaran diskon package (SPMB, Finance, Unit Usaha, HR) ke Pak Yudi selesai kemarin. Terhubung ke COM-0003."
         }
       ]
+    },
+    {
+      "id": "TICK-048",
+      "title": "Pindahkan & tampilkan master jenis dan paket tagihan ke Modul Keuangan (SPMB View-Only)",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-FIN",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-17",
+      "due": "2026-09-17",
+      "notes": "Sesuai kesepakatan meeting siang ini dengan Pak Irfan: jenis tagihan & paket tagihan dipindahkan ke modul Keuangan (global); modul SPMB hanya sebagai view/pilih paket. Tampilkan dan konfirmasi ke Pak Irfan hari ini.",
+      "comments": []
+    },
+    {
+      "id": "TICK-049",
+      "title": "Meeting Pembahasan Skema Pembayaran SPMB bareng Pak Irfan (11:31 - 12:43 WIB)",
+      "status": "done",
+      "priority": "P1",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-SPMB",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-17",
+      "due": "2026-09-17",
+      "time_wib": "11:31 - 12:43",
+      "notes": "Meeting koordinasi teknis pembayaran: alur uang muka Rp1.5jt pengunci kuota, sentralisasi modul keuangan, skema diskon uang pangkal, termin daftar ulang, dan timeline integrasi BSI. Selesai dibuatkan MOM resmi.",
+      "closed_at": "2026-09-17",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T13:30:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Meeting selesai dilaksanakan, notulensi lengkap tersimpan di Clients/SIT_Widya_Cendekia/meetings/2026-09-17_MOM_Skema_Pembayaran_SPMB_Wicend.md."
+        }
+      ]
+    },
+    {
+      "id": "TICK-050",
+      "title": "Implementasi alur tagihan Uang Muka Rp1.5jt flat pengunci kuota pendaftaran",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-SPMB",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-18",
+      "due": "2026-09-18",
+      "notes": "Tagihan uang muka Rp1.500.000 flat untuk semua unit muncul tepat setelah bayar formulir. Wajib lunas sebelum orang tua bisa melengkapi formulir; berfungsi mengunci kuota dan menjadi pengurang Uang Pangkal saat daftar ulang.",
+      "comments": []
+    },
+    {
+      "id": "TICK-051",
+      "title": "Engine perhitungan diskon Uang Pangkal & pembagian termin daftar ulang",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-FIN",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-18",
+      "due": "2026-09-19",
+      "notes": "Rumus perhitungan: Diskon (internal 10%, rombongan 20%, domisili 10%, bayar lunas) dipotongkan ke Uang Pangkal sebelum dibagi ke termin daftar ulang. Pemisahan penagihan buku dan seragam ke Tahap 2 (Feb/Mar 2027).",
+      "comments": []
+    },
+    {
+      "id": "TICK-052",
+      "title": "Desain template invoice resmi SPMB ber-kop yayasan & breakdown legal BMS",
+      "status": "todo",
+      "priority": "P1",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-FIN",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-19",
+      "due": "2026-09-20",
+      "notes": "Invoice resmi ber-kop sekolah dengan detail rincian BMS tahap 1, potongan diskon, pengurang uang muka, dan jadwal jatuh tempo termin. Dioptimalkan untuk tampilan desktop/laptop.",
+      "comments": []
+    },
+    {
+      "id": "TICK-053",
+      "title": "Persiapan integrasi teknis BSI Virtual Account (Closed Payment & Webhook Callback)",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-FIN",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-21",
+      "due": "2026-09-22",
+      "notes": "Koordinasi teknis dengan tim BSI cabang/pusat mulai Senin 21 Sept setelah SPK beres di Jumat (WAIT-0002). Setup API VA Closed Payment (Formulir & Uang Muka), webhook callback status, handling timeout, dan rekonsiliasi data.",
+      "comments": []
+    },
+    {
+      "id": "TICK-054",
+      "title": "Testing end-to-end integrasi VA BSI di production & simulasi pembayaran SPMB",
+      "status": "todo",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-FIN",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-22",
+      "due": "2026-09-23",
+      "notes": "Uji coba transaksi riil VA BSI di production sebelum SPMB dibuka ke publik. Jika belum settle dan stabil, ajukan rekomendasi penyesuaian jadwal launching SPMB ke Pak Irfan & Pak Yudi.",
+      "comments": []
     }
   ]
 }

@@ -426,7 +426,177 @@
       "created_at": 1789620000.0,
       "decided_at": 1789620000.0,
       "updated_at": 1789620000.0
+    },
+    "DEC-0016": {
+      "id": "DEC-0016",
+      "title": "Sentralisasi Pengaturan Tagihan: Master Jenis & Paket Tagihan di Modul Keuangan (SPMB View-Only)",
+      "status": "decided",
+      "decision": "Master Jenis Tagihan dan Paket Tagihan sepenuhnya dikelola di modul Keuangan (global); modul SPMB hanya sebagai view/pilih paket tagihan untuk menghindari edit manual nominal di lapangan.",
+      "decider": "Achmad Irfan & Rochiyat",
+      "decider_slug": "irfan-rochiyat",
+      "stakeholder_slugs": [
+        "rochiyat",
+        "achmad-irfan",
+        "yudi-qurbani"
+      ],
+      "project": "ERP WICEND",
+      "node": "wicend-finance",
+      "node_why": null,
+      "deadline": null,
+      "sources": [
+        {
+          "type": "manual",
+          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+          "label": "Wispr Flow"
+        }
+      ],
+      "superseded_by": null,
+      "notes": null,
+      "created_at": 1789626837.4088285,
+      "decided_at": 1789626837.4088285,
+      "updated_at": 1789626837.4088285
+    },
+    "DEC-0017": {
+      "id": "DEC-0017",
+      "title": "Skema Uang Muka Flat Rp1.500.000 Pengunci Kuota & Pengurang Uang Pangkal",
+      "status": "decided",
+      "decision": "Tagihan Uang Muka ditetapkan flat Rp 1.500.000 untuk semua unit, wajib dilunasi setelah pembayaran formulir untuk mengunci jatah kuota pendaftaran, dan dialokasikan sebagai pengurang Uang Pangkal saat daftar ulang.",
+      "decider": "Achmad Irfan & Rochiyat",
+      "decider_slug": "irfan-rochiyat",
+      "stakeholder_slugs": [
+        "rochiyat",
+        "achmad-irfan"
+      ],
+      "project": "ERP WICEND",
+      "node": "wicend-spmb",
+      "node_why": null,
+      "deadline": null,
+      "sources": [
+        {
+          "type": "manual",
+          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+          "label": "Wispr Flow"
+        }
+      ],
+      "superseded_by": null,
+      "notes": null,
+      "created_at": 1789626837.4088285,
+      "decided_at": 1789626837.4088285,
+      "updated_at": 1789626837.4088285
+    },
+    "DEC-0018": {
+      "id": "DEC-0018",
+      "title": "Alokasi Diskon Khusus Pemotong Uang Pangkal Sebelum Pembagian Termin",
+      "status": "decided",
+      "decision": "Seluruh skema diskon (internal 10%, rombongan hingga 20%, domisili 10%, bayar lunas) hanya memotong komponen Uang Pangkal, dan dipotongkan sebelum sisa tagihan daftar ulang dibagi ke dalam termin pembayaran.",
+      "decider": "Achmad Irfan & Rochiyat",
+      "decider_slug": "irfan-rochiyat",
+      "stakeholder_slugs": [
+        "rochiyat",
+        "achmad-irfan"
+      ],
+      "project": "ERP WICEND",
+      "node": "wicend-finance",
+      "node_why": null,
+      "deadline": null,
+      "sources": [
+        {
+          "type": "manual",
+          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+          "label": "Wispr Flow"
+        }
+      ],
+      "superseded_by": null,
+      "notes": null,
+      "created_at": 1789626837.4088285,
+      "decided_at": 1789626837.4088285,
+      "updated_at": 1789626837.4088285
+    },
+    "DEC-0019": {
+      "id": "DEC-0019",
+      "title": "Pemisahan Penagihan BMS: Penundaan Tagihan Seragam & Buku ke Tahap 2 (Feb/Mar 2027)",
+      "status": "decided",
+      "decision": "Komponen seragam dan buku tidak ditagihkan saat pembukaan awal SPMB, melainkan dipublish terpisah pada Februari/Maret 2027 saat harga fix dari vendor pihak ketiga sudah diperoleh.",
+      "decider": "Achmad Irfan & Rochiyat",
+      "decider_slug": "irfan-rochiyat",
+      "stakeholder_slugs": [
+        "rochiyat",
+        "achmad-irfan"
+      ],
+      "project": "ERP WICEND",
+      "node": "wicend-spmb",
+      "node_why": null,
+      "deadline": null,
+      "sources": [
+        {
+          "type": "manual",
+          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+          "label": "Wispr Flow"
+        }
+      ],
+      "superseded_by": null,
+      "notes": null,
+      "created_at": 1789626837.4088285,
+      "decided_at": 1789626837.4088285,
+      "updated_at": 1789626837.4088285
+    },
+    "DEC-0020": {
+      "id": "DEC-0020",
+      "title": "Guardrail Jalur Internal via Lookup NIS / Database Siswa Eksisting",
+      "status": "decided",
+      "decision": "Pendaftaran jalur internal wajib divalidasi dengan lookup NIS/database siswa eksisting; pendaftar eksternal dilarang dan otomatis terkunci dari memilih opsi internal.",
+      "decider": "Achmad Irfan & Rochiyat",
+      "decider_slug": "irfan-rochiyat",
+      "stakeholder_slugs": [
+        "rochiyat",
+        "achmad-irfan"
+      ],
+      "project": "ERP WICEND",
+      "node": "wicend-spmb",
+      "node_why": null,
+      "deadline": null,
+      "sources": [
+        {
+          "type": "manual",
+          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+          "label": "Wispr Flow"
+        }
+      ],
+      "superseded_by": null,
+      "notes": null,
+      "created_at": 1789626837.4088285,
+      "decided_at": 1789626837.4088285,
+      "updated_at": 1789626837.4088285
+    },
+    "DEC-0021": {
+      "id": "DEC-0021",
+      "title": "Prasyarat Launching SPMB: Uji Coba BSI Virtual Account Settle di Production",
+      "status": "decided",
+      "decision": "Peluncuran SPMB mensyaratkan integrasi BSI Virtual Account telah diuji coba berhasil di production. Jika belum stabil, jadwal pembukaan SPMB disepakati dimundurkan 1-2 pekan daripada berjalan setengah-setengah.",
+      "decider": "Achmad Irfan & Rochiyat",
+      "decider_slug": "irfan-rochiyat",
+      "stakeholder_slugs": [
+        "rochiyat",
+        "achmad-irfan",
+        "yudi-qurbani"
+      ],
+      "project": "ERP WICEND",
+      "node": "wicend-finance",
+      "node_why": null,
+      "deadline": null,
+      "sources": [
+        {
+          "type": "manual",
+          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+          "label": "Wispr Flow"
+        }
+      ],
+      "superseded_by": null,
+      "notes": null,
+      "created_at": 1789626837.4088285,
+      "decided_at": 1789626837.4088285,
+      "updated_at": 1789626837.4088285
     }
   },
-  "next_seq": 16
+  "next_seq": 22
 }
