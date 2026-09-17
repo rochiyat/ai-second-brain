@@ -3,7 +3,7 @@
  "last_render_problems": [
   "master_followup_tracker.md: exit 1 Exception in thread Thread-1 (_readerthread):\nTraceback (most recent call last):\n  File \"C:\\Users\\ROCHIYAT\\AppData\\Roaming\\uv\\python\\cpython-3.11-windows-x86_64-none\\Lib\\threading.py\", line 1045, in _"
  ],
- "last_sync_wib": "2026-09-17 11:20:12 WIB",
+ "last_sync_wib": "2026-09-17 13:33:13 WIB",
  "ledgers": {
   "chase_queue": {
    "commit": "4cc0e20",
@@ -27,11 +27,11 @@
    "reason": "decisions: decide DEC-0003 --decision Fitur multi-role user ditunda ke sprint depan karena "
   },
   "waiting_on": {
-   "commit": "a41c9a6",
-   "last_sync_epoch": 1789618812.7159514,
-   "last_sync_wib": "2026-09-17 11:20:12 WIB",
+   "commit": "7ea94f6",
+   "last_sync_epoch": 1789626793.2612503,
+   "last_sync_wib": "2026-09-17 13:33:13 WIB",
    "pushed": false,
-   "reason": "waiting_on: close WAIT-0001 --note Dean telah merge hasil FE (dengan revisi). TICK-004 seles"
+   "reason": "waiting_on: add --owner Achmad Irfan & Pak Yudi --what Penyelesaian SPK BSI dan kontak tim t"
   }
  },
  "pending_push": true

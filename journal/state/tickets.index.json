@@ -37,7 +37,7 @@
   {
    "id": "TICK-004",
    "title": "Menu Department, Job Role, Level: take out kolom code",
-   "status": "blocked",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -57,7 +57,7 @@
   {
    "id": "TICK-006",
    "title": "Course Catalog FE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -71,7 +71,7 @@
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
-   "due": "2026-09-16",
+   "due": "2026-09-17",
    "initiative_id": "INIT-BH-1"
   },
   {
@@ -81,7 +81,7 @@
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
-   "due": "2026-09-16",
+   "due": "2026-09-17",
    "initiative_id": "INIT-BH-1"
   },
   {
@@ -207,7 +207,7 @@
   {
    "id": "TICK-021",
    "title": "Testing negatif test saat import employee",
-   "status": "blocked",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",

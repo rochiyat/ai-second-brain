@@ -68,13 +68,13 @@
    "id": "INIT-BH-1",
    "title": "Healthcare LMS Platform",
    "status": "in_progress",
-   "health": "at_risk",
+   "health": "on_track",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
    "due": "Tech Stack Recommendation & System Architecture",
-   "blocker_count": 1,
+   "blocker_count": 0,
    "workstream_count": 2,
-   "workstreams_open": 2
+   "workstreams_open": 1
   },
   {
    "id": "INIT-IQ-1",

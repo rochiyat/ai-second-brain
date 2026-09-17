@@ -21,7 +21,30 @@
    "notes": "",
    "needs_escalation": false,
    "close_note": "Dean telah merge hasil FE (dengan revisi). TICK-004 selesai, unblocking testing import employee."
+  },
+  "WAIT-0002": {
+   "id": "WAIT-0002",
+   "owner": "Achmad Irfan & Pak Yudi",
+   "owner_slug": "achmad-irfan-pak-yudi",
+   "what": "Penyelesaian SPK BSI dan kontak tim teknis BSI untuk integrasi VA SPMB",
+   "initiative_id": "INIT-WC-FIN",
+   "node": "wicend-finance",
+   "node_why": null,
+   "since": 1789626785.0472553,
+   "sla_hours": 48.0,
+   "escalate_to": "",
+   "escalation_path": "",
+   "source": {
+    "type": "manual",
+    "permalink": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM"
+   },
+   "status": "open",
+   "breached_at": null,
+   "last_nudge_at": null,
+   "first_seen": 1789626785.0472553,
+   "closed_at": null,
+   "notes": ""
   }
  },
- "next_seq": 2
+ "next_seq": 3
 }

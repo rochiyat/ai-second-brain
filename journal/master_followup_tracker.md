@@ -5,7 +5,7 @@
 >
 > **Every id below is clickable.** `COM-`/`WAIT-`/`DEC-` links open that record on the local dashboard (http://localhost:3737) with its owner, SLA, source, timeline and notes. If a link does nothing, the dashboard is down: `bash .agent/scripts/ensure_dashboard.sh`
 
-**Last generated**: 2026-09-17 11:20 WIB
+**Last generated**: 2026-09-17 13:33 WIB
 
 ---
 
@@ -13,7 +13,10 @@ _(could not render: ! commitments report failed to run: 'NoneType' object has no
 
 ---
 
-No open waiting-on items. Watchdog is clean.
+_(could not render: ! waiting_on report exited 1: Traceback (most recent call last):
+  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/waiting-watchdog/scripts/waiting_watchdog.py", line 513, in <module>
+    main()
+  File "D:\PROJECT\MYSELF\HERMES\BroBri\ai-second-brain\.agent/skills/waiting-watchdog/scripts/waiting_watchdog.py")_
 
 ---
 
@@ -30,5 +33,5 @@ _(could not render: ! decisions report exited 1: Traceback (most recent call las
 |:---|:---|
 | Open commitments (the owner owes) | 1 |
 | Overdue commitments | 1 |
-| Active waiting-on (others owe the owner) | 0 |
+| Active waiting-on (others owe the owner) | 1 |
 | Flagged for escalation | 0 |

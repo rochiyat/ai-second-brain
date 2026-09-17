@@ -53,7 +53,7 @@
     {
       "id": "TICK-004",
       "title": "Menu Department, Job Role, Level: take out kolom code",
-      "status": "blocked",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
@@ -62,7 +62,7 @@
       "due": "2026-09-14",
       "time_wib": "11:00",
       "notes": "Dijadwalkan pengerjaan di kantor jam 11:00 WIB.",
-      "blocker": "Tunggu hasil merged FE dari Dean",
+      "blocker": null,
       "comments": [
         {
           "ts_wib": "2026-09-15T07:32:00+07:00",
@@ -75,8 +75,15 @@
           "by": "owner",
           "change": "status in_progress to blocked; blocker None to Tunggu hasil merged FE dari Dean",
           "text": "Blocker: Tunggu hasil merged FE dari Dean"
+        },
+        {
+          "ts_wib": "2026-09-17T11:19:27+07:00",
+          "by": "owner",
+          "change": "status blocked to done; blocker Tunggu hasil merged FE dari Dean to null",
+          "text": "Selesai. Catatan: Pengerjaan memakan waktu lebih lama karena proses unblock dari hasil merged PR/FE memerlukan revisi yang memakan waktu lebih lama dari yang direncanakan."
         }
-      ]
+      ],
+      "closed_at": "2026-09-17"
     },
     {
       "id": "TICK-005",
@@ -103,14 +110,23 @@
     {
       "id": "TICK-006",
       "title": "Course Catalog FE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-15",
-      "due": "2026-09-16"
+      "due": "2026-09-16",
+      "closed_at": "2026-09-17",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T10:45:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Frontend Course Catalog (List & Detail) sudah selesai dan bisa dijalankan; dilaporkan dalam daily meet 17 Sept."
+        }
+      ]
     },
     {
       "id": "TICK-007",
@@ -122,7 +138,15 @@
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-15",
-      "due": "2026-09-16"
+      "due": "2026-09-17",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T10:45:00+07:00",
+          "by": "owner",
+          "change": "due 2026-09-16 to 2026-09-17",
+          "text": "Target Backend Course Catalog diselaraskan ke 17 Sept 2026 (interface sedang berjalan)."
+        }
+      ]
     },
     {
       "id": "TICK-008",
@@ -134,7 +158,15 @@
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-15",
-      "due": "2026-09-16"
+      "due": "2026-09-17",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T10:45:00+07:00",
+          "by": "owner",
+          "change": "due 2026-09-16 to 2026-09-17",
+          "text": "Target Integrasi FE-BE diselaraskan ke hari ini 17 Sept 2026."
+        }
+      ]
     },
     {
       "id": "TICK-009",
@@ -347,7 +379,7 @@
     {
       "id": "TICK-021",
       "title": "Testing negatif test saat import employee",
-      "status": "blocked",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
@@ -357,7 +389,7 @@
       "due": "2026-09-15",
       "time_wib": "11:00",
       "notes": "Dijadwalkan pengerjaan di kantor jam 11:00 WIB bersama TICK-004.",
-      "blocker": "Tunggu hasil merged FE dari Dean",
+      "blocker": null,
       "comments": [
         {
           "ts_wib": "2026-09-15T07:32:00+07:00",
@@ -376,6 +408,18 @@
           "by": "owner",
           "change": "status todo to blocked; blocker None to Tunggu hasil merged FE dari Dean",
           "text": "Blocker: Tunggu hasil merged FE dari Dean"
+        },
+        {
+          "ts_wib": "2026-09-17T11:19:27+07:00",
+          "by": "owner",
+          "change": "status blocked to todo; blocker Tunggu hasil merged FE dari Dean to null",
+          "text": "Unblocked: Hasil merged FE dari Dean sudah masuk (setelah revisi), siap untuk dilakukan testing negatif test import employee."
+        },
+        {
+          "ts_wib": "2026-09-17T13:17:50+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Testing negatif test saat import employee selesai."
         }
       ],
       "note": "Cek validasinya, apakah hanya tampil atau sudah disimpan ke database\nJika satu gagal, apa yang akan terjadi dengan data lainnya\nCek yang lainnya juga ya"

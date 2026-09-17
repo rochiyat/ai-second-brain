@@ -178,18 +178,12 @@
           "id": "INIT-BH-1",
           "name": "Healthcare LMS Platform",
           "status": "in_progress",
-          "health": "at_risk",
+          "health": "on_track",
           "owner": "Rochiyat",
           "one_liner": "Learning management system untuk tenaga kesehatan",
-          "now": "Penyelesaian penyesuaian menu Department, Job Role, Level & Testing import employee",
+          "now": "Course Catalog BE (TICK-007) & Integrasi FE-BE (TICK-008), Kirim ERD My Assessment ke Dean (TICK-031)",
           "next_milestone": "Tech Stack Recommendation & System Architecture",
-          "blockers": [
-            {
-              "what": "Tunggu hasil merged FE dari Dean",
-              "owner": "Dean",
-              "since": "2026-09-15"
-            }
-          ],
+          "blockers": [],
           "workstreams": [
             {
               "name": "Core LMS Engine & Video Delivery",
@@ -200,10 +194,10 @@
             },
             {
               "name": "Menu Master (Department, Job Role, Level - take out kolom code)",
-              "phase": "Development",
-              "status": "blocked",
+              "phase": "Complete",
+              "status": "done",
               "prd": "Internal Task",
-              "blocker": "Tunggu hasil merged FE dari Dean"
+              "blocker": null
             }
           ]
         }
