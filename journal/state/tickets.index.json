@@ -2,7 +2,7 @@
  "generated_from": "journal\\state\\tickets.json",
  "source_updated_wib": null,
  "note": "Lean index. Full body (note/comments/links) lives in tickets.json; look up by id.",
- "count": 54,
+ "count": 57,
  "tickets": [
   {
    "id": "TICK-001",
@@ -307,7 +307,7 @@
   {
    "id": "TICK-031",
    "title": "Buat ERD My Assessment BE (Employee) untuk Dean",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat, Dean",
    "project": "LMS BITHEALTH",
@@ -316,12 +316,12 @@
   },
   {
    "id": "TICK-032",
-   "title": "[Bithealth] LMS Weekly Meeting (14:00 - 15:00 WIB)",
+   "title": "[Bithealth] LMS Weekly Meeting & Demo HR (14:00 - 15:00 WIB)",
    "status": "todo",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
-   "due": "2026-09-17",
+   "due": "2026-09-23",
    "initiative_id": "INIT-BH-1"
   },
   {
@@ -407,7 +407,7 @@
   {
    "id": "TICK-041",
    "title": "Ketemuan bareng Pak Hendra dan Pak Yusuf di Cafe (Diskusi Inisiasi Learning Iqrolife)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LEARNING IQROLIFE",
@@ -543,6 +543,36 @@
    "project": "ERP WICEND",
    "due": "2026-09-23",
    "initiative_id": "INIT-WC-FIN"
+  },
+  {
+   "id": "TICK-055",
+   "title": "Riset & penyusunan instrumen Assessment 4 Modalitas",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat",
+   "project": "LEARNING IQROLIFE",
+   "due": "2026-09-22",
+   "initiative_id": "INIT-IQ-1"
+  },
+  {
+   "id": "TICK-056",
+   "title": "Produksi Jingle: Penentuan jadwal & pemilihan studio rekaman",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat, Pak Hendra",
+   "project": "LEARNING IQROLIFE",
+   "due": "2026-09-21",
+   "initiative_id": "INIT-IQ-1"
+  },
+  {
+   "id": "TICK-057",
+   "title": "Pemetaan kebutuhan client untuk IT (ERP/sistem & HR/people)",
+   "status": "todo",
+   "priority": "P1",
+   "owner": "Rochiyat, Pak Yusuf",
+   "project": "LEARNING IQROLIFE",
+   "due": "2026-09-24",
+   "initiative_id": "INIT-IQ-1"
   }
  ]
 }

@@ -166,7 +166,7 @@
       "id": "DEC-0007",
       "title": "Reschedule meeting demo HR ke minggu depan & FSD Ratih dilanjutkan oleh Ken",
       "status": "decided",
-      "decision": "Meeting show/demo dengan user HR yang semula dijadwalkan Kamis 17 Sept di-reschedule ke minggu depan karena Ratih & Rafi difokuskan membuat PPT tenant/promosi (Rabu s.d. Jumat siang). Dokumen FSD HR di-hold sementara dan dilanjutkan oleh Ken dengan cakupan general (tidak perlu full CRUD).",
+      "decision": "Meeting show/demo dengan user HR yang semula dijadwalkan Kamis 17 Sept di-reschedule ke hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan LMS Weekly Meeting karena Ratih & Rafi difokuskan membuat PPT tenant/promosi (sampai Jumat siang). Dokumen FSD HR di-hold sementara dan dilanjutkan oleh Ken dengan cakupan general (tidak perlu full CRUD).",
       "decider": "Alexander Horison & Ratih Pinandita",
       "decider_slug": "alex-ratih",
       "stakeholder_slugs": [
@@ -187,10 +187,10 @@
         }
       ],
       "superseded_by": null,
-      "notes": null,
+      "notes": "Update 17 Sept: Jadwal resmi meeting HR ditetapkan pada hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan LMS Weekly Meeting.",
       "created_at": 1789531140.0,
       "decided_at": 1789531140.0,
-      "updated_at": 1789531140.0
+      "updated_at": 1789713800.0
     },
     "DEC-0008": {
       "id": "DEC-0008",

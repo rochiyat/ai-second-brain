@@ -633,7 +633,7 @@
     {
       "id": "TICK-031",
       "title": "Buat ERD My Assessment BE (Employee) untuk Dean",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat, Dean",
       "project": "LMS BITHEALTH",
@@ -641,28 +641,43 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-15",
       "due": "2026-09-16",
+      "closed_at": "2026-09-17",
       "figma_reference": "https://www.figma.com/design/4BYZkae6jpEd1bwFbqiz0h/-BitHealth--LMS-Module?node-id=2322-20353&t=Jz6GZMYGiDJhVfkN-0",
       "notes": "Target kirim ERD ke Dean maksimal hari Rabu 16 Sept siang (12:00 WIB).",
-      "commitment_id": "COM-0001"
+      "commitment_id": "COM-0001",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T13:35:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "ERD My Assessment BE (Employee) selesai dibuat dan diselaraskan sesuai skema DBML disederhanakan (DEC-0015). Dokumen tersimpan di Clients/LMS_Bithealth/ProductArea/ERD_My_Assessment_BE_Employee.md."
+        }
+      ]
     },
     {
       "id": "TICK-032",
-      "title": "[Bithealth] LMS Weekly Meeting (14:00 - 15:00 WIB)",
+      "title": "[Bithealth] LMS Weekly Meeting & Demo HR (14:00 - 15:00 WIB)",
       "status": "todo",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
-      "start_date": "2026-09-17",
-      "due": "2026-09-17",
-      "notes": "Catatan meeting 16 Sept: Demo/meeting HR yang semula Kamis di-reschedule ke minggu depan (hari menyusul). Tim bebas WFH.",
+      "start_date": "2026-09-23",
+      "due": "2026-09-23",
+      "notes": "Meeting HR di-reschedule ke minggu depan karena Ratih & Rafi fokus bikin PPT tenant sampai Jumat siang. Jadwal resmi: Rabu, 23 Sept 2026 jam 14:00 - 15:00 WIB berbarengan dengan LMS Weekly Meeting.",
       "comments": [
         {
           "ts_wib": "2026-09-16T10:55:00+07:00",
           "by": "owner",
           "change": "notes updated",
           "text": "Meeting HR di-reschedule ke minggu depan karena Ratih & Rafi fokus bikin PPT tenant sampai Jumat siang."
+        },
+        {
+          "ts_wib": "2026-09-17T13:43:20+07:00",
+          "by": "owner",
+          "change": "reschedule to 2026-09-23",
+          "text": "Meeting HR resmi di-reschedule ke hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan weekly meeting LMS karena Ratih & Rafi fokus bikin PPT tenant sampai Jumat siang."
         }
       ]
     },
@@ -801,7 +816,7 @@
     {
       "id": "TICK-041",
       "title": "Ketemuan bareng Pak Hendra dan Pak Yusuf di Cafe (Diskusi Inisiasi Learning Iqrolife)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LEARNING IQROLIFE",
@@ -811,7 +826,16 @@
       "due": "2026-09-16",
       "time_wib": "20:00 - 21:30",
       "source_url": "https://www.google.com/calendar/event?eid=NnE3Z3ZhMmtxcHQxcDFrMXRtYjI5YWJwZ2cgcm9jaGl5YXRAYml0aGVhbHRoLmNvLmlk",
-      "notes": "Ketemuan santai di Cafe bersama Pak Hendra dan Pak Yusuf untuk diskusi inisiasi & arah platform LEARNING IQROLIFE."
+      "notes": "Ketemuan santai di Cafe bersama Pak Hendra dan Pak Yusuf untuk diskusi inisiasi & arah platform LEARNING IQROLIFE.",
+      "closed_at": "2026-09-17",
+      "comments": [
+        {
+          "ts_wib": "2026-09-17T13:42:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Diskusi inisiasi selesai. Menghasilkan 3 target utama: 1. Assessment 4 modalitas, 2. Jingle (jadwal & studio), 3. Pemetaan kebutuhan client IT (ERP/sistem & HR/people)."
+        }
+      ]
     },
     {
       "id": "TICK-042",
@@ -1031,6 +1055,48 @@
       "start_date": "2026-09-22",
       "due": "2026-09-23",
       "notes": "Uji coba transaksi riil VA BSI di production sebelum SPMB dibuka ke publik. Jika belum settle dan stabil, ajukan rekomendasi penyesuaian jadwal launching SPMB ke Pak Irfan & Pak Yudi.",
+      "comments": []
+    },
+    {
+      "id": "TICK-055",
+      "title": "Riset & penyusunan instrumen Assessment 4 Modalitas",
+      "status": "todo",
+      "priority": "P1",
+      "owner": "Rochiyat",
+      "project": "LEARNING IQROLIFE",
+      "initiative_id": "INIT-IQ-1",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-18",
+      "due": "2026-09-22",
+      "notes": "Target 1 hasil diskusi santai di Cafe bareng Pak Hendra & Pak Yusuf: Riset metodologi dan penyusunan instrumen assessment 4 modalitas belajar/karakter.",
+      "comments": []
+    },
+    {
+      "id": "TICK-056",
+      "title": "Produksi Jingle: Penentuan jadwal & pemilihan studio rekaman",
+      "status": "todo",
+      "priority": "P1",
+      "owner": "Rochiyat, Pak Hendra",
+      "project": "LEARNING IQROLIFE",
+      "initiative_id": "INIT-IQ-1",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-18",
+      "due": "2026-09-21",
+      "notes": "Target 2 hasil diskusi: Tentukan timeline/jadwal produksi dan survey/booking studio rekaman untuk pembuatan jingle Learning Iqrolife.",
+      "comments": []
+    },
+    {
+      "id": "TICK-057",
+      "title": "Pemetaan kebutuhan client untuk IT (ERP/sistem & HR/people)",
+      "status": "todo",
+      "priority": "P1",
+      "owner": "Rochiyat, Pak Yusuf",
+      "project": "LEARNING IQROLIFE",
+      "initiative_id": "INIT-IQ-1",
+      "created_at": "2026-09-17",
+      "start_date": "2026-09-19",
+      "due": "2026-09-24",
+      "notes": "Target 3 hasil diskusi: Identifikasi dan pemetaan kebutuhan spesifik calon klien terkait sistem IT, terutama modul ERP operasional dan manajemen HR/people.",
       "comments": []
     }
   ]
