@@ -173,7 +173,7 @@ def main():
     parser.add_argument("--title", help="Post title")
     parser.add_argument("--content", help="Post HTML content or text")
     parser.add_argument("--content-file", help="Path to file containing post content")
-    parser.add_argument("--status", choices=["draft", "publish", "pending", "private"], default=None)
+    parser.add_argument("--status", choices=["draft", "publish", "pending", "private", "any"], default=None)
     parser.add_argument("--file", help="File path for upload-media")
     parser.add_argument("--id", type=int, help="Post ID")
     parser.add_argument("--limit", type=int, default=10, help="Limit for list-posts")
