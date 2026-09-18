@@ -658,8 +658,8 @@
   "DEC-0024": {
    "id": "DEC-0024",
    "title": "Standardisasi Viewer Materi Course PDF: Default Scroller Vertikal",
-   "status": "open",
-   "decision": null,
+   "status": "decided",
+   "decision": "Viewer materi PDF sisi employee menggunakan perilaku default scroll vertikal dan jump to page untuk tahap awal, sambil tim FE mengevaluasi plugin library viewer yang tepat untuk admin dan employee.",
    "decider": "Tim Dev LMS (Rochiyat & Danny)",
    "decider_slug": "tim-dev-lms-rochiyat-danny",
    "stakeholder_slugs": [
@@ -680,8 +680,8 @@
    "superseded_by": null,
    "notes": null,
    "created_at": 1789700837.0713954,
-   "decided_at": null,
-   "updated_at": 1789700837.0713954
+   "decided_at": 1789700845.4204814,
+   "updated_at": 1789700845.4204814
   }
  },
  "next_seq": 25

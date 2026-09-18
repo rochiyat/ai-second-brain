@@ -3,7 +3,7 @@
  "last_render_problems": [
   "master_followup_tracker.md: exit 1 ! waiting_on report exited 1: Traceback (most recent call last):\n  File \"D:\\PROJECT\\MYSELF\\HERMES\\BroBri\\ai-second-brain\\.agent/skills/waiting-watchdog/scripts/waiting_watchdog.py\", line 513, in <modu"
  ],
- "last_sync_wib": "2026-09-18 10:07:24 WIB",
+ "last_sync_wib": "2026-09-18 10:07:33 WIB",
  "ledgers": {
   "chase_queue": {
    "commit": "4cc0e20",
@@ -20,11 +20,11 @@
    "reason": "commitments: close COM-0001 --note ERD My Assessment BE untuk Dean selesai dibuat dan diselar"
   },
   "decisions": {
-   "commit": "7b222a4",
-   "last_sync_epoch": 1789700844.7998197,
-   "last_sync_wib": "2026-09-18 10:07:24 WIB",
+   "commit": "a3c1821",
+   "last_sync_epoch": 1789700853.0566597,
+   "last_sync_wib": "2026-09-18 10:07:33 WIB",
    "pushed": false,
-   "reason": "decisions: add --title Standardisasi Viewer Materi Course PDF: Default Scroller Vertikal --"
+   "reason": "decisions: decide DEC-0024 --decision Viewer materi PDF sisi employee menggunakan perilaku "
   },
   "waiting_on": {
    "commit": "7ea94f6",
