@@ -3,7 +3,7 @@
  "last_render_problems": [
   "master_followup_tracker.md: exit 1 ! waiting_on report exited 1: Traceback (most recent call last):\n  File \"D:\\PROJECT\\MYSELF\\HERMES\\BroBri\\ai-second-brain\\.agent/skills/waiting-watchdog/scripts/waiting_watchdog.py\", line 513, in <modu"
  ],
- "last_sync_wib": "2026-09-18 10:06:59 WIB",
+ "last_sync_wib": "2026-09-18 10:07:07 WIB",
  "ledgers": {
   "chase_queue": {
    "commit": "4cc0e20",
@@ -20,11 +20,11 @@
    "reason": "commitments: close COM-0001 --note ERD My Assessment BE untuk Dean selesai dibuat dan diselar"
   },
   "decisions": {
-   "commit": "5b3d436",
-   "last_sync_epoch": 1789700819.0816243,
-   "last_sync_wib": "2026-09-18 10:06:59 WIB",
+   "commit": "9c1483d",
+   "last_sync_epoch": 1789700827.7559354,
+   "last_sync_wib": "2026-09-18 10:07:07 WIB",
    "pushed": false,
-   "reason": "decisions: decide DEC-0022 --decision Komponen Frontend Assessment yang telah dirapikan dan"
+   "reason": "decisions: add --title Strategi Migrasi & Merge Code: Base Developer + Business Logic Temp "
   },
   "waiting_on": {
    "commit": "7ea94f6",

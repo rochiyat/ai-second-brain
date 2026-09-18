@@ -625,7 +625,36 @@
    "created_at": 1789700802.8279834,
    "decided_at": 1789700811.549162,
    "updated_at": 1789700811.549162
+  },
+  "DEC-0023": {
+   "id": "DEC-0023",
+   "title": "Strategi Migrasi & Merge Code: Base Developer + Business Logic Temp",
+   "status": "open",
+   "decision": null,
+   "decider": "Tim Dev LMS (Rochiyat & Danny)",
+   "decider_slug": "tim-dev-lms-rochiyat-danny",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/vnFi3-V1gTn5Ql_Dz_dBOTU_WYJ4umpEfu1_glazblQ",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789700819.6507776,
+   "decided_at": null,
+   "updated_at": 1789700819.6507776
   }
  },
- "next_seq": 23
+ "next_seq": 24
 }

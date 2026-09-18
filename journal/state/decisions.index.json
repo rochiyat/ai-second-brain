@@ -1,7 +1,7 @@
 {
  "generated_from": "journal\\state\\decisions.json",
  "note": "Lean index. Full body (decision/sources/stakeholders) lives in decisions.json; look up by id.",
- "count": 22,
+ "count": 23,
  "decisions": [
   {
    "id": "DEC-0001",
@@ -155,6 +155,13 @@
    "title": "Deployment FE Assessment Dean: Direct Push Tanpa PR",
    "status": "decided",
    "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0023",
+   "title": "Strategi Migrasi & Merge Code: Base Developer + Business Logic Temp",
+   "status": "open",
+   "decider": "Tim Dev LMS (Rochiyat & Danny)",
    "deadline": null
   }
  ]
