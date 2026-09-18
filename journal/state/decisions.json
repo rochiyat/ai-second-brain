@@ -1,602 +1,631 @@
 {
-  "items": {
-    "DEC-0001": {
-      "id": "DEC-0001",
-      "title": "Base branch bersama frontend LMS: app-feature-theme",
-      "status": "decided",
-      "decision": "Base branch bersama frontend: app-feature-theme. Branch masing-masing developer di-PR ke branch ini; backend dan frontend tetap terpisah repo/branch.",
-      "decider": "Tim Dev LMS",
-      "decider_slug": "tim-dev-lms",
-      "stakeholder_slugs": [],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789395383.5362816,
-      "decided_at": 1789395413.8663347,
-      "updated_at": 1789395413.8663347
-    },
-    "DEC-0002": {
-      "id": "DEC-0002",
-      "title": "Flow password user: auto-generate & email plaintext (tanpa input UI)",
-      "status": "decided",
-      "decision": "Saat add user, password di-generate otomatis dan dikirim plaintext via email (tanpa input password di UI). Reset password admin diletakkan sebagai action terpisah di row list.",
-      "decider": "Tim Dev LMS",
-      "decider_slug": "tim-dev-lms",
-      "stakeholder_slugs": [],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789395391.6521683,
-      "decided_at": 1789395422.2168727,
-      "updated_at": 1789395422.2168727
-    },
-    "DEC-0003": {
-      "id": "DEC-0003",
-      "title": "Penundaan fitur multi-role ke sprint depan (solusi role gabungan baru)",
-      "status": "decided",
-      "decision": "Fitur multi-role user ditunda ke sprint depan karena butuh waktu ~1 minggu dev dan penyesuaian DB. Solusi sementara: membuat role gabungan baru (misal Admin + Employee).",
-      "decider": "Tim Dev LMS & Ratih",
-      "decider_slug": "tim-dev-lms-ratih",
-      "stakeholder_slugs": [],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789395399.4377546,
-      "decided_at": 1789395431.0134206,
-      "updated_at": 1789395431.0134206
-    },
-    "DEC-0004": {
-      "id": "DEC-0004",
-      "title": "Migrasi repository ke stack-based Specification pattern (BhcRepository)",
-      "status": "decided",
-      "decision": "Repository pindah ke stack-based Specification pattern (BhcRepository); queryLookupStrategy=USE_DECLARED_QUERY sehingga method query bawaan JPA dinonaktifkan.",
-      "decider": "Elly Efendi",
-      "decider_slug": "elly-efendi",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "dean",
-        "danny"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/m9bkO4MaQZq773XVAkkZYOF3_QSNp-MrFkK_x7qz7a4",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789467600.0,
-      "decided_at": 1789467600.0,
-      "updated_at": 1789467600.0
-    },
-    "DEC-0005": {
-      "id": "DEC-0005",
-      "title": "Isolasi layer Service dilarang kenal DTO (wajib VO) & @Transactional wajib di method mutasi",
-      "status": "decided",
-      "decision": "Level service dilarang menerima atau mengembalikan DTO (wajib gunakan Value Object / VO); anotasi @Transactional wajib pada method service yang memanggil repository agar perubahan ter-flush ke DB fisik.",
-      "decider": "Elly Efendi",
-      "decider_slug": "elly-efendi",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "dean",
-        "danny"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/m9bkO4MaQZq773XVAkkZYOF3_QSNp-MrFkK_x7qz7a4",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789467600.0,
-      "decided_at": 1789467600.0,
-      "updated_at": 1789467600.0
-    },
-    "DEC-0006": {
-      "id": "DEC-0006",
-      "title": "Konvensi package domain modular, tabel DB tanpa prefix, dan UUID auto-generator",
-      "status": "decided",
-      "decision": "Package domain berlaku seragam di semua layer dengan prefix group domain (misal: entity.learning.course / LearningCourse); nama tabel DB persis nama entity tanpa prefix MS/master; @Column pada id dibuang dan UUID digenerate via GenerationType.AUTO.",
-      "decider": "Elly Efendi & Tim Dev LMS",
-      "decider_slug": "elly-efendi-tim-dev-lms",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "dean",
-        "danny"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/m9bkO4MaQZq773XVAkkZYOF3_QSNp-MrFkK_x7qz7a4",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789467600.0,
-      "decided_at": 1789467600.0,
-      "updated_at": 1789467600.0
-    },
-    "DEC-0007": {
-      "id": "DEC-0007",
-      "title": "Reschedule meeting demo HR ke minggu depan & FSD Ratih dilanjutkan oleh Ken",
-      "status": "decided",
-      "decision": "Meeting show/demo dengan user HR yang semula dijadwalkan Kamis 17 Sept di-reschedule ke hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan LMS Weekly Meeting karena Ratih & Rafi difokuskan membuat PPT tenant/promosi (sampai Jumat siang). Dokumen FSD HR di-hold sementara dan dilanjutkan oleh Ken dengan cakupan general (tidak perlu full CRUD).",
-      "decider": "Alexander Horison & Ratih Pinandita",
-      "decider_slug": "alex-ratih",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "dean",
-        "danny",
-        "ken"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/_kMphRdKOpvqj_f2LqvYCDeANh9unroXsJTASHPPx7E",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": "Update 17 Sept: Jadwal resmi meeting HR ditetapkan pada hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan LMS Weekly Meeting.",
-      "created_at": 1789531140.0,
-      "decided_at": 1789531140.0,
-      "updated_at": 1789713800.0
-    },
-    "DEC-0008": {
-      "id": "DEC-0008",
-      "title": "Penyelarasan query FE Course Catalog & riset UX Assessment Mode",
-      "status": "decided",
-      "decision": "Course Catalog dibaca langsung dari tabel bit_course relasi ke bit_course_assignment (berdasarkan divisi dan job role ID) dengan status publish. Halaman pengerjaan assessment (Assessment Mode) diriset oleh Dean terutama untuk penanganan countdown timer, session persistence saat refresh, dan navigasi tab.",
-      "decider": "Tim Dev LMS (Danny, Rochiyat, Dean)",
-      "decider_slug": "tim-dev-lms",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "dean",
-        "danny"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/_kMphRdKOpvqj_f2LqvYCDeANh9unroXsJTASHPPx7E",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789531140.0,
-      "decided_at": 1789531140.0,
-      "updated_at": 1789531140.0
-    },
-    "DEC-0009": {
-      "id": "DEC-0009",
-      "title": "Penggantian istilah 'Uang Pangkal' menjadi 'Uang Muka' di SPMB",
-      "status": "decided",
-      "decision": "Seluruh label, form pengaturan, template invoice, dan portal pendaftaran SPMB resmi mengganti istilah 'Uang Pangkal' menjadi 'Uang Muka' (DP).",
-      "decider": "Yayasan Al-Kautsar Cendekia (Pak Irfan, Pak Yudi) & Rochiyat",
-      "decider_slug": "yayasan-cendekia-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "pak-irfan",
-        "pak-yudi",
-        "pak-agus"
-      ],
-      "project": "ERP WICEND",
-      "node": "spmb-module",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789545600.0,
-      "decided_at": 1789545600.0,
-      "updated_at": 1789545600.0
-    },
-    "DEC-0010": {
-      "id": "DEC-0010",
-      "title": "Form wawancara orang tua dialihkan menjadi wewenang Kepala Sekolah",
-      "status": "decided",
-      "decision": "Form wawancara orang tua dialihkan secara formal menjadi wewenang dan tanggung jawab Kepala Sekolah; guru observer berfokus pada observasi anak dan tetap diberikan hak akses preview PDF berkas.",
-      "decider": "Kepala Sekolah & Tim Yayasan",
-      "decider_slug": "kepala-sekolah-yayasan",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "pak-agus",
-        "bu-dea",
-        "bu-epi"
-      ],
-      "project": "ERP WICEND",
-      "node": "spmb-module",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789545600.0,
-      "decided_at": 1789545600.0,
-      "updated_at": 1789545600.0
-    },
-    "DEC-0011": {
-      "id": "DEC-0011",
-      "title": "WhatsApp murni kanal notifikasi/pengingat tahapan dengan fitur broadcast admin",
-      "status": "decided",
-      "decision": "WhatsApp ditetapkan secara konsisten hanya sebagai kanal pengingat/notifikasi; transaksi resmi dan pengisian data wajib di portal web. Admin dashboard dilengkapi tombol broadcast WA per tahapan dengan counter log pengiriman.",
-      "decider": "Pak Achmad Irfan, Pak Agus, & Rochiyat",
-      "decider_slug": "irfan-agus-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "pak-irfan",
-        "pak-agus"
-      ],
-      "project": "ERP WICEND",
-      "node": "spmb-module",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789545600.0,
-      "decided_at": 1789545600.0,
-      "updated_at": 1789545600.0
-    },
-    "DEC-0012": {
-      "id": "DEC-0012",
-      "title": "Penyediaan dummy payment uang muka & daftar ulang untuk simulasi pekan depan",
-      "status": "decided",
-      "decision": "Menyediakan simulasi dummy payment untuk pembayaran uang muka dan daftar ulang agar simulasi end-to-end menyeluruh bersama seluruh unit sekolah dapat dieksekusi pekan depan sebelum integrasi payment gateway selesai.",
-      "decider": "Pak Yudi Qurbani & Rochiyat",
-      "decider_slug": "yudi-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "pak-yudi",
-        "pak-irfan",
-        "pak-agus"
-      ],
-      "project": "ERP WICEND",
-      "node": "spmb-module",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789545600.0,
-      "decided_at": 1789545600.0,
-      "updated_at": 1789545600.0
-    },
-    "DEC-0013": {
-      "id": "DEC-0013",
-      "title": "Aturan Lifecycle Status Question Bank (Publish, Draft, Archive)",
-      "status": "decided",
-      "decision": "Question Bank yang sudah publish dilarang dihapus (delete) dan dilarang dikembalikan ke draft; status archive tidak bisa dihapus dan hanya bisa di-republish; hanya soal berstatus draft yang boleh dihapus.",
-      "decider": "Tim Dev LMS (Rochiyat & Danny)",
-      "decider_slug": "rochiyat-danny",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "danny",
-        "dean"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/pl1KIse8kK4r-tvvUYQYEO-ZtLOaRTWEm-QYSc5whUo",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789620000.0,
-      "decided_at": 1789620000.0,
-      "updated_at": 1789620000.0
-    },
-    "DEC-0014": {
-      "id": "DEC-0014",
-      "title": "Arsitektur Modul Survei Mandiri tanpa Scoring & Dua Mode Add Question",
-      "status": "decided",
-      "decision": "Survei dibuat sebagai modul mandiri terpisah dengan tabel survei, survei_type, mapping_survei_question, dan survei_assignment. Add question mendukung mode manual dan bank soal dengan flag is_manual, serta tanpa mekanisme penilaian (skor).",
-      "decider": "Tim Dev LMS (Danny, Rochiyat, Dean)",
-      "decider_slug": "tim-dev-lms",
-      "stakeholder_slugs": [
-        "dean",
-        "danny",
-        "rochiyat"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/pl1KIse8kK4r-tvvUYQYEO-ZtLOaRTWEm-QYSc5whUo",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789620000.0,
-      "decided_at": 1789620000.0,
-      "updated_at": 1789620000.0
-    },
-    "DEC-0015": {
-      "id": "DEC-0015",
-      "title": "Simplifikasi ERD My Assessment: Single Source of Truth via assessment_task_id & Jawaban Numerik",
-      "status": "decided",
-      "decision": "learning_assessment_attempt cukup mengacu pada assessment_task_id tanpa assessment_id untuk menghindari redundansi; max_attempt dipindah ke konfigurasi global per modul; learning_assessment_answer menyimpan pilihan sebagai sequence number untuk pencocokan ke question_bank_choice.",
-      "decider": "Tim Dev LMS (Rochiyat & Danny)",
-      "decider_slug": "rochiyat-danny",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "danny",
-        "dean"
-      ],
-      "project": "LMS BITHEALTH",
-      "node": "lms-platform",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/pl1KIse8kK4r-tvvUYQYEO-ZtLOaRTWEm-QYSc5whUo",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789620000.0,
-      "decided_at": 1789620000.0,
-      "updated_at": 1789620000.0
-    },
-    "DEC-0016": {
-      "id": "DEC-0016",
-      "title": "Sentralisasi Pengaturan Tagihan: Master Jenis & Paket Tagihan di Modul Keuangan (SPMB View-Only)",
-      "status": "decided",
-      "decision": "Master Jenis Tagihan dan Paket Tagihan sepenuhnya dikelola di modul Keuangan (global); modul SPMB hanya sebagai view/pilih paket tagihan untuk menghindari edit manual nominal di lapangan.",
-      "decider": "Achmad Irfan & Rochiyat",
-      "decider_slug": "irfan-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "achmad-irfan",
-        "yudi-qurbani"
-      ],
-      "project": "ERP WICEND",
-      "node": "wicend-finance",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789626837.4088285,
-      "decided_at": 1789626837.4088285,
-      "updated_at": 1789626837.4088285
-    },
-    "DEC-0017": {
-      "id": "DEC-0017",
-      "title": "Skema Uang Muka Flat Rp1.500.000 Pengunci Kuota & Pengurang Uang Pangkal",
-      "status": "decided",
-      "decision": "Tagihan Uang Muka ditetapkan flat Rp 1.500.000 untuk semua unit, wajib dilunasi setelah pembayaran formulir untuk mengunci jatah kuota pendaftaran, dan dialokasikan sebagai pengurang Uang Pangkal saat daftar ulang.",
-      "decider": "Achmad Irfan & Rochiyat",
-      "decider_slug": "irfan-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "achmad-irfan"
-      ],
-      "project": "ERP WICEND",
-      "node": "wicend-spmb",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789626837.4088285,
-      "decided_at": 1789626837.4088285,
-      "updated_at": 1789626837.4088285
-    },
-    "DEC-0018": {
-      "id": "DEC-0018",
-      "title": "Alokasi Diskon Khusus Pemotong Uang Pangkal Sebelum Pembagian Termin",
-      "status": "decided",
-      "decision": "Seluruh skema diskon (internal 10%, rombongan hingga 20%, domisili 10%, bayar lunas) hanya memotong komponen Uang Pangkal, dan dipotongkan sebelum sisa tagihan daftar ulang dibagi ke dalam termin pembayaran.",
-      "decider": "Achmad Irfan & Rochiyat",
-      "decider_slug": "irfan-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "achmad-irfan"
-      ],
-      "project": "ERP WICEND",
-      "node": "wicend-finance",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789626837.4088285,
-      "decided_at": 1789626837.4088285,
-      "updated_at": 1789626837.4088285
-    },
-    "DEC-0019": {
-      "id": "DEC-0019",
-      "title": "Pemisahan Penagihan BMS: Penundaan Tagihan Seragam & Buku ke Tahap 2 (Feb/Mar 2027)",
-      "status": "decided",
-      "decision": "Komponen seragam dan buku tidak ditagihkan saat pembukaan awal SPMB, melainkan dipublish terpisah pada Februari/Maret 2027 saat harga fix dari vendor pihak ketiga sudah diperoleh.",
-      "decider": "Achmad Irfan & Rochiyat",
-      "decider_slug": "irfan-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "achmad-irfan"
-      ],
-      "project": "ERP WICEND",
-      "node": "wicend-spmb",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789626837.4088285,
-      "decided_at": 1789626837.4088285,
-      "updated_at": 1789626837.4088285
-    },
-    "DEC-0020": {
-      "id": "DEC-0020",
-      "title": "Guardrail Jalur Internal via Lookup NIS / Database Siswa Eksisting",
-      "status": "decided",
-      "decision": "Pendaftaran jalur internal wajib divalidasi dengan lookup NIS/database siswa eksisting; pendaftar eksternal dilarang dan otomatis terkunci dari memilih opsi internal.",
-      "decider": "Achmad Irfan & Rochiyat",
-      "decider_slug": "irfan-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "achmad-irfan"
-      ],
-      "project": "ERP WICEND",
-      "node": "wicend-spmb",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789626837.4088285,
-      "decided_at": 1789626837.4088285,
-      "updated_at": 1789626837.4088285
-    },
-    "DEC-0021": {
-      "id": "DEC-0021",
-      "title": "Prasyarat Launching SPMB: Uji Coba BSI Virtual Account Settle di Production",
-      "status": "decided",
-      "decision": "Peluncuran SPMB mensyaratkan integrasi BSI Virtual Account telah diuji coba berhasil di production. Jika belum stabil, jadwal pembukaan SPMB disepakati dimundurkan 1-2 pekan daripada berjalan setengah-setengah.",
-      "decider": "Achmad Irfan & Rochiyat",
-      "decider_slug": "irfan-rochiyat",
-      "stakeholder_slugs": [
-        "rochiyat",
-        "achmad-irfan",
-        "yudi-qurbani"
-      ],
-      "project": "ERP WICEND",
-      "node": "wicend-finance",
-      "node_why": null,
-      "deadline": null,
-      "sources": [
-        {
-          "type": "manual",
-          "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
-          "label": "Wispr Flow"
-        }
-      ],
-      "superseded_by": null,
-      "notes": null,
-      "created_at": 1789626837.4088285,
-      "decided_at": 1789626837.4088285,
-      "updated_at": 1789626837.4088285
+ "items": {
+  "DEC-0001": {
+   "id": "DEC-0001",
+   "title": "Base branch bersama frontend LMS: app-feature-theme",
+   "status": "decided",
+   "decision": "Base branch bersama frontend: app-feature-theme. Branch masing-masing developer di-PR ke branch ini; backend dan frontend tetap terpisah repo/branch.",
+   "decider": "Tim Dev LMS",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
+     "label": "Wispr Flow"
     }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789395383.5362816,
+   "decided_at": 1789395413.8663347,
+   "updated_at": 1789395413.8663347
   },
-  "next_seq": 22
+  "DEC-0002": {
+   "id": "DEC-0002",
+   "title": "Flow password user: auto-generate & email plaintext (tanpa input UI)",
+   "status": "decided",
+   "decision": "Saat add user, password di-generate otomatis dan dikirim plaintext via email (tanpa input password di UI). Reset password admin diletakkan sebagai action terpisah di row list.",
+   "decider": "Tim Dev LMS",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789395391.6521683,
+   "decided_at": 1789395422.2168727,
+   "updated_at": 1789395422.2168727
+  },
+  "DEC-0003": {
+   "id": "DEC-0003",
+   "title": "Penundaan fitur multi-role ke sprint depan (solusi role gabungan baru)",
+   "status": "decided",
+   "decision": "Fitur multi-role user ditunda ke sprint depan karena butuh waktu ~1 minggu dev dan penyesuaian DB. Solusi sementara: membuat role gabungan baru (misal Admin + Employee).",
+   "decider": "Tim Dev LMS & Ratih",
+   "decider_slug": "tim-dev-lms-ratih",
+   "stakeholder_slugs": [],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/au9Vpzn5-rvdammNl936RUqXiNm46I4MYQHEKy3dqrs",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789395399.4377546,
+   "decided_at": 1789395431.0134206,
+   "updated_at": 1789395431.0134206
+  },
+  "DEC-0004": {
+   "id": "DEC-0004",
+   "title": "Migrasi repository ke stack-based Specification pattern (BhcRepository)",
+   "status": "decided",
+   "decision": "Repository pindah ke stack-based Specification pattern (BhcRepository); queryLookupStrategy=USE_DECLARED_QUERY sehingga method query bawaan JPA dinonaktifkan.",
+   "decider": "Elly Efendi",
+   "decider_slug": "elly-efendi",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "dean",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/m9bkO4MaQZq773XVAkkZYOF3_QSNp-MrFkK_x7qz7a4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789467600.0,
+   "decided_at": 1789467600.0,
+   "updated_at": 1789467600.0
+  },
+  "DEC-0005": {
+   "id": "DEC-0005",
+   "title": "Isolasi layer Service dilarang kenal DTO (wajib VO) & @Transactional wajib di method mutasi",
+   "status": "decided",
+   "decision": "Level service dilarang menerima atau mengembalikan DTO (wajib gunakan Value Object / VO); anotasi @Transactional wajib pada method service yang memanggil repository agar perubahan ter-flush ke DB fisik.",
+   "decider": "Elly Efendi",
+   "decider_slug": "elly-efendi",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "dean",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/m9bkO4MaQZq773XVAkkZYOF3_QSNp-MrFkK_x7qz7a4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789467600.0,
+   "decided_at": 1789467600.0,
+   "updated_at": 1789467600.0
+  },
+  "DEC-0006": {
+   "id": "DEC-0006",
+   "title": "Konvensi package domain modular, tabel DB tanpa prefix, dan UUID auto-generator",
+   "status": "decided",
+   "decision": "Package domain berlaku seragam di semua layer dengan prefix group domain (misal: entity.learning.course / LearningCourse); nama tabel DB persis nama entity tanpa prefix MS/master; @Column pada id dibuang dan UUID digenerate via GenerationType.AUTO.",
+   "decider": "Elly Efendi & Tim Dev LMS",
+   "decider_slug": "elly-efendi-tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "dean",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/m9bkO4MaQZq773XVAkkZYOF3_QSNp-MrFkK_x7qz7a4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789467600.0,
+   "decided_at": 1789467600.0,
+   "updated_at": 1789467600.0
+  },
+  "DEC-0007": {
+   "id": "DEC-0007",
+   "title": "Reschedule meeting demo HR ke minggu depan & FSD Ratih dilanjutkan oleh Ken",
+   "status": "decided",
+   "decision": "Meeting show/demo dengan user HR yang semula dijadwalkan Kamis 17 Sept di-reschedule ke hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan LMS Weekly Meeting karena Ratih & Rafi difokuskan membuat PPT tenant/promosi (sampai Jumat siang). Dokumen FSD HR di-hold sementara dan dilanjutkan oleh Ken dengan cakupan general (tidak perlu full CRUD).",
+   "decider": "Alexander Horison & Ratih Pinandita",
+   "decider_slug": "alex-ratih",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "dean",
+    "danny",
+    "ken"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/_kMphRdKOpvqj_f2LqvYCDeANh9unroXsJTASHPPx7E",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": "Update 17 Sept: Jadwal resmi meeting HR ditetapkan pada hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan LMS Weekly Meeting.",
+   "created_at": 1789531140.0,
+   "decided_at": 1789531140.0,
+   "updated_at": 1789713800.0
+  },
+  "DEC-0008": {
+   "id": "DEC-0008",
+   "title": "Penyelarasan query FE Course Catalog & riset UX Assessment Mode",
+   "status": "decided",
+   "decision": "Course Catalog dibaca langsung dari tabel bit_course relasi ke bit_course_assignment (berdasarkan divisi dan job role ID) dengan status publish. Halaman pengerjaan assessment (Assessment Mode) diriset oleh Dean terutama untuk penanganan countdown timer, session persistence saat refresh, dan navigasi tab.",
+   "decider": "Tim Dev LMS (Danny, Rochiyat, Dean)",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "dean",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/_kMphRdKOpvqj_f2LqvYCDeANh9unroXsJTASHPPx7E",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789531140.0,
+   "decided_at": 1789531140.0,
+   "updated_at": 1789531140.0
+  },
+  "DEC-0009": {
+   "id": "DEC-0009",
+   "title": "Penggantian istilah 'Uang Pangkal' menjadi 'Uang Muka' di SPMB",
+   "status": "decided",
+   "decision": "Seluruh label, form pengaturan, template invoice, dan portal pendaftaran SPMB resmi mengganti istilah 'Uang Pangkal' menjadi 'Uang Muka' (DP).",
+   "decider": "Yayasan Al-Kautsar Cendekia (Pak Irfan, Pak Yudi) & Rochiyat",
+   "decider_slug": "yayasan-cendekia-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "pak-irfan",
+    "pak-yudi",
+    "pak-agus"
+   ],
+   "project": "ERP WICEND",
+   "node": "spmb-module",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789545600.0,
+   "decided_at": 1789545600.0,
+   "updated_at": 1789545600.0
+  },
+  "DEC-0010": {
+   "id": "DEC-0010",
+   "title": "Form wawancara orang tua dialihkan menjadi wewenang Kepala Sekolah",
+   "status": "decided",
+   "decision": "Form wawancara orang tua dialihkan secara formal menjadi wewenang dan tanggung jawab Kepala Sekolah; guru observer berfokus pada observasi anak dan tetap diberikan hak akses preview PDF berkas.",
+   "decider": "Kepala Sekolah & Tim Yayasan",
+   "decider_slug": "kepala-sekolah-yayasan",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "pak-agus",
+    "bu-dea",
+    "bu-epi"
+   ],
+   "project": "ERP WICEND",
+   "node": "spmb-module",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789545600.0,
+   "decided_at": 1789545600.0,
+   "updated_at": 1789545600.0
+  },
+  "DEC-0011": {
+   "id": "DEC-0011",
+   "title": "WhatsApp murni kanal notifikasi/pengingat tahapan dengan fitur broadcast admin",
+   "status": "decided",
+   "decision": "WhatsApp ditetapkan secara konsisten hanya sebagai kanal pengingat/notifikasi; transaksi resmi dan pengisian data wajib di portal web. Admin dashboard dilengkapi tombol broadcast WA per tahapan dengan counter log pengiriman.",
+   "decider": "Pak Achmad Irfan, Pak Agus, & Rochiyat",
+   "decider_slug": "irfan-agus-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "pak-irfan",
+    "pak-agus"
+   ],
+   "project": "ERP WICEND",
+   "node": "spmb-module",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789545600.0,
+   "decided_at": 1789545600.0,
+   "updated_at": 1789545600.0
+  },
+  "DEC-0012": {
+   "id": "DEC-0012",
+   "title": "Penyediaan dummy payment uang muka & daftar ulang untuk simulasi pekan depan",
+   "status": "decided",
+   "decision": "Menyediakan simulasi dummy payment untuk pembayaran uang muka dan daftar ulang agar simulasi end-to-end menyeluruh bersama seluruh unit sekolah dapat dieksekusi pekan depan sebelum integrasi payment gateway selesai.",
+   "decider": "Pak Yudi Qurbani & Rochiyat",
+   "decider_slug": "yudi-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "pak-yudi",
+    "pak-irfan",
+    "pak-agus"
+   ],
+   "project": "ERP WICEND",
+   "node": "spmb-module",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/HPvm3LVifx9pp4E0n4kDvcrdb0owiU0RZtLZq6qCL68",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789545600.0,
+   "decided_at": 1789545600.0,
+   "updated_at": 1789545600.0
+  },
+  "DEC-0013": {
+   "id": "DEC-0013",
+   "title": "Aturan Lifecycle Status Question Bank (Publish, Draft, Archive)",
+   "status": "decided",
+   "decision": "Question Bank yang sudah publish dilarang dihapus (delete) dan dilarang dikembalikan ke draft; status archive tidak bisa dihapus dan hanya bisa di-republish; hanya soal berstatus draft yang boleh dihapus.",
+   "decider": "Tim Dev LMS (Rochiyat & Danny)",
+   "decider_slug": "rochiyat-danny",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/pl1KIse8kK4r-tvvUYQYEO-ZtLOaRTWEm-QYSc5whUo",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789620000.0,
+   "decided_at": 1789620000.0,
+   "updated_at": 1789620000.0
+  },
+  "DEC-0014": {
+   "id": "DEC-0014",
+   "title": "Arsitektur Modul Survei Mandiri tanpa Scoring & Dua Mode Add Question",
+   "status": "decided",
+   "decision": "Survei dibuat sebagai modul mandiri terpisah dengan tabel survei, survei_type, mapping_survei_question, dan survei_assignment. Add question mendukung mode manual dan bank soal dengan flag is_manual, serta tanpa mekanisme penilaian (skor).",
+   "decider": "Tim Dev LMS (Danny, Rochiyat, Dean)",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "dean",
+    "danny",
+    "rochiyat"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/pl1KIse8kK4r-tvvUYQYEO-ZtLOaRTWEm-QYSc5whUo",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789620000.0,
+   "decided_at": 1789620000.0,
+   "updated_at": 1789620000.0
+  },
+  "DEC-0015": {
+   "id": "DEC-0015",
+   "title": "Simplifikasi ERD My Assessment: Single Source of Truth via assessment_task_id & Jawaban Numerik",
+   "status": "decided",
+   "decision": "learning_assessment_attempt cukup mengacu pada assessment_task_id tanpa assessment_id untuk menghindari redundansi; max_attempt dipindah ke konfigurasi global per modul; learning_assessment_answer menyimpan pilihan sebagai sequence number untuk pencocokan ke question_bank_choice.",
+   "decider": "Tim Dev LMS (Rochiyat & Danny)",
+   "decider_slug": "rochiyat-danny",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/pl1KIse8kK4r-tvvUYQYEO-ZtLOaRTWEm-QYSc5whUo",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789620000.0,
+   "decided_at": 1789620000.0,
+   "updated_at": 1789620000.0
+  },
+  "DEC-0016": {
+   "id": "DEC-0016",
+   "title": "Sentralisasi Pengaturan Tagihan: Master Jenis & Paket Tagihan di Modul Keuangan (SPMB View-Only)",
+   "status": "decided",
+   "decision": "Master Jenis Tagihan dan Paket Tagihan sepenuhnya dikelola di modul Keuangan (global); modul SPMB hanya sebagai view/pilih paket tagihan untuk menghindari edit manual nominal di lapangan.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan",
+    "yudi-qurbani"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-finance",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789626837.4088285,
+   "decided_at": 1789626837.4088285,
+   "updated_at": 1789626837.4088285
+  },
+  "DEC-0017": {
+   "id": "DEC-0017",
+   "title": "Skema Uang Muka Flat Rp1.500.000 Pengunci Kuota & Pengurang Uang Pangkal",
+   "status": "decided",
+   "decision": "Tagihan Uang Muka ditetapkan flat Rp 1.500.000 untuk semua unit, wajib dilunasi setelah pembayaran formulir untuk mengunci jatah kuota pendaftaran, dan dialokasikan sebagai pengurang Uang Pangkal saat daftar ulang.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-spmb",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789626837.4088285,
+   "decided_at": 1789626837.4088285,
+   "updated_at": 1789626837.4088285
+  },
+  "DEC-0018": {
+   "id": "DEC-0018",
+   "title": "Alokasi Diskon Khusus Pemotong Uang Pangkal Sebelum Pembagian Termin",
+   "status": "decided",
+   "decision": "Seluruh skema diskon (internal 10%, rombongan hingga 20%, domisili 10%, bayar lunas) hanya memotong komponen Uang Pangkal, dan dipotongkan sebelum sisa tagihan daftar ulang dibagi ke dalam termin pembayaran.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-finance",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789626837.4088285,
+   "decided_at": 1789626837.4088285,
+   "updated_at": 1789626837.4088285
+  },
+  "DEC-0019": {
+   "id": "DEC-0019",
+   "title": "Pemisahan Penagihan BMS: Penundaan Tagihan Seragam & Buku ke Tahap 2 (Feb/Mar 2027)",
+   "status": "decided",
+   "decision": "Komponen seragam dan buku tidak ditagihkan saat pembukaan awal SPMB, melainkan dipublish terpisah pada Februari/Maret 2027 saat harga fix dari vendor pihak ketiga sudah diperoleh.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-spmb",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789626837.4088285,
+   "decided_at": 1789626837.4088285,
+   "updated_at": 1789626837.4088285
+  },
+  "DEC-0020": {
+   "id": "DEC-0020",
+   "title": "Guardrail Jalur Internal via Lookup NIS / Database Siswa Eksisting",
+   "status": "decided",
+   "decision": "Pendaftaran jalur internal wajib divalidasi dengan lookup NIS/database siswa eksisting; pendaftar eksternal dilarang dan otomatis terkunci dari memilih opsi internal.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-spmb",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789626837.4088285,
+   "decided_at": 1789626837.4088285,
+   "updated_at": 1789626837.4088285
+  },
+  "DEC-0021": {
+   "id": "DEC-0021",
+   "title": "Prasyarat Launching SPMB: Uji Coba BSI Virtual Account Settle di Production",
+   "status": "decided",
+   "decision": "Peluncuran SPMB mensyaratkan integrasi BSI Virtual Account telah diuji coba berhasil di production. Jika belum stabil, jadwal pembukaan SPMB disepakati dimundurkan 1-2 pekan daripada berjalan setengah-setengah.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan",
+    "yudi-qurbani"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-finance",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/7-va_pDJivvHoP6UDOirZVx947K6uT6OrNuWcF9LAAM",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789626837.4088285,
+   "decided_at": 1789626837.4088285,
+   "updated_at": 1789626837.4088285
+  },
+  "DEC-0022": {
+   "id": "DEC-0022",
+   "title": "Deployment FE Assessment Dean: Direct Push Tanpa PR",
+   "status": "open",
+   "decision": null,
+   "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "decider_slug": "tim-dev-lms-danny-rochiyat",
+   "stakeholder_slugs": [
+    "dean",
+    "danny",
+    "rochiyat"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/vnFi3-V1gTn5Ql_Dz_dBOTU_WYJ4umpEfu1_glazblQ",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789700802.8279834,
+   "decided_at": null,
+   "updated_at": 1789700802.8279834
+  }
+ },
+ "next_seq": 23
 }

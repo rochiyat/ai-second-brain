@@ -194,7 +194,7 @@
           "health": "on_track",
           "owner": "Rochiyat",
           "one_liner": "Learning management system untuk tenaga kesehatan",
-          "now": "Course Catalog BE (TICK-007) & Integrasi FE-BE (TICK-008), Kirim ERD My Assessment ke Dean (TICK-031)",
+          "now": "Course Catalog BE (TICK-007) & Integrasi FE-BE (TICK-008)",
           "next_milestone": "Tech Stack Recommendation & System Architecture",
           "blockers": [],
           "workstreams": [
@@ -233,9 +233,37 @@
           "due": "2026-10-15",
           "tasks_total": 1,
           "tasks_done": 0,
-          "blockers": []
+          "blockers": [],
+          "status": "in_progress",
+          "now": "Eksekusi 3 target: Assessment 4 modalitas, produksi jingle (jadwal & studio), dan pemetaan IT/ERP/HR client",
+          "next_milestone": "Draft Instrumen Assessment 4 Modalitas & Jadwal Studio Jingle",
+          "workstreams": [
+            {
+              "name": "Assessment 4 Modalitas",
+              "phase": "Design",
+              "status": "todo",
+              "prd": "Iqrolife Assessment",
+              "blocker": null
+            },
+            {
+              "name": "Produksi Jingle (Jadwal & Studio)",
+              "phase": "Planning",
+              "status": "todo",
+              "prd": "Iqrolife Branding",
+              "blocker": null
+            },
+            {
+              "name": "Pemetaan Kebutuhan Client IT (ERP & HR/People)",
+              "phase": "Discovery",
+              "status": "todo",
+              "prd": "Client IT Needs",
+              "blocker": null
+            }
+          ]
         }
-      ]
+      ],
+      "world": "personal",
+      "owner": "Rochiyat"
     },
     {
       "id": "team-si-kss",

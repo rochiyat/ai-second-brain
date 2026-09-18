@@ -79,14 +79,14 @@
   {
    "id": "INIT-IQ-1",
    "title": "Core Learning Platform",
-   "status": null,
+   "status": "in_progress",
    "health": "on_track",
    "owner": "Rochiyat",
    "project": "LEARNING IQROLIFE",
-   "due": null,
+   "due": "Draft Instrumen Assessment 4 Modalitas & Jadwal Studio Jingle",
    "blocker_count": 0,
-   "workstream_count": 0,
-   "workstreams_open": 0
+   "workstream_count": 3,
+   "workstreams_open": 3
   },
   {
    "id": "INIT-KSS-1",
