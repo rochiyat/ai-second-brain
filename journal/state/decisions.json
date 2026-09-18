@@ -654,7 +654,35 @@
    "created_at": 1789700819.6507776,
    "decided_at": 1789700828.3173544,
    "updated_at": 1789700828.3173544
+  },
+  "DEC-0024": {
+   "id": "DEC-0024",
+   "title": "Standardisasi Viewer Materi Course PDF: Default Scroller Vertikal",
+   "status": "open",
+   "decision": null,
+   "decider": "Tim Dev LMS (Rochiyat & Danny)",
+   "decider_slug": "tim-dev-lms-rochiyat-danny",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/vnFi3-V1gTn5Ql_Dz_dBOTU_WYJ4umpEfu1_glazblQ",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789700837.0713954,
+   "decided_at": null,
+   "updated_at": 1789700837.0713954
   }
  },
- "next_seq": 24
+ "next_seq": 25
 }
