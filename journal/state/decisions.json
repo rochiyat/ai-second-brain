@@ -600,8 +600,8 @@
   "DEC-0022": {
    "id": "DEC-0022",
    "title": "Deployment FE Assessment Dean: Direct Push Tanpa PR",
-   "status": "open",
-   "decision": null,
+   "status": "decided",
+   "decision": "Komponen Frontend Assessment yang telah dirapikan dan diuji internal oleh Dean disepakati untuk langsung di-push ke branch dev internal tanpa PR guna mempercepat ketersediaan dependensi modul lain.",
    "decider": "Tim Dev LMS (Danny & Rochiyat)",
    "decider_slug": "tim-dev-lms-danny-rochiyat",
    "stakeholder_slugs": [
@@ -623,8 +623,8 @@
    "superseded_by": null,
    "notes": null,
    "created_at": 1789700802.8279834,
-   "decided_at": null,
-   "updated_at": 1789700802.8279834
+   "decided_at": 1789700811.549162,
+   "updated_at": 1789700811.549162
   }
  },
  "next_seq": 23
