@@ -629,8 +629,8 @@
   "DEC-0023": {
    "id": "DEC-0023",
    "title": "Strategi Migrasi & Merge Code: Base Developer + Business Logic Temp",
-   "status": "open",
-   "decision": null,
+   "status": "decided",
+   "decision": "Frontend diambil penuh dari branch app-feature-temp, Backend mengambil base framework dari Developer dan menyuntikkan logic bisnis dari app-feature-temp ke branch Dev baru per 18 September 2026.",
    "decider": "Tim Dev LMS (Rochiyat & Danny)",
    "decider_slug": "tim-dev-lms-rochiyat-danny",
    "stakeholder_slugs": [
@@ -652,8 +652,8 @@
    "superseded_by": null,
    "notes": null,
    "created_at": 1789700819.6507776,
-   "decided_at": null,
-   "updated_at": 1789700819.6507776
+   "decided_at": 1789700828.3173544,
+   "updated_at": 1789700828.3173544
   }
  },
  "next_seq": 24
