@@ -369,6 +369,411 @@
     }
    ],
    "commits": []
+  },
+  "2026-09-18": {
+   "date": "2026-09-18",
+   "weekday": "Fri",
+   "start_min": 519,
+   "end_min": 1287,
+   "start": "08:39",
+   "end": "21:27",
+   "wall_h": 12.8,
+   "actual_h": 4.5,
+   "effective_h": 5.1,
+   "attention_h": 1.9,
+   "leverage": 1.13,
+   "human_equiv_h": 11.3,
+   "output_x": 2.5,
+   "ai_speed": 2.5,
+   "meeting_h": 1.0,
+   "ai_h": 4.1,
+   "lane_hours": {
+    "meetings": 1.0,
+    "work": 1.9,
+    "you": 0.0,
+    "other": 2.2
+   },
+   "sessions": 3,
+   "meetings_count": 1,
+   "automated_runs": 0,
+   "runtimes": {
+    "claude-code": {
+     "streams": 3,
+     "hours": 4.1,
+     "minutes": 247,
+     "automated_runs": 0
+    },
+    "meetings": {
+     "streams": 1,
+     "hours": 1.0,
+     "minutes": 60,
+     "automated_runs": 0
+    }
+   },
+   "streams": [
+    {
+     "id": "sess-15e07107",
+     "lane": "work",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "CLAUDE.md dokumentasi struktur bitcircle_api",
+     "minutes": 117,
+     "human_msgs": 6,
+     "blocks": [
+      [
+       519,
+       528
+      ],
+      [
+       656,
+       670
+      ],
+      [
+       786,
+       880
+      ]
+     ]
+    },
+    {
+     "id": "meet-2026-09-18-0",
+     "lane": "meetings",
+     "kind": "meeting",
+     "runtime": "meetings",
+     "label": "[Bithealth] LMS Daily Meet",
+     "source": "scheduled",
+     "minutes": 60,
+     "blocks": [
+      [
+       600,
+       660
+      ]
+     ]
+    },
+    {
+     "id": "sess-30c0a795",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "app-feature-temp conflict check",
+     "minutes": 123,
+     "human_msgs": 8,
+     "blocks": [
+      [
+       819,
+       835
+      ],
+      [
+       871,
+       944
+      ],
+      [
+       1038,
+       1060
+      ],
+      [
+       1275,
+       1287
+      ]
+     ]
+    },
+    {
+     "id": "sess-8e96680c",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "HR job-level name column removal",
+     "minutes": 7,
+     "human_msgs": 1,
+     "blocks": [
+      [
+       856,
+       863
+      ]
+     ]
+    }
+   ],
+   "commits": [
+    {
+     "t": "2026-09-18T10:06",
+     "min": 606,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: decide DEC-0022 --decision Komponen Frontend Assessment yang telah dirapik"
+    },
+    {
+     "t": "2026-09-18T10:06",
+     "min": 606,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: add --title Deployment FE Assessment Dean: Direct Push Tanpa PR --decider"
+    },
+    {
+     "t": "2026-09-18T10:07",
+     "min": 607,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: decide DEC-0024 --decision Viewer materi PDF sisi employee menggunakan per"
+    },
+    {
+     "t": "2026-09-18T10:07",
+     "min": 607,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: add --title Standardisasi Viewer Materi Course PDF: Default Scroller Verti"
+    },
+    {
+     "t": "2026-09-18T10:07",
+     "min": 607,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: decide DEC-0023 --decision Frontend diambil penuh dari branch app-feature-"
+    },
+    {
+     "t": "2026-09-18T10:07",
+     "min": 607,
+     "repo": "ai-second-brain",
+     "msg": "chore(ledger): decisions: add --title Strategi Migrasi & Merge Code: Base Developer + Business Logic"
+    }
+   ]
+  },
+  "2026-09-19": {
+   "date": "2026-09-19",
+   "weekday": "Sat",
+   "start_min": 444,
+   "end_min": 451,
+   "start": "07:24",
+   "end": "07:31",
+   "wall_h": 0.1,
+   "actual_h": 0.1,
+   "effective_h": 0.1,
+   "attention_h": 0.1,
+   "leverage": 1.0,
+   "human_equiv_h": 0.3,
+   "output_x": 2.5,
+   "ai_speed": 2.5,
+   "meeting_h": 0.0,
+   "ai_h": 0.1,
+   "lane_hours": {
+    "meetings": 0.0,
+    "work": 0.0,
+    "you": 0.0,
+    "other": 0.1
+   },
+   "sessions": 1,
+   "meetings_count": 0,
+   "automated_runs": 0,
+   "runtimes": {
+    "claude-code": {
+     "streams": 1,
+     "hours": 0.1,
+     "minutes": 7,
+     "automated_runs": 0
+    }
+   },
+   "streams": [
+    {
+     "id": "sess-72340576",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "Auto ID planning untuk automation testing",
+     "minutes": 7,
+     "human_msgs": 1,
+     "blocks": [
+      [
+       444,
+       451
+      ]
+     ]
+    }
+   ],
+   "commits": []
+  },
+  "2026-09-20": {
+   "date": "2026-09-20",
+   "weekday": "Sun",
+   "start_min": 414,
+   "end_min": 1129,
+   "start": "06:54",
+   "end": "18:49",
+   "wall_h": 11.9,
+   "actual_h": 0.4,
+   "effective_h": 0.4,
+   "attention_h": 0.1,
+   "leverage": 1.0,
+   "human_equiv_h": 0.9,
+   "output_x": 2.5,
+   "ai_speed": 2.5,
+   "meeting_h": 0.0,
+   "ai_h": 0.4,
+   "lane_hours": {
+    "meetings": 0.0,
+    "work": 0.0,
+    "you": 0.0,
+    "other": 0.4
+   },
+   "sessions": 1,
+   "meetings_count": 0,
+   "automated_runs": 0,
+   "runtimes": {
+    "claude-code": {
+     "streams": 1,
+     "hours": 0.4,
+     "minutes": 22,
+     "automated_runs": 0
+    }
+   },
+   "streams": [
+    {
+     "id": "sess-72340576",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "Auto ID planning untuk automation testing",
+     "minutes": 22,
+     "human_msgs": 2,
+     "blocks": [
+      [
+       414,
+       425
+      ],
+      [
+       1118,
+       1129
+      ]
+     ]
+    }
+   ],
+   "commits": []
+  },
+  "2026-09-21": {
+   "date": "2026-09-21",
+   "weekday": "Mon",
+   "start_min": 520,
+   "end_min": 893,
+   "start": "08:40",
+   "end": "14:53",
+   "wall_h": 6.2,
+   "actual_h": 2.5,
+   "effective_h": 2.7,
+   "attention_h": 1.3,
+   "leverage": 1.09,
+   "human_equiv_h": 6.8,
+   "output_x": 2.73,
+   "ai_speed": 2.5,
+   "meeting_h": 0.0,
+   "ai_h": 2.7,
+   "lane_hours": {
+    "meetings": 0.0,
+    "work": 0.0,
+    "you": 0.0,
+    "other": 2.7
+   },
+   "sessions": 4,
+   "meetings_count": 0,
+   "automated_runs": 0,
+   "runtimes": {
+    "claude-code": {
+     "streams": 4,
+     "hours": 2.7,
+     "minutes": 163,
+     "automated_runs": 0
+    }
+   },
+   "streams": [
+    {
+     "id": "sess-8e96680c",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "HR job-level name column removal",
+     "minutes": 1,
+     "human_msgs": 1,
+     "blocks": [
+      [
+       520,
+       521
+      ]
+     ]
+    },
+    {
+     "id": "sess-30c0a795",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "app-feature-temp conflict check",
+     "minutes": 11,
+     "human_msgs": 3,
+     "blocks": [
+      [
+       521,
+       532
+      ]
+     ]
+    },
+    {
+     "id": "sess-b747060d",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "Course-catalogue Start Learning action",
+     "minutes": 70,
+     "human_msgs": 8,
+     "blocks": [
+      [
+       535,
+       537
+      ],
+      [
+       552,
+       554
+      ],
+      [
+       577,
+       593
+      ],
+      [
+       615,
+       617
+      ],
+      [
+       701,
+       704
+      ],
+      [
+       736,
+       754
+      ],
+      [
+       775,
+       777
+      ],
+      [
+       794,
+       797
+      ],
+      [
+       871,
+       893
+      ]
+     ]
+    },
+    {
+     "id": "sess-b6203ceb",
+     "lane": "other",
+     "kind": "ai",
+     "runtime": "claude-code",
+     "label": "Dokumentasi user Wicend ERP",
+     "minutes": 81,
+     "human_msgs": 8,
+     "blocks": [
+      [
+       745,
+       819
+      ],
+      [
+       863,
+       870
+      ]
+     ]
+    }
+   ],
+   "commits": []
   }
  },
  "gcal_cache": {
@@ -394,10 +799,19 @@
     "title": "[Bithealth] LMS Daily Meet",
     "resp": "none"
    }
-  ]
+  ],
+  "2026-09-18": [
+   {
+    "s": "2026-09-18T10:00+07:00",
+    "e": "2026-09-18T11:00+07:00",
+    "title": "[Bithealth] LMS Daily Meet",
+    "resp": "none"
+   }
+  ],
+  "2026-09-19": []
  },
- "calendar_ok": true,
- "last_sweep_wib": "2026-09-15T11:55:14+07:00",
+ "calendar_ok": false,
+ "last_sweep_wib": "2026-09-21T14:57:27+07:00",
  "boundary_hour": 4,
  "ai_speed_factor": 2.5,
  "sources": {
@@ -443,5 +857,6 @@
  "runtimes_counted": [
   "claude-code"
  ],
- "sweep_seconds": 1.9
+ "sweep_seconds": 1.0,
+ "calendar_error": "gcal_manager failed rc=1:  Traceback (most recent call last):\n  File \"D:\\PROJECT\\MYSELF\\HERMES\\BroBri\\ai-second-brain\\.agent\\skills\\google-calendar-connector\\gcal_manager.py\", line 14, in <module>\n   "
 }

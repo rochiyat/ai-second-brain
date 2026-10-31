@@ -1,0 +1,179 @@
+{
+  "last_updated": "2026-09-20T10:15:00+07:00",
+  "summary": {
+    "total_platforms": 4,
+    "connected_platforms": 3,
+    "total_accounts": 3,
+    "active_schedules": 2
+  },
+  "platforms": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "icon": "💼",
+      "theme_color": "#0a66c2",
+      "status": "connected",
+      "connection_type": "Persistent Chrome Profile (Playwright)",
+      "skill_path": ".agent/skills/linkedin-connector",
+      "description": "Koneksi profil LinkedIn untuk berbagi update teknis, artikel kepemimpinan, dan jejaring profesional.",
+      "accounts": [
+        {
+          "handle": "rochiyat",
+          "display_name": "Rochiyat",
+          "url": "https://www.linkedin.com/in/rochiyat/",
+          "profile_dir": ".agent/skills/linkedin-connector/browser_profile_rochiyat",
+          "status": "connected",
+          "primary": true,
+          "last_used": "2026-09-18"
+        }
+      ],
+      "capabilities": [
+        "Feed Status Posting",
+        "Headless & Visible Mode",
+        "Persistent Cookies (li_at)",
+        "Automated Status Verification"
+      ],
+      "cli_command": ".venv\\Scripts\\python.exe .agent/skills/linkedin-connector/linkedin_manager.py post --text \"Insight hari ini...\"",
+      "status_command": ".venv\\Scripts\\python.exe .agent/skills/linkedin-connector/linkedin_manager.py status"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "icon": "📸",
+      "theme_color": "#e1306c",
+      "status": "connected",
+      "connection_type": "Persistent Chrome Profile (Playwright)",
+      "skill_path": ".agent/skills/instagram-scheduler",
+      "description": "Penjadwalan carousel edukasi parenting (4:5) otomatis setiap pukul 06:15 WIB dan sinkronisasi antrean terbit.",
+      "accounts": [
+        {
+          "handle": "@lingkarayah.id",
+          "display_name": "Lingkar Ayah Indonesia",
+          "url": "https://www.instagram.com/lingkarayah.id/",
+          "profile_dir": ".agent/skills/instagram-scheduler/browser_profile",
+          "status": "connected",
+          "primary": true,
+          "last_used": "2026-10-07"
+        },
+        {
+          "handle": "@rochiyat",
+          "display_name": "Rochiyat",
+          "url": "https://www.instagram.com/rochiyat/",
+          "profile_dir": ".agent/skills/instagram-scheduler/browser_profile_rochiyat",
+          "status": "unauthenticated",
+          "primary": false,
+          "note": "Belum login (Jalankan: python instagram_scheduler.py login --account rochiyat)"
+        }
+      ],
+      "capabilities": [
+        "Jadwal Otomatis 06:15 WIB",
+        "Carousel 4:5 Chapter 1 & Chapter 2",
+        "Folder Batch Auto-Queue",
+        "Scheduled Content Page Link"
+      ],
+      "cli_command": ".venv\\Scripts\\python.exe .agent/skills/instagram-scheduler/scripts/instagram_scheduler.py schedule-folder \"D:\\PROJECT\\MYSELF\\DESIGN\\LAI\\<folder>\"",
+      "status_command": ".venv\\Scripts\\python.exe .agent/skills/instagram-scheduler/scripts/instagram_scheduler.py status"
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "icon": "🧵",
+      "theme_color": "#111111",
+      "status": "connected",
+      "connection_type": "Persistent Chrome Profile (Playwright)",
+      "skill_path": ".agent/skills/threads-connector",
+      "description": "Penerbitan utas bersambung (multi-part threads) dan postingan terjadwal langsung ke threads.net.",
+      "accounts": [
+        {
+          "handle": "@lingkarayah.id",
+          "display_name": "Lingkar Ayah Indonesia",
+          "url": "https://www.threads.net/@lingkarayah.id",
+          "profile_dir": ".agent/skills/threads-connector/browser_profile",
+          "status": "connected",
+          "primary": true,
+          "last_used": "2026-09-20"
+        },
+        {
+          "handle": "@rochiyat",
+          "display_name": "Rochiyat",
+          "url": "https://www.threads.net/@rochiyat",
+          "profile_dir": ".agent/skills/threads-connector/browser_profile_rochiyat",
+          "status": "unauthenticated",
+          "primary": false,
+          "note": "Belum login (Jalankan: python threads_manager.py login --account rochiyat)"
+        }
+      ],
+      "capabilities": [
+        "Utas Bersambung (1-6 bagian)",
+        "Penjadwalan Kalender Native Threads",
+        "Otomatisasi Playwright Chrome",
+        "Multi-Account Switch"
+      ],
+      "cli_command": ".venv\\Scripts\\python.exe .agent/skills/threads-connector/threads_manager.py post --text \"Isi postingan...\"",
+      "status_command": ".venv\\Scripts\\python.exe .agent/skills/threads-connector/threads_manager.py status"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "icon": "💬",
+      "theme_color": "#25d366",
+      "status": "disconnected",
+      "connection_type": "Local Bridge / MCP (wa-bridge)",
+      "skill_path": ".agent/skills/whatsapp-connector",
+      "description": "Koneksi WhatsApp lokal untuk broadcast saluran informasi, notifikasi sistem ERP, dan koordinasi komunitas.",
+      "accounts": [
+        {
+          "handle": "Belum Ada Nomor Terhubung",
+          "display_name": "WhatsApp Bridge (Menunggu Scan QR)",
+          "url": "https://web.whatsapp.com",
+          "profile_dir": "C:\\Users\\ROCHIYAT\\wa-bridge\\whatsapp-bridge\\store",
+          "status": "unauthenticated",
+          "primary": true,
+          "note": "Belum ada sesi nomor yang tersimpan di whatsapp.db. Jalankan whatsapp-bridge.exe untuk scan QR."
+        }
+      ],
+      "capabilities": [
+        "Approval-Gated Staging (Keamanan Terjamin)",
+        "WhatsApp Channel Broadcast",
+        "Community Group Forwarding",
+        "Sesi Lokal Aman Tanpa Cloud Leak"
+      ],
+      "cli_command": "Approval-gated via MCP tools (outbox stage -> approve.py)",
+      "status_command": "C:\\Users\\ROCHIYAT\\wa-bridge\\whatsapp-bridge\\whatsapp-bridge.exe"
+    }
+  ],
+  "recent_activities": [
+    {
+      "platform": "threads",
+      "title": "Seri 299 Post 1 (Work-Life Focus & Hadir di Rumah)",
+      "account": "@lingkarayah.id",
+      "target_date": "2026-09-21 12:30 WIB",
+      "status": "Scheduled",
+      "details": "Utas 6 bagian tentang kehadiran utuh ayah di tempat kerja dan di rumah."
+    },
+    {
+      "platform": "threads",
+      "title": "Seri 299 Post 2 (Peran Sosial & Jangan Absen di Rumah)",
+      "account": "@lingkarayah.id",
+      "target_date": "2026-09-22 12:30 WIB",
+      "status": "Scheduled",
+      "details": "Utas 6 bagian tentang membagi energi sosial agar tidak dingin di dalam rumah."
+    },
+    {
+      "platform": "instagram",
+      "title": "Batch Carousel 2026067 - 2026074",
+      "account": "@lingkarayah.id",
+      "target_date": "28 Sep - 5 Okt 2026",
+      "status": "Completed",
+      "details": "8 Carousel Chapter 1 & Chapter 2 berhasil dijadwalkan 100% pada 06:15 WIB."
+    },
+    {
+      "platform": "whatsapp",
+      "title": "Testing Notifikasi SPMB WICEND (TICK-022)",
+      "account": "WhatsApp Bridge",
+      "target_date": "2026-09-17",
+      "status": "Completed",
+      "details": "Integrasi notifikasi tahapan SPMB via WhatsApp blast berhasil diuji."
+    }
+  ]
+}

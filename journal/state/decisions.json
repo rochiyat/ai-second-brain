@@ -682,7 +682,724 @@
    "created_at": 1789700837.0713954,
    "decided_at": 1789700845.4204814,
    "updated_at": 1789700845.4204814
+  },
+  "DEC-0025": {
+   "id": "DEC-0025",
+   "title": "Penyelarasan Base Branch Develop (develop10) & Strategi PR Bertahap",
+   "status": "decided",
+   "decision": "Kode branch develop-temp / @fitur10 diselaraskan dengan base branch develop (dinamai develop10) dan penggabungan kode ke develop utama dilakukan via PR bertahap per modul untuk meminimalkan merge conflict.",
+   "decider": "Rochiyat & Tim Dev LMS",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/rgazbljAVm9ByXDAs92q1LKayP-SKCzb2kGITnYzgIw",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789961000.0,
+   "decided_at": 1789961000.0,
+   "updated_at": 1789961000.0
+  },
+  "DEC-0026": {
+   "id": "DEC-0026",
+   "title": "Pemindahan Scope Permission & Multi-Role ke Sprint Depan",
+   "status": "decided",
+   "decision": "Implementasi otorisasi permission granular (can view, can create/edit) dan multiple role pada Project Learning dialihkan ke Sprint depan agar Sprint 3 fokus menyelesaikan modul Course/My Course, Asesmen, dan Survei.",
+   "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "danny",
+    "rochiyat",
+    "dean",
+    "ratih"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/rgazbljAVm9ByXDAs92q1LKayP-SKCzb2kGITnYzgIw",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1789961010.0,
+   "decided_at": 1789961010.0,
+   "updated_at": 1789961010.0
+  },
+  "DEC-0027": {
+   "id": "DEC-0027",
+   "title": "Kebijakan Edit & Archive Course: Status Published Terbatas pada Course Detail",
+   "status": "decided",
+   "decision": "Kursus berstatus Published hanya mengizinkan edit pada Course Detail (nama, deskripsi, cover, instruktur), materi/chapter dikunci untuk integritas data peserta. Tombol Archive hanya muncul saat kursus berstatus Published.",
+   "decider": "Tim Dev LMS & Rafi",
+   "decider_slug": "tim-dev-lms-rafi",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/vnFi3-V1gTn5Ql_Dz_dBOTU_WYJ4umpEfu1_glazblQ",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790052420.0,
+   "decided_at": 1790052420.0,
+   "updated_at": 1790052420.0
+  },
+  "DEC-0028": {
+   "id": "DEC-0028",
+   "title": "Prioritas Urutan PR ke Base Develop: User Role & Session Management",
+   "status": "decided",
+   "decision": "Pengajuan PR bertahap dari branch develop-temp ke branch utama develop memprioritaskan modul User Role & Session Management (termasuk menu sidebar dinamis berbasis role di DB), sebelum modul-modul lainnya dinaikkan.",
+   "decider": "Rochiyat & Tim Dev LMS",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/vnFi3-V1gTn5Ql_Dz_dBOTU_WYJ4umpEfu1_glazblQ",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790052420.0,
+   "decided_at": 1790052420.0,
+   "updated_at": 1790052420.0
+  },
+  "DEC-0029": {
+   "id": "DEC-0029",
+   "title": "Standardisasi Tab Monitoring & Tombol Preview pada View Detail Course",
+   "status": "decided",
+   "decision": "Halaman View Detail Course dilengkapi 3 Tab (Overview, Course Monitoring, Assessment Monitoring) dan tombol navigasi Preview (ganti halaman penuh) untuk meninjau materi kursus.",
+   "decider": "Tim Dev LMS & Rafi",
+   "decider_slug": "tim-dev-lms-rafi",
+   "stakeholder_slugs": [
+    "danny",
+    "rochiyat",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/vnFi3-V1gTn5Ql_Dz_dBOTU_WYJ4umpEfu1_glazblQ",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790052420.0,
+   "decided_at": 1790052420.0,
+   "updated_at": 1790052420.0
+  },
+  "DEC-0030": {
+   "id": "DEC-0030",
+   "title": "Simplifikasi ERD Survey Question Terhubung ke Question Bank",
+   "status": "decided",
+   "decision": "Tabel survey_question hanya menyimpan survey_id, question_bank_id, sequence, dan is_manual. Metadata tipe, skala, dan teks soal tersentralisasi di question_bank, flag is_required ditiadakan karena survei bersifat mandatori.",
+   "decider": "Tim Dev LMS (Dean, Danny, Rochiyat)",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "dean",
+    "danny",
+    "rochiyat"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/vnFi3-V1gTn5Ql_Dz_dBOTU_WYJ4umpEfu1_glazblQ",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790052420.0,
+   "decided_at": 1790052420.0,
+   "updated_at": 1790052420.0
+  },
+  "DEC-0031": {
+   "id": "DEC-0031",
+   "title": "Penyimpanan & Dekripsi Multi-Parallel Permission Role via Session Storage",
+   "status": "decided",
+   "decision": "Otorisasi granular role (read, add, edit, delete) disimpan pada sessionStorage browser dan di-decrypt menggunakan security key dari backend. Elemen antarmuka pengguna (seperti tombol aksi create/edit/delete) disesuaikan secara dinamis (disembunyikan atau di-disable) berdasarkan permission yang didekripsi.",
+   "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "decider_slug": "tim-dev-lms-danny-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/BooLFCA6OgcvzFZVE0WQPhmpXSHlqvc8P0SYRyJdwdw",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790138800.0,
+   "decided_at": 1790138800.0,
+   "updated_at": 1790138800.0
+  },
+  "DEC-0032": {
+   "id": "DEC-0032",
+   "title": "Lifecycle Question Bank: Status Published Tidak Bisa Diedit & Delete Digantikan Archive",
+   "status": "decided",
+   "decision": "Pertanyaan pada Question Bank yang telah berstatus Published dilarang diedit dan dilarang dihapus (delete). Jika terdapat revisi atau salah ketik, admin wajib membuat pertanyaan baru. Tombol Delete disembunyikan dan digantikan opsi Archive. Soal yang di-archive tidak dapat dipilih pada asesmen baru, namun seluruh data asesmen yang sudah ada tetap aman dan tidak terdampak.",
+   "decider": "Tim Dev LMS, Ratih & Monik (HR)",
+   "decider_slug": "tim-dev-lms-hr",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean",
+    "raafi",
+    "ratih",
+    "monik"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/la43fE23JOsWiYmTUpXMmP9oihvz6XxYG2XXSs_YTwg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790150500.0,
+   "decided_at": 1790150500.0,
+   "updated_at": 1790150500.0
+  },
+  "DEC-0033": {
+   "id": "DEC-0033",
+   "title": "Add Manual Question di Assessment Terisolasi dari Master Question Bank",
+   "status": "decided",
+   "decision": "Penambahan pertanyaan secara manual (add manual) pada modul asesmen bersifat lokal dan tidak dimasukkan ke dalam master Question Bank. Field kategori pada form pembuatan soal manual dihilangkan.",
+   "decider": "Tim Dev LMS & HR",
+   "decider_slug": "tim-dev-lms-hr",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean",
+    "raafi",
+    "monik"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/la43fE23JOsWiYmTUpXMmP9oihvz6XxYG2XXSs_YTwg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790150500.0,
+   "decided_at": 1790150500.0,
+   "updated_at": 1790150500.0
+  },
+  "DEC-0034": {
+   "id": "DEC-0034",
+   "title": "Pembatasan Scope User LMS pada Domain Internal BitHealth",
+   "status": "decided",
+   "decision": "Akses akun pengguna platform LMS Bithealth dibatasi secara eksklusif untuk karyawan berdomain @bithealth.co.id. Mentor dari pihak eksternal tidak dibuatkan akun pengguna LMS; pemantauan progres pembelajaran cukup difasilitasi melalui fitur export data.",
+   "decider": "Tim HR (Monik) & Alexander Horison",
+   "decider_slug": "hr-alex",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "ratih",
+    "alex",
+    "monik"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/la43fE23JOsWiYmTUpXMmP9oihvz6XxYG2XXSs_YTwg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790150500.0,
+   "decided_at": 1790150500.0,
+   "updated_at": 1790150500.0
+  },
+  "DEC-0035": {
+   "id": "DEC-0035",
+   "title": "Masa Berlaku Tautan Aktivasi Akun Pengguna Baru Selama 1 Hari",
+   "status": "decided",
+   "decision": "Tautan (link) aktivasi akun pengguna baru yang dikirimkan via email memiliki masa aktif selama 1 hari (24 jam) terhitung sejak diterbitkan, mengadopsi standar sistem Talenta.",
+   "decider": "Tim HR (Monik) & Tim Dev LMS",
+   "decider_slug": "hr-tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "monik",
+    "ratih"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/la43fE23JOsWiYmTUpXMmP9oihvz6XxYG2XXSs_YTwg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790150500.0,
+   "decided_at": 1790150500.0,
+   "updated_at": 1790150500.0
+  },
+  "DEC-0036": {
+   "id": "DEC-0036",
+   "title": "Pemisahan Tabel Database Question Manual dari Master Question Bank",
+   "status": "decided",
+   "decision": "Pertanyaan yang diinput secara manual (add manual) pada modul Asesmen dan Survei disimpan ke dalam tabel terpisah (bukan di tabel question_bank) guna mengisolasi data ad-hoc dan menghindari kerumitan filter pada master data bank soal. Field kategori pada pembuatan soal manual ditiadakan, dan satu tabel manual digunakan bersama untuk Asesmen dan Survei.",
+   "decider": "Tim Dev LMS (Rochiyat & Dean)",
+   "decider_slug": "tim-dev-lms-rochiyat-dean",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "dean",
+    "danny",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/FOquUn22QgDRgETgJi7Gl3mSwdRuGnJAf4RRs87Eupg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790226600.0,
+   "decided_at": 1790226600.0,
+   "updated_at": 1790226600.0
+  },
+  "DEC-0037": {
+   "id": "DEC-0037",
+   "title": "Status Matrix Final: Status Archive Permanen Tanpa Aksi Lanjutan & Delete Terbatas di Draft",
+   "status": "decided",
+   "decision": "Siklus hidup status konten menerapkan alur Draft -> Published -> Archive. Status Archive bersifat final dan permanen (read-only, tidak dapat diedit, tidak dapat diubah statusnya, dan tidak dapat dihapus). Opsi penghapusan (delete) hanya tersedia saat status masih Draft. Proses pengarsipan wajib dilengkapi dialog konfirmasi.",
+   "decider": "Tim Dev LMS & UI/UX (Rochiyat, Raafi, Dean)",
+   "decider_slug": "tim-dev-lms-raafi",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "raafi",
+    "dean",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/FOquUn22QgDRgETgJi7Gl3mSwdRuGnJAf4RRs87Eupg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790226600.0,
+   "decided_at": 1790226600.0,
+   "updated_at": 1790226600.0
+  },
+  "DEC-0038": {
+   "id": "DEC-0038",
+   "title": "Formula Learning Monitoring: Progres Gabungan Kursus/Path Tanpa Memperhitungkan Asesmen",
+   "status": "decided",
+   "decision": "Persentase progres pada Learning Monitoring dihitung murni dari total penyelesaian materi kursus dan learning path; komponen asesmen tidak dihitung dalam persentase progres karena penilaian skor terpisah dari metrik progres belajar. Kolom teks learning dan monitoring ditiadakan demi simplifikasi visual tabel.",
+   "decider": "Rochiyat & Raafi Albar",
+   "decider_slug": "rochiyat-raafi",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "raafi",
+    "dean",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/FOquUn22QgDRgETgJi7Gl3mSwdRuGnJAf4RRs87Eupg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790226600.0,
+   "decided_at": 1790226600.0,
+   "updated_at": 1790226600.0
+  },
+  "DEC-0039": {
+   "id": "DEC-0039",
+   "title": "Mekanisme Auto-Invite User via Import Employee & Penguncian Tombol Undangan Berbasis last_login",
+   "status": "decided",
+   "decision": "Proses impor data karyawan dari Talenta secara otomatis menambahkan user baru ke tabel user dan memicu pengiriman email link aktivasi (masa aktif 1 hari). Tabel user dilengkapi kolom last_login; tombol Send Invitation hanya aktif jika last_login bernilai NULL, dan otomatis dinonaktifkan jika user telah memiliki riwayat login.",
+   "decider": "Rochiyat & Raafi Albar",
+   "decider_slug": "rochiyat-raafi",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "raafi",
+    "dean",
+    "danny"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/FOquUn22QgDRgETgJi7Gl3mSwdRuGnJAf4RRs87Eupg",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790226600.0,
+   "decided_at": 1790226600.0,
+   "updated_at": 1790226600.0
+  },
+  "DEC-0040": {
+   "id": "DEC-0040",
+   "title": "Kebijakan Edit Course Hanya untuk Status Draft (Published Read-Only Mutlak)",
+   "status": "decided",
+   "decision": "Pengeditan konten dan detail kursus hanya diizinkan pada status Draft. Kursus yang telah berstatus Published dikunci permanen (read-only) dan tidak dapat diedit untuk menjamin integritas data riwayat progres belajar karyawan.",
+   "decider": "Tim Dev LMS (Danny, Rochiyat, Dean, Raafi)",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/aCGv0d63C7Yh_yG16KdzBIaLsal7E6OfP9c3_HWUcF4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790312520.0,
+   "decided_at": 1790312520.0,
+   "updated_at": 1790312520.0
+  },
+  "DEC-0041": {
+   "id": "DEC-0041",
+   "title": "Penanda Karyawan Baru (New Joiner) Menggunakan Status Probation pada Assignment Setting",
+   "status": "decided",
+   "decision": "Kriteria penugasan materi otomatis bagi karyawan baru (new joiner) menggunakan penanda status probation (berupa checkbox pada form assignment setting), bukan berdasarkan perhitungan durasi hari sejak tanggal bergabung (join date).",
+   "decider": "Tim Dev LMS & Alexander Horison",
+   "decider_slug": "tim-dev-lms-alex",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "alex",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/aCGv0d63C7Yh_yG16KdzBIaLsal7E6OfP9c3_HWUcF4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790312520.0,
+   "decided_at": 1790312520.0,
+   "updated_at": 1790312520.0
+  },
+  "DEC-0042": {
+   "id": "DEC-0042",
+   "title": "Penyelarasan Penyimpanan Question Manual ke Tabel Question Bank dengan Flag is_manual",
+   "status": "decided",
+   "decision": "Pertanyaan manual yang dibuat saat konfigurasi asesmen disimpan ke tabel question_bank dengan penanda flag is_manual = true (tanpa field kategori) agar relasi database tetap terpadu namun otomatis tersaring dari pencarian umum master bank soal.",
+   "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "decider_slug": "tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "dean",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/aCGv0d63C7Yh_yG16KdzBIaLsal7E6OfP9c3_HWUcF4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790312520.0,
+   "decided_at": 1790312520.0,
+   "updated_at": 1790312520.0
+  },
+  "DEC-0043": {
+   "id": "DEC-0043",
+   "title": "Pengelolaan Data Mentor pada Menu Terpisah Tanpa Akun User",
+   "status": "decided",
+   "decision": "Data mentor dikelola secara independen pada menu dan tabel mentors dengan klasifikasi status internal/eksternal. Pengguna luar organisasi tidak dimasukkan ke dalam tabel user.",
+   "decider": "Tim Dev LMS & Alexander Horison",
+   "decider_slug": "tim-dev-lms-alex",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "danny",
+    "alex",
+    "raafi"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/aCGv0d63C7Yh_yG16KdzBIaLsal7E6OfP9c3_HWUcF4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790312520.0,
+   "decided_at": 1790312520.0,
+   "updated_at": 1790312520.0
+  },
+  "DEC-0044": {
+   "id": "DEC-0044",
+   "title": "Format Penamaan Skema Migrasi Flyway Berbasis Timestamp",
+   "status": "decided",
+   "decision": "Penamaan berkas migrasi database Flyway wajib menggunakan pola berbasis timestamp (V{YYYYMMDDHHmmss}__{deskripsi}.sql) untuk mengeliminasi bentrok urutan versi skema pada pengembangan paralel.",
+   "decider": "Elly Efendi & Tim Dev LMS",
+   "decider_slug": "elly-tim-dev-lms",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "elly",
+    "danny",
+    "dean"
+   ],
+   "project": "LMS BITHEALTH",
+   "node": "lms-platform",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/aCGv0d63C7Yh_yG16KdzBIaLsal7E6OfP9c3_HWUcF4",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790312520.0,
+   "decided_at": 1790312520.0,
+   "updated_at": 1790312520.0
+  },
+  "DEC-0045": {
+   "id": "DEC-0045",
+   "title": "Migrasi DNS dan Penyimpanan Backup SPMB Widya Cendekia ke Cloudflare",
+   "status": "decided",
+   "decision": "Pengelolaan DNS sistem SPMB dialihkan sepenuhnya ke Cloudflare (Free Tier) untuk menjamin stabilitas keamanan siber, percepatan resolusi domain, serta pemanfaatan Cloudflare R2 Storage untuk cadangan berkas pendaftar.",
+   "decider": "Achmad Irfan, Pak Agus, Pak Qodli & Rochiyat",
+   "decider_slug": "irfan-agus-qodli-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan",
+    "pak-agus",
+    "pak-qodli"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-spmb",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/TAenIUzYVRY7vKIUjlIKEeYqDgAmzt9NTqqki1qeu9Q",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790317920.0,
+   "decided_at": 1790317920.0,
+   "updated_at": 1790317920.0
+  },
+  "DEC-0046": {
+   "id": "DEC-0046",
+   "title": "Domain Produksi SPMB: spmb.widyacendekia.sch.id dengan Opsi Jalur Ganda",
+   "status": "decided",
+   "decision": "Domain resmi produksi SPMB ditetapkan pada spmb.widyacendekia.sch.id dengan konfigurasi alias pmb.widyacendekia.sch.id. Lingkungan uji coba tetap diisolasi pada wizgen.web.id hingga data dibersihkan.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan",
+    "pak-agus"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-spmb",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/TAenIUzYVRY7vKIUjlIKEeYqDgAmzt9NTqqki1qeu9Q",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790317920.0,
+   "decided_at": 1790317920.0,
+   "updated_at": 1790317920.0
+  },
+  "DEC-0047": {
+   "id": "DEC-0047",
+   "title": "Wewenang Penentuan Termin Pembayaran SPMB Dilimpahkan ke Kepala Sekolah saat Wawancara",
+   "status": "decided",
+   "decision": "Penetapan skema cicilan termin pembayaran uang pangkal/daftar ulang (1x, 2x, atau 3x pembayaran) diatur secara sistem sebagai wewenang Kepala Sekolah pada form wawancara orang tua.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan",
+    "pak-agus"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-spmb",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/TAenIUzYVRY7vKIUjlIKEeYqDgAmzt9NTqqki1qeu9Q",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790317920.0,
+   "decided_at": 1790317920.0,
+   "updated_at": 1790317920.0
+  },
+  "DEC-0048": {
+   "id": "DEC-0048",
+   "title": "Mekanisme Publikasi Pengumuman Kelulusan SPMB via WhatsApp dengan Attachment PDF Otomatis",
+   "status": "decided",
+   "decision": "Publikasi kelulusan hasil seleksi calon siswa diproses melalui aksi publish yang men-trigger pengiriman pesan WhatsApp berformat resmi disertai lampiran berkas surat keputusan PDF kepada nomor orang tua pendaftar.",
+   "decider": "Achmad Irfan & Rochiyat",
+   "decider_slug": "irfan-rochiyat",
+   "stakeholder_slugs": [
+    "rochiyat",
+    "achmad-irfan",
+    "pak-agus"
+   ],
+   "project": "ERP WICEND",
+   "node": "wicend-spmb",
+   "node_why": null,
+   "deadline": null,
+   "sources": [
+    {
+     "type": "manual",
+     "url": "https://notes.wisprflow.ai/shared/TAenIUzYVRY7vKIUjlIKEeYqDgAmzt9NTqqki1qeu9Q",
+     "label": "Wispr Flow"
+    }
+   ],
+   "superseded_by": null,
+   "notes": null,
+   "created_at": 1790317920.0,
+   "decided_at": 1790317920.0,
+   "updated_at": 1790317920.0
   }
  },
- "next_seq": 25
+ "next_seq": 49
 }

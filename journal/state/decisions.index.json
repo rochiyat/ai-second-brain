@@ -1,7 +1,7 @@
 {
  "generated_from": "journal\\state\\decisions.json",
  "note": "Lean index. Full body (decision/sources/stakeholders) lives in decisions.json; look up by id.",
- "count": 24,
+ "count": 48,
  "decisions": [
   {
    "id": "DEC-0001",
@@ -169,6 +169,174 @@
    "title": "Standardisasi Viewer Materi Course PDF: Default Scroller Vertikal",
    "status": "decided",
    "decider": "Tim Dev LMS (Rochiyat & Danny)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0025",
+   "title": "Penyelarasan Base Branch Develop (develop10) & Strategi PR Bertahap",
+   "status": "decided",
+   "decider": "Rochiyat & Tim Dev LMS",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0026",
+   "title": "Pemindahan Scope Permission & Multi-Role ke Sprint Depan",
+   "status": "decided",
+   "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0027",
+   "title": "Kebijakan Edit & Archive Course: Status Published Terbatas pada Course Detail",
+   "status": "decided",
+   "decider": "Tim Dev LMS & Rafi",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0028",
+   "title": "Prioritas Urutan PR ke Base Develop: User Role & Session Management",
+   "status": "decided",
+   "decider": "Rochiyat & Tim Dev LMS",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0029",
+   "title": "Standardisasi Tab Monitoring & Tombol Preview pada View Detail Course",
+   "status": "decided",
+   "decider": "Tim Dev LMS & Rafi",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0030",
+   "title": "Simplifikasi ERD Survey Question Terhubung ke Question Bank",
+   "status": "decided",
+   "decider": "Tim Dev LMS (Dean, Danny, Rochiyat)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0031",
+   "title": "Penyimpanan & Dekripsi Multi-Parallel Permission Role via Session Storage",
+   "status": "decided",
+   "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0032",
+   "title": "Lifecycle Question Bank: Status Published Tidak Bisa Diedit & Delete Digantikan Archive",
+   "status": "decided",
+   "decider": "Tim Dev LMS, Ratih & Monik (HR)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0033",
+   "title": "Add Manual Question di Assessment Terisolasi dari Master Question Bank",
+   "status": "decided",
+   "decider": "Tim Dev LMS & HR",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0034",
+   "title": "Pembatasan Scope User LMS pada Domain Internal BitHealth",
+   "status": "decided",
+   "decider": "Tim HR (Monik) & Alexander Horison",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0035",
+   "title": "Masa Berlaku Tautan Aktivasi Akun Pengguna Baru Selama 1 Hari",
+   "status": "decided",
+   "decider": "Tim HR (Monik) & Tim Dev LMS",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0036",
+   "title": "Pemisahan Tabel Database Question Manual dari Master Question Bank",
+   "status": "decided",
+   "decider": "Tim Dev LMS (Rochiyat & Dean)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0037",
+   "title": "Status Matrix Final: Status Archive Permanen Tanpa Aksi Lanjutan & Delete Terbatas di Draft",
+   "status": "decided",
+   "decider": "Tim Dev LMS & UI/UX (Rochiyat, Raafi, Dean)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0038",
+   "title": "Formula Learning Monitoring: Progres Gabungan Kursus/Path Tanpa Memperhitungkan Asesmen",
+   "status": "decided",
+   "decider": "Rochiyat & Raafi Albar",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0039",
+   "title": "Mekanisme Auto-Invite User via Import Employee & Penguncian Tombol Undangan Berbasis last_login",
+   "status": "decided",
+   "decider": "Rochiyat & Raafi Albar",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0040",
+   "title": "Kebijakan Edit Course Hanya untuk Status Draft (Published Read-Only Mutlak)",
+   "status": "decided",
+   "decider": "Tim Dev LMS (Danny, Rochiyat, Dean, Raafi)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0041",
+   "title": "Penanda Karyawan Baru (New Joiner) Menggunakan Status Probation pada Assignment Setting",
+   "status": "decided",
+   "decider": "Tim Dev LMS & Alexander Horison",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0042",
+   "title": "Penyelarasan Penyimpanan Question Manual ke Tabel Question Bank dengan Flag is_manual",
+   "status": "decided",
+   "decider": "Tim Dev LMS (Danny & Rochiyat)",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0043",
+   "title": "Pengelolaan Data Mentor pada Menu Terpisah Tanpa Akun User",
+   "status": "decided",
+   "decider": "Tim Dev LMS & Alexander Horison",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0044",
+   "title": "Format Penamaan Skema Migrasi Flyway Berbasis Timestamp",
+   "status": "decided",
+   "decider": "Elly Efendi & Tim Dev LMS",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0045",
+   "title": "Migrasi DNS dan Penyimpanan Backup SPMB Widya Cendekia ke Cloudflare",
+   "status": "decided",
+   "decider": "Achmad Irfan, Pak Agus, Pak Qodli & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0046",
+   "title": "Domain Produksi SPMB: spmb.widyacendekia.sch.id dengan Opsi Jalur Ganda",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0047",
+   "title": "Wewenang Penentuan Termin Pembayaran SPMB Dilimpahkan ke Kepala Sekolah saat Wawancara",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
+   "deadline": null
+  },
+  {
+   "id": "DEC-0048",
+   "title": "Mekanisme Publikasi Pengumuman Kelulusan SPMB via WhatsApp dengan Attachment PDF Otomatis",
+   "status": "decided",
+   "decider": "Achmad Irfan & Rochiyat",
    "deadline": null
   }
  ]

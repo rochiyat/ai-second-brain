@@ -1,6 +1,326 @@
 {
- "last_sweep": 1789446242.0099974,
+ "last_sweep": 1789779119.939887,
  "items": {
+  "gmail:t:1a0b5c4050bef3a1": {
+   "id": "gmail:t:1a0b5c4050bef3a1",
+   "source": "gmail",
+   "ts": 1789755907.0,
+   "from": "Do Not Reply-LGI",
+   "from_id": "Do Not Reply-LGI <noreply-ebenefit-blast@lgi.id>",
+   "channel": "Work inbox",
+   "title": "LGI News Flash September 2026",
+   "text": "[Do Not Reply-LGI] Siaga Sehat Health talk",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0b5c4050bef3a1",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Do Not Reply-LGI",
+     "ts": 1789755907.0,
+     "text": "Siaga Sehat Health talk"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0b46d80bfef2b9": {
+   "id": "gmail:t:1a0b46d80bfef2b9",
+   "source": "gmail",
+   "ts": 1789733469.0,
+   "from": "ChatGPT",
+   "from_id": "ChatGPT <noreply@email.openai.com>",
+   "channel": "Work inbox",
+   "title": "Look what you can do now",
+   "text": "[ChatGPT] Fresh ways to create, think out loud, and explore what's possible. We've been busy. Here's what's new. From bringing your imagination to life with Images 2.5, to thinking out loud with",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0b46d80bfef2b9",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "ChatGPT",
+     "ts": 1789733469.0,
+     "text": "Fresh ways to create, think out loud, and explore what's possible. We've been busy. Here's what's new. From bringing your imagination to life with Images 2.5, to thinking out loud with"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0b224a864d8a41": {
+   "id": "gmail:t:1a0b224a864d8a41",
+   "source": "gmail",
+   "ts": 1789695128.0,
+   "from": "Zahra Hafizhah",
+   "from_id": "Zahra Hafizhah <marketing@valuesion.com>",
+   "channel": "Work inbox",
+   "title": "Transform Your Security with Hikvision Solutions",
+   "text": "[Zahra Hafizhah] Yth. Bapak/Ibu, Transform your security with Hikvision. Di era bisnis yang semakin dinamis, perusahaan membutuhkan solusi keamanan yang mampu memberikan visibilitas lebih baik, mendukung pemantauan",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0b224a864d8a41",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Zahra Hafizhah",
+     "ts": 1789695128.0,
+     "text": "Yth. Bapak/Ibu, Transform your security with Hikvision. Di era bisnis yang semakin dinamis, perusahaan membutuhkan solusi keamanan yang mampu memberikan visibilitas lebih baik, mendukung pemantauan"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0ae61a156a1647": {
+   "id": "gmail:t:1a0ae61a156a1647",
+   "source": "gmail",
+   "ts": 1789632028.0,
+   "from": "GitHub",
+   "from_id": "GitHub <noreply@github.com>",
+   "channel": "Work inbox",
+   "title": "[GitHub] A third-party OAuth application has been added to your account",
+   "text": "[GitHub] Hey rochiyat-bit! A third-party OAuth application (Google Antigravity) with read:user, repo, user:email, and workflow scopes was recently authorized to access your account. Visit https://github.com/",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0ae61a156a1647",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "GitHub",
+     "ts": 1789632028.0,
+     "text": "Hey rochiyat-bit! A third-party OAuth application (Google Antigravity) with read:user, repo, user:email, and workflow scopes was recently authorized to access your account. Visit https://github.com/"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0ae616ab3e34ef": {
+   "id": "gmail:t:1a0ae616ab3e34ef",
+   "source": "gmail",
+   "ts": 1789632014.0,
+   "from": "GitHub",
+   "from_id": "GitHub <noreply@github.com>",
+   "channel": "Work inbox",
+   "title": "[GitHub] Sudo email verification code",
+   "text": "[GitHub] Please verify your identity, rochiyat-bit Here is your GitHub sudo authentication code: 88068010 This code is valid for 15 minutes and can only be used once. Please don't share this code with",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0ae616ab3e34ef",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "GitHub",
+     "ts": 1789632014.0,
+     "text": "Please verify your identity, rochiyat-bit Here is your GitHub sudo authentication code: 88068010 This code is valid for 15 minutes and can only be used once. Please don't share this code with"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0ad348be2a9040": {
+   "id": "gmail:t:1a0ad348be2a9040",
+   "source": "gmail",
+   "ts": 1789612296.0,
+   "from": "Human Resources",
+   "from_id": "Human Resources <humanresources@bithealth.co.id>",
+   "channel": "Work inbox",
+   "title": "Invitation: [MANDATORY] Q3 Townhall BitHealth 2026 @ Wed Sep 23, 2026 4pm - 6pm (WIB) (Rochiyat Rochiyat)",
+   "text": "[Human Resources] [MANDATORY] Q3 Townhall BitHealth 2026 Halo BitHealthers! Ngga terasa kita sudah memasuki kuartal ketiga di 2026! Untuk merayakan pencapaian kita sejauh ini sekaligus mempererat solidaritas seluruh tim",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0ad348be2a9040",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Human Resources",
+     "ts": 1789612296.0,
+     "text": "[MANDATORY] Q3 Townhall BitHealth 2026 Halo BitHealthers! Ngga terasa kita sudah memasuki kuartal ketiga di 2026! Untuk merayakan pencapaian kita sejauh ini sekaligus mempererat solidaritas seluruh tim"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0a8e88b48fd583": {
+   "id": "gmail:t:1a0a8e88b48fd583",
+   "source": "gmail",
+   "ts": 1789540207.0,
+   "from": "Ratih Pinandita",
+   "from_id": "Ratih Pinandita <ratih.pinandita@bithealth.co.id>",
+   "channel": "Work inbox",
+   "title": "Updated invitation: [Bithealth] LMS Weekly Meeting  @ Wed Sep 23, 2026 2pm - 4pm (WIB) (Rochiyat Rochiyat)",
+   "text": "[Ratih Pinandita] [Bithealth] LMS Weekly Meeting Join with Google Meet – You have been invited by Ratih Pinandita to attend an event named [Bithealth] LMS Weekly Meeting on Wednesday Sep 23, 2026 ⋅ 2pm – 4pm (Western",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0a8e88b48fd583",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Ratih Pinandita",
+     "ts": 1789540207.0,
+     "text": "[Bithealth] LMS Weekly Meeting Join with Google Meet – You have been invited by Ratih Pinandita to attend an event named [Bithealth] LMS Weekly Meeting on Wednesday Sep 23, 2026 ⋅ 2pm – 4pm (Western"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0a8e863fb9ce79": {
+   "id": "gmail:t:1a0a8e863fb9ce79",
+   "source": "gmail",
+   "ts": 1789540196.0,
+   "from": "Ratih Pinandita",
+   "from_id": "Ratih Pinandita <ratih.pinandita@bithealth.co.id>",
+   "channel": "Work inbox",
+   "title": "Updated invitation: [Bithealth] LMS Weekly Meeting  @ Thu Sep 24, 2026 2pm - 4pm (WIB) (Rochiyat Rochiyat)",
+   "text": "[Ratih Pinandita] [Bithealth] LMS Weekly Meeting Join with Google Meet – You have been invited by Ratih Pinandita to attend an event named [Bithealth] LMS Weekly Meeting on Thursday Sep 24, 2026 ⋅ 2pm – 4pm (Western",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0a8e863fb9ce79",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Ratih Pinandita",
+     "ts": 1789540196.0,
+     "text": "[Bithealth] LMS Weekly Meeting Join with Google Meet – You have been invited by Ratih Pinandita to attend an event named [Bithealth] LMS Weekly Meeting on Thursday Sep 24, 2026 ⋅ 2pm – 4pm (Western"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0a8e7e8042711d": {
+   "id": "gmail:t:1a0a8e7e8042711d",
+   "source": "gmail",
+   "ts": 1789540165.0,
+   "from": "Ratih Pinandita",
+   "from_id": "Ratih Pinandita <ratih.pinandita@bithealth.co.id>",
+   "channel": "Work inbox",
+   "title": "Canceled event: [Bithealth] LMS Weekly Meeting  @ Thu Sep 17, 2026 1pm - 3pm (WIB) (Rochiyat Rochiyat)",
+   "text": "[Ratih Pinandita] [Bithealth] LMS Weekly Meeting This event has been canceled and removed from your calendar. Join with Google Meet Meeting link meet.google.com/oxb-anov-fmg Join by phone (US) +1 337-339-9262 PIN:",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0a8e7e8042711d",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "fyi",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Ratih Pinandita",
+     "ts": 1789540165.0,
+     "text": "[Bithealth] LMS Weekly Meeting This event has been canceled and removed from your calendar. Join with Google Meet Meeting link meet.google.com/oxb-anov-fmg Join by phone (US) +1 337-339-9262 PIN:"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
+  "gmail:t:1a0a829ed8aa8e68": {
+   "id": "gmail:t:1a0a829ed8aa8e68",
+   "source": "gmail",
+   "ts": 1789527600.0,
+   "from": "Human Resources",
+   "from_id": "Human Resources <humanresources@bithealth.co.id>",
+   "channel": "Work inbox",
+   "title": "Say Hi to Our New Team Member!",
+   "text": "[Human Resources] Hello everyone, We are thrilled to announce that our team is growing! Please join us in giving a warm welcome to the newest member of the BitHealth family. He brings fresh energy, unique perspectives,",
+   "permalink": "https://mail.google.com/mail/u/0/#inbox/1a0a829ed8aa8e68",
+   "status": "open",
+   "status_changed_at": null,
+   "prev_status": null,
+   "linked_ticket": null,
+   "first_seen": 1789779126.345783,
+   "triage": "reply",
+   "priority_hi": false,
+   "draft_reply": null,
+   "draft_source": null,
+   "messages": [
+    {
+     "from": "Human Resources",
+     "ts": 1789527600.0,
+     "text": "Hello everyone, We are thrilled to announce that our team is growing! Please join us in giving a warm welcome to the newest member of the BitHealth family. He brings fresh energy, unique perspectives,"
+    }
+   ],
+   "msg_count": 1,
+   "send_channel": null,
+   "send_thread_ts": null,
+   "sent_permalink": null,
+   "sent_at": null
+  },
   "gmail:t:1a09f427c9a2f31b": {
    "id": "gmail:t:1a09f427c9a2f31b",
    "source": "gmail",
@@ -11,9 +331,9 @@
    "title": "‘[Bithealth] ...’ - don’t lose your recording and AI summary",
    "text": "[tl;dv Team] Unlock unlimited AI Summaries on Pro ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a09f427c9a2f31b",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789779118.4181454,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789397959.0775518,
    "triage": "fyi",
@@ -43,9 +363,9 @@
    "title": "Invitation:  [Wellness Month] Health Talk #2: See Better Work Better ... @ Wed Sep 16, 2026 2pm - 5pm (WIB) (Rochiyat Rochiyat)",
    "text": "[Human Resources] [Wellness Month] Health Talk #2: See Better Work Better + Eye Check Halo BitHealthers! Melanjutkan rangkaian kegiatan Wellness Month 2026, kami mengundang seluruh rekan-rekan untuk hadir dalam sesi",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a09ea6a348552d6",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789779119.939887,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789397959.0775518,
    "triage": "fyi",
@@ -63,7 +383,8 @@
    "send_channel": null,
    "send_thread_ts": null,
    "sent_permalink": null,
-   "sent_at": null
+   "sent_at": null,
+   "closed_by": "source"
   },
   "gmail:t:1a09e14f26531ef2": {
    "id": "gmail:t:1a09e14f26531ef2",
@@ -107,9 +428,9 @@
    "title": "Update to tl;dv's Privacy Policy - new subprocessors in transcription service",
    "text": "[tl;dv Team] Hi Rochiyat, We're writing to let you know about an update to the subprocessors tl;dv uses to provide you with the service. This is a legal notice regarding your account; it is provided exclusively",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a09d6dd7231d0e3",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789779116.0591276,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -139,9 +460,9 @@
    "title": "Supa Update Sep 2026",
    "text": "[Supabase] Everything that happened in the last month at Supabase ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
    "permalink": "https://mail.google.com/mail/u/0/#inbox/1a094424b3adbf03",
-   "status": "open",
-   "status_changed_at": null,
-   "prev_status": null,
+   "status": "done",
+   "status_changed_at": 1789779116.8671942,
+   "prev_status": "open",
    "linked_ticket": null,
    "first_seen": 1789361932.912507,
    "triage": "fyi",
@@ -400,8 +721,8 @@
   },
   "gmail": {
    "ok": true,
-   "n": 6,
-   "note": "6 msgs -> 6 threads (3d window)"
+   "n": 10,
+   "note": "10 msgs -> 10 threads (3d window)"
   },
   "gdoc": {
    "ok": true,
@@ -414,5 +735,5 @@
    "note": "Jira not in use (tracked via Google Sheets)"
   }
  },
- "last_sweep_wib": "2026-09-15T11:24:06+07:00"
+ "last_sweep_wib": "2026-09-19T07:52:06+07:00"
 }

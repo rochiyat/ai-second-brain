@@ -2,7 +2,7 @@
  "generated_from": "journal\\state\\tickets.json",
  "source_updated_wib": null,
  "note": "Lean index. Full body (note/comments/links) lives in tickets.json; look up by id.",
- "count": 57,
+ "count": 60,
  "tickets": [
   {
    "id": "TICK-001",
@@ -67,7 +67,7 @@
   {
    "id": "TICK-007",
    "title": "Course Catalog BE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -77,7 +77,7 @@
   {
    "id": "TICK-008",
    "title": "Course Catalog FE-BE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -87,7 +87,7 @@
   {
    "id": "TICK-009",
    "title": "Enroll Course FE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -97,7 +97,7 @@
   {
    "id": "TICK-010",
    "title": "Enroll Course BE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -107,7 +107,7 @@
   {
    "id": "TICK-011",
    "title": "Enroll Course FE-BE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -117,7 +117,7 @@
   {
    "id": "TICK-012",
    "title": "My Course FE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P2",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -127,7 +127,7 @@
   {
    "id": "TICK-013",
    "title": "My Course BE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P2",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -137,7 +137,7 @@
   {
    "id": "TICK-014",
    "title": "My Course FE-BE (Employee)",
-   "status": "todo",
+   "status": "done",
    "priority": "P2",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -287,7 +287,7 @@
   {
    "id": "TICK-029",
    "title": "Tanyakan ke Kang Hasan kapan ditelepon oleh Pak Ridwan",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
@@ -317,7 +317,7 @@
   {
    "id": "TICK-032",
    "title": "[Bithealth] LMS Weekly Meeting & Demo HR (14:00 - 15:00 WIB)",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "LMS BITHEALTH",
@@ -357,7 +357,7 @@
   {
    "id": "TICK-036",
    "title": "Riset Pola Program Inden & Opsi Pilihan Tahun Ajaran SPMB",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -367,7 +367,7 @@
   {
    "id": "TICK-037",
    "title": "Konfigurasi Gelombang Internal vs Eksternal & Validasi Lookup NISN",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -377,7 +377,7 @@
   {
    "id": "TICK-038",
    "title": "Konfigurasi Fleksibel Skema Termin Pembayaran & Validasi Kuota Masuk",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -387,7 +387,7 @@
   {
    "id": "TICK-039",
    "title": "Dashboard Admin: Tampilan Log Notifikasi & Resend Manual per Calon Siswa",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -477,7 +477,7 @@
   {
    "id": "TICK-048",
    "title": "Pindahkan & tampilkan master jenis dan paket tagihan ke Modul Keuangan (SPMB View-Only)",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -497,7 +497,7 @@
   {
    "id": "TICK-050",
    "title": "Implementasi alur tagihan Uang Muka Rp1.5jt flat pengunci kuota pendaftaran",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -507,7 +507,7 @@
   {
    "id": "TICK-051",
    "title": "Engine perhitungan diskon Uang Pangkal & pembagian termin daftar ulang",
-   "status": "todo",
+   "status": "done",
    "priority": "P0",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -517,7 +517,7 @@
   {
    "id": "TICK-052",
    "title": "Desain template invoice resmi SPMB ber-kop yayasan & breakdown legal BMS",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
@@ -557,7 +557,7 @@
   {
    "id": "TICK-056",
    "title": "Produksi Jingle: Penentuan jadwal & pemilihan studio rekaman",
-   "status": "todo",
+   "status": "done",
    "priority": "P1",
    "owner": "Rochiyat, Pak Hendra",
    "project": "LEARNING IQROLIFE",
@@ -573,6 +573,36 @@
    "project": "LEARNING IQROLIFE",
    "due": "2026-09-24",
    "initiative_id": "INIT-IQ-1"
+  },
+  {
+   "id": "TICK-058",
+   "title": "Penyusunan & Pembuatan Modul Buku Besar (General Ledger) Keuangan",
+   "status": "done",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-20",
+   "initiative_id": "INIT-WC-FIN"
+  },
+  {
+   "id": "TICK-059",
+   "title": "Penyusunan Dokumentasi Pedoman Penggunaan Sistem per Role (Superadmin, Admin, Orang Tua)",
+   "status": "done",
+   "priority": "P0",
+   "owner": "Rochiyat",
+   "project": "ERP WICEND",
+   "due": "2026-09-21",
+   "initiative_id": "INIT-WC-SPMB"
+  },
+  {
+   "id": "T-001",
+   "title": "Platform Kursus Koding Berbasis Teks Interaktif (Text-First EdTech)",
+   "status": "todo",
+   "priority": "P0",
+   "owner": "the owner",
+   "project": "Exploration",
+   "due": "",
+   "initiative_id": null
   }
  ]
 }

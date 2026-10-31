@@ -11,10 +11,10 @@
    "health": "on_track",
    "owner": "Rochiyat",
    "project": "ERP WICEND",
-   "due": "Uji Coba & UAT Alur SPMB Baru (20 Sept 2026)",
+   "due": "Uji Coba & UAT Alur SPMB Baru (TICK-040)",
    "blocker_count": 0,
-   "workstream_count": 4,
-   "workstreams_open": 4
+   "workstream_count": 5,
+   "workstreams_open": 1
   },
   {
    "id": "INIT-WC-FIN",
@@ -25,8 +25,8 @@
    "project": "ERP WICEND",
    "due": "Integrasi Payment Gateway BSI VA & Rekonsiliasi Keuangan",
    "blocker_count": 1,
-   "workstream_count": 3,
-   "workstreams_open": 3
+   "workstream_count": 5,
+   "workstreams_open": 1
   },
   {
    "id": "INIT-WC-UU",
@@ -55,14 +55,14 @@
   {
    "id": "INIT-AB-1",
    "title": "Retail & POS Platform",
-   "status": "in_progress",
+   "status": "archived",
    "health": "on_track",
    "owner": "Rochiyat",
    "project": "AMOR BAKERY",
-   "due": "Selesai Prompt 2f, 4b, 4c, 4e (15 Sept 2026)",
+   "due": "Handover selesai ke pihak manajemen Amor Bakery",
    "blocker_count": 0,
    "workstream_count": 4,
-   "workstreams_open": 3
+   "workstreams_open": 0
   },
   {
    "id": "INIT-BH-1",

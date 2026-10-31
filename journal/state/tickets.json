@@ -96,7 +96,7 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-14",
       "due": "2026-09-14",
-      "notes": "Diskusi merge code selesai. Base branch: app-feature-theme. Notulensi: Clients/LMS_Bithealth/meetings/2026-09-14_MOM_Discussion_Merge_Code.md. Action item: PR HR User Management & seed path menu DB.",
+      "notes": "Merge Code Tim Dev selesai hari Rabu (16 Sept 2026).",
       "note": "",
       "comments": [
         {
@@ -104,8 +104,27 @@
           "by": "owner",
           "change": "status in_progress to done; note None to ",
           "text": ""
+        },
+        {
+          "ts_wib": "2026-09-18T09:55:00+07:00",
+          "by": "owner",
+          "change": "progress update to 40%",
+          "text": "Progress migrasi merge code internal mencapai 40% (Base Developer + Business Logic Temp ke branch Dev, target selesai 18 Sept 2026)."
+        },
+        {
+          "ts_wib": "2026-09-19T07:35:36.263206+07:00",
+          "by": "owner",
+          "change": "progress to ~90%",
+          "text": "Progres merge code branch Dev ~90%. Senin dilanjutkan testing."
+        },
+        {
+          "ts_wib": "2026-09-19T07:54:53.314650+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": "Merge Code Tim Dev selesai hari Rabu (16 Sept 2026)."
         }
-      ]
+      ],
+      "closed_at": "2026-09-16"
     },
     {
       "id": "TICK-006",
@@ -131,7 +150,7 @@
     {
       "id": "TICK-007",
       "title": "Course Catalog BE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
@@ -145,13 +164,20 @@
           "by": "owner",
           "change": "due 2026-09-16 to 2026-09-17",
           "text": "Target Backend Course Catalog diselaraskan ke 17 Sept 2026 (interface sedang berjalan)."
+        },
+        {
+          "ts_wib": "2026-09-18T09:55:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Backend Course Catalog selesai 100% dan dikonfirmasi pada daily meet 18 Sept 2026."
         }
-      ]
+      ],
+      "closed_at": "2026-09-17"
     },
     {
       "id": "TICK-008",
       "title": "Course Catalog FE-BE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
@@ -165,80 +191,141 @@
           "by": "owner",
           "change": "due 2026-09-16 to 2026-09-17",
           "text": "Target Integrasi FE-BE diselaraskan ke hari ini 17 Sept 2026."
+        },
+        {
+          "ts_wib": "2026-09-18T09:55:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Integrasi FE-BE Course Catalog selesai 100% dan dikonfirmasi pada daily meet 18 Sept 2026."
         }
-      ]
+      ],
+      "closed_at": "2026-09-17"
     },
     {
       "id": "TICK-009",
       "title": "Enroll Course FE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-17",
-      "due": "2026-09-18"
+      "due": "2026-09-18",
+      "comments": [
+        {
+          "ts_wib": "2026-09-18T09:55:00+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress",
+          "text": "Mulai pengerjaan Enroll Course FE pada 18 Sept 2026."
+        },
+        {
+          "ts_wib": "2026-09-19T07:35:36.263206+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Enroll Course FE, BE & FE-BE selesai."
+        }
+      ],
+      "closed_at": "2026-09-19"
     },
     {
       "id": "TICK-010",
       "title": "Enroll Course BE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-17",
-      "due": "2026-09-18"
+      "due": "2026-09-18",
+      "comments": [
+        {
+          "ts_wib": "2026-09-18T09:55:00+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress",
+          "text": "Mulai pengerjaan Enroll Course BE pada 18 Sept 2026."
+        },
+        {
+          "ts_wib": "2026-09-19T07:35:36.263206+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Enroll Course FE, BE & FE-BE selesai."
+        }
+      ],
+      "closed_at": "2026-09-19"
     },
     {
       "id": "TICK-011",
       "title": "Enroll Course FE-BE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-17",
-      "due": "2026-09-18"
+      "due": "2026-09-18",
+      "comments": [
+        {
+          "ts_wib": "2026-09-18T09:55:00+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress",
+          "text": "Mulai pengerjaan Enroll Course FE-BE pada 18 Sept 2026."
+        },
+        {
+          "ts_wib": "2026-09-19T07:35:36.263206+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Enroll Course FE, BE & FE-BE selesai."
+        }
+      ],
+      "closed_at": "2026-09-19"
     },
     {
       "id": "TICK-012",
       "title": "My Course FE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P2",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-21",
-      "due": "2026-09-23"
+      "due": "2026-09-23",
+      "completed_at": "2026-09-21",
+      "closed_at": "2026-09-21",
+      "notes": "My Course Frontend selesai dan sudah digabung ke app-feature-temp."
     },
     {
       "id": "TICK-013",
       "title": "My Course BE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P2",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-21",
-      "due": "2026-09-23"
+      "due": "2026-09-23",
+      "completed_at": "2026-09-21",
+      "closed_at": "2026-09-21",
+      "notes": "My Course Backend selesai dan sudah digabung ke app-feature-temp."
     },
     {
       "id": "TICK-014",
       "title": "My Course FE-BE (Employee)",
-      "status": "todo",
+      "status": "done",
       "priority": "P2",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
       "initiative_id": "INIT-BH-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-21",
-      "due": "2026-09-23"
+      "due": "2026-09-23",
+      "completed_at": "2026-09-21",
+      "closed_at": "2026-09-21",
+      "notes": "Integrasi My Course FE-BE selesai dan sudah digabung ke app-feature-temp."
     },
     {
       "id": "TICK-015",
@@ -597,14 +684,23 @@
     {
       "id": "TICK-029",
       "title": "Tanyakan ke Kang Hasan kapan ditelepon oleh Pak Ridwan",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "AMOR BAKERY",
       "initiative_id": "INIT-AB-1",
       "created_at": "2026-09-14",
       "start_date": "2026-09-16",
-      "due": "2026-09-16"
+      "due": "2026-09-16",
+      "closed_at": "2026-09-18",
+      "comments": [
+        {
+          "ts_wib": "2026-09-18T10:08:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Selesai hari ini sudah ditanyakan ke Kang Hasan terkait jadwal telepon dari Pak Ridwan."
+        }
+      ]
     },
     {
       "id": "TICK-030",
@@ -657,7 +753,7 @@
     {
       "id": "TICK-032",
       "title": "[Bithealth] LMS Weekly Meeting & Demo HR (14:00 - 15:00 WIB)",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "LMS BITHEALTH",
@@ -678,8 +774,16 @@
           "by": "owner",
           "change": "reschedule to 2026-09-23",
           "text": "Meeting HR resmi di-reschedule ke hari Rabu, 23 Sept 2026 jam 14:00 WIB berbarengan dengan weekly meeting LMS karena Ratih & Rafi fokus bikin PPT tenant sampai Jumat siang."
+        },
+        {
+          "ts_wib": "2026-09-23T15:20:00+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "LMS Weekly Meeting & Demo HR selesai 23 Sept 2026. MOM dan DEC-0032 s.d. DEC-0035 telah dicatat."
         }
-      ]
+      ],
+      "completed_at": "2026-09-23",
+      "closed_at": "2026-09-23"
     },
     {
       "id": "TICK-033",
@@ -743,7 +847,7 @@
     {
       "id": "TICK-036",
       "title": "Riset Pola Program Inden & Opsi Pilihan Tahun Ajaran SPMB",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -751,12 +855,27 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-17",
       "due": "2026-09-17",
-      "notes": "Riset alur pendaftaran Program Inden dan tambahkan opsi pilihan Tahun Ajaran pada form pendaftaran SPMB. [Modul SPMB]"
+      "notes": "Riset alur pendaftaran Program Inden dan tambahkan opsi pilihan Tahun Ajaran pada form pendaftaran SPMB. [Modul SPMB]",
+      "comments": [
+        {
+          "ts_wib": "2026-09-18T10:39:09+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress",
+          "text": ""
+        },
+        {
+          "ts_wib": "2026-09-19T07:54:53.314650+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": "Riset Pola Program Inden & Opsi Pilihan Tahun Ajaran SPMB selesai kemarin (18 Sept 2026)."
+        }
+      ],
+      "closed_at": "2026-09-18"
     },
     {
       "id": "TICK-037",
       "title": "Konfigurasi Gelombang Internal vs Eksternal & Validasi Lookup NISN",
-      "status": "todo",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -764,12 +883,28 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-18",
       "due": "2026-09-18",
-      "notes": "2 pekan pertama (5-19) khusus pendaftar internal, selanjutnya umum. Wajibkan input NISN dengan lookup ke database siswa & auto-populate biodata. [Modul SPMB]"
+      "completed_at": "2026-09-19",
+      "closed_at": "2026-09-19",
+      "notes": "Koding selesai 18 Sept. Verifikasi dan validasi konfigurasi gelombang internal vs eksternal & lookup NISN selesai pada hari Sabtu (19 Sept 2026).",
+      "comments": [
+        {
+          "ts_wib": "2026-09-19T07:54:53.314650+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress",
+          "text": "Konfigurasi koding selesai kemarin (18 Sept), hari ini verifikasi/pengecekan."
+        },
+        {
+          "ts_wib": "2026-09-21T13:10:29+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": "Verifikasi dan validasi konfigurasi gelombang internal vs eksternal & lookup NISN selesai pada hari Sabtu (19 Sept 2026)."
+        }
+      ]
     },
     {
       "id": "TICK-038",
       "title": "Konfigurasi Fleksibel Skema Termin Pembayaran & Validasi Kuota Masuk",
-      "status": "todo",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -777,12 +912,21 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-19",
       "due": "2026-09-19",
-      "notes": "Skema: Formulir -> Uang Muka Rp1.5jt -> Daftar Ulang. Kuota berkurang hanya setelah bayar daftar ulang. Hapus refund. Integrasi ke modul finance. [Modul Finance]"
+      "notes": "Skema: Formulir -> Uang Muka Rp1.5jt -> Daftar Ulang. Kuota berkurang hanya setelah bayar daftar ulang. Hapus refund. Integrasi ke modul finance. [Modul Finance]",
+      "closed_at": "2026-09-19",
+      "comments": [
+        {
+          "ts_wib": "2026-09-19T22:40:00+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Konfigurasi Fleksibel Skema Termin Pembayaran & Validasi Kuota Masuk selesai."
+        }
+      ]
     },
     {
       "id": "TICK-039",
       "title": "Dashboard Admin: Tampilan Log Notifikasi & Resend Manual per Calon Siswa",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -790,7 +934,16 @@
       "created_at": "2026-09-14",
       "start_date": "2026-09-19",
       "due": "2026-09-19",
-      "notes": "Tampilkan log status pengiriman notifikasi tahapan (Email & WA) di dashboard admin dan sediakan tombol tracking serta resend manual per siswa. [Modul SPMB]"
+      "notes": "Tampilkan log status pengiriman notifikasi tahapan (Email & WA) di dashboard admin dan sediakan tombol tracking serta resend manual per siswa. [Modul SPMB]",
+      "closed_at": "2026-09-20",
+      "comments": [
+        {
+          "ts_wib": "2026-09-20T09:25:00+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Dashboard Admin: Tampilan Log Notifikasi & Resend Manual per Calon Siswa selesai."
+        }
+      ]
     },
     {
       "id": "TICK-040",
@@ -953,7 +1106,7 @@
     {
       "id": "TICK-048",
       "title": "Pindahkan & tampilkan master jenis dan paket tagihan ke Modul Keuangan (SPMB View-Only)",
-      "status": "todo",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -962,7 +1115,22 @@
       "start_date": "2026-09-17",
       "due": "2026-09-17",
       "notes": "Sesuai kesepakatan meeting siang ini dengan Pak Irfan: jenis tagihan & paket tagihan dipindahkan ke modul Keuangan (global); modul SPMB hanya sebagai view/pilih paket. Tampilkan dan konfirmasi ke Pak Irfan hari ini.",
-      "comments": []
+      "comments": [
+        {
+          "ts_wib": "2026-09-18T10:38:59+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress; note None to ",
+          "text": ""
+        },
+        {
+          "ts_wib": "2026-09-19T07:35:36.263206+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Master Tagihan ke Modul Keuangan (SPMB View-Only) selesai."
+        }
+      ],
+      "note": "",
+      "closed_at": "2026-09-19"
     },
     {
       "id": "TICK-049",
@@ -990,7 +1158,7 @@
     {
       "id": "TICK-050",
       "title": "Implementasi alur tagihan Uang Muka Rp1.5jt flat pengunci kuota pendaftaran",
-      "status": "todo",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -999,12 +1167,20 @@
       "start_date": "2026-09-18",
       "due": "2026-09-18",
       "notes": "Tagihan uang muka Rp1.500.000 flat untuk semua unit muncul tepat setelah bayar formulir. Wajib lunas sebelum orang tua bisa melengkapi formulir; berfungsi mengunci kuota dan menjadi pengurang Uang Pangkal saat daftar ulang.",
-      "comments": []
+      "comments": [
+        {
+          "ts_wib": "2026-09-19T07:35:36.263206+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Alur Tagihan Uang Muka Rp1.5jt Flat selesai."
+        }
+      ],
+      "closed_at": "2026-09-19"
     },
     {
       "id": "TICK-051",
       "title": "Engine perhitungan diskon Uang Pangkal & pembagian termin daftar ulang",
-      "status": "todo",
+      "status": "done",
       "priority": "P0",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -1013,12 +1189,20 @@
       "start_date": "2026-09-18",
       "due": "2026-09-19",
       "notes": "Rumus perhitungan: Diskon (internal 10%, rombongan 20%, domisili 10%, bayar lunas) dipotongkan ke Uang Pangkal sebelum dibagi ke termin daftar ulang. Pemisahan penagihan buku dan seragam ke Tahap 2 (Feb/Mar 2027).",
-      "comments": []
+      "comments": [
+        {
+          "ts_wib": "2026-09-19T22:45:00+07:00",
+          "by": "owner",
+          "change": "status to done",
+          "text": "Engine perhitungan diskon Uang Pangkal & pembagian termin daftar ulang selesai."
+        }
+      ],
+      "closed_at": "2026-09-19"
     },
     {
       "id": "TICK-052",
       "title": "Desain template invoice resmi SPMB ber-kop yayasan & breakdown legal BMS",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat",
       "project": "ERP WICEND",
@@ -1026,8 +1210,17 @@
       "created_at": "2026-09-17",
       "start_date": "2026-09-19",
       "due": "2026-09-20",
-      "notes": "Invoice resmi ber-kop sekolah dengan detail rincian BMS tahap 1, potongan diskon, pengurang uang muka, dan jadwal jatuh tempo termin. Dioptimalkan untuk tampilan desktop/laptop.",
-      "comments": []
+      "completed_at": "2026-09-18",
+      "closed_at": "2026-09-18",
+      "notes": "Invoice resmi ber-kop sekolah dengan detail rincian BMS tahap 1, potongan diskon, pengurang uang muka, dan jadwal jatuh tempo termin. Selesai pada hari Jumat (18 Sept 2026).",
+      "comments": [
+        {
+          "ts_wib": "2026-09-21T13:10:29+07:00",
+          "by": "owner",
+          "change": "status todo to done",
+          "text": "Desain template invoice resmi SPMB ber-kop yayasan & breakdown legal BMS selesai pada hari Jumat (18 Sept 2026)."
+        }
+      ]
     },
     {
       "id": "TICK-053",
@@ -1074,7 +1267,7 @@
     {
       "id": "TICK-056",
       "title": "Produksi Jingle: Penentuan jadwal & pemilihan studio rekaman",
-      "status": "todo",
+      "status": "done",
       "priority": "P1",
       "owner": "Rochiyat, Pak Hendra",
       "project": "LEARNING IQROLIFE",
@@ -1082,6 +1275,7 @@
       "created_at": "2026-09-17",
       "start_date": "2026-09-18",
       "due": "2026-09-21",
+      "completed_at": "2026-09-21",
       "notes": "Target 2 hasil diskusi: Tentukan timeline/jadwal produksi dan survey/booking studio rekaman untuk pembuatan jingle Learning Iqrolife.",
       "comments": []
     },
@@ -1098,6 +1292,85 @@
       "due": "2026-09-24",
       "notes": "Target 3 hasil diskusi: Identifikasi dan pemetaan kebutuhan spesifik calon klien terkait sistem IT, terutama modul ERP operasional dan manajemen HR/people.",
       "comments": []
+    },
+    {
+      "id": "TICK-058",
+      "title": "Penyusunan & Pembuatan Modul Buku Besar (General Ledger) Keuangan",
+      "status": "done",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-FIN",
+      "created_at": "2026-09-20",
+      "start_date": "2026-09-20",
+      "due": "2026-09-20",
+      "completed_at": "2026-09-20",
+      "closed_at": "2026-09-20",
+      "notes": "Pembuatan fitur buku besar (General Ledger) untuk rekapitulasi mutasi debit/kredit, transaksi keuangan masuk/keluar, dan pelaporan keuangan sekolah. Selesai pada hari Minggu (20 Sept 2026).",
+      "comments": [
+        {
+          "ts_wib": "2026-09-20T09:25:00+07:00",
+          "by": "owner",
+          "change": "created",
+          "text": "Sedang dikerjakan hari ini dengan target selesai hari ini."
+        },
+        {
+          "ts_wib": "2026-09-21T13:10:29+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": "Penyusunan & pembuatan modul Buku Besar (General Ledger) Keuangan selesai pada hari Minggu (20 Sept 2026)."
+        }
+      ]
+    },
+    {
+      "id": "TICK-059",
+      "title": "Penyusunan Dokumentasi Pedoman Penggunaan Sistem per Role (Superadmin, Admin, Orang Tua)",
+      "status": "done",
+      "priority": "P0",
+      "owner": "Rochiyat",
+      "project": "ERP WICEND",
+      "initiative_id": "INIT-WC-SPMB",
+      "created_at": "2026-09-20",
+      "start_date": "2026-09-21",
+      "due": "2026-09-21",
+      "completed_at": "2026-09-23",
+      "closed_at": "2026-09-23",
+      "notes": "Dokumentasi pedoman dan panduan operasional penggunaan sistem terpisah per role: Superadmin, Admin Unit, dan Orang Tua/Wali Calon Siswa. Selesai pada 23 Sept 2026.",
+      "comments": [
+        {
+          "ts_wib": "2026-09-20T09:25:00+07:00",
+          "by": "owner",
+          "change": "created",
+          "text": "Target penyusunan dokumentasi pedoman penggunaan disiapkan untuk besok (21 Sept)."
+        },
+        {
+          "ts_wib": "2026-09-21T13:10:29+07:00",
+          "by": "owner",
+          "change": "status todo to in_progress",
+          "text": "Penyusunan dokumentasi pedoman penggunaan sistem per role sedang berjalan (on progress)."
+        },
+        {
+          "ts_wib": "2026-09-23T22:07:17+07:00",
+          "by": "owner",
+          "change": "status in_progress to done",
+          "text": "Penyusunan Dokumentasi Pedoman Penggunaan Sistem per Role (Superadmin, Admin, Orang Tua) selesai pada 23 Sept 2026."
+        }
+      ]
+    },
+    {
+      "id": "T-001",
+      "title": "Platform Kursus Koding Berbasis Teks Interaktif (Text-First EdTech)",
+      "priority": "P0",
+      "status": "todo",
+      "kind": "self",
+      "owner": "the owner",
+      "project": "Exploration",
+      "note": "Membangun platform pembelajaran programming interaktif berbasis teks (text-first) serupa Dicoding, Codecademy, dan Educative.io. Model monetisasi bertingkat (Free, Freemium/Free Sebagian, Full Paid) dengan keunggulan kecepatan baca, kemudahan copy code, dan biaya produksi yang jauh lebih efisien dibanding video course.\n\nRekomendasi & Strategi Pengembangan:\n1. Monetisasi Tambahan:\n- All-Access Subscription (SaaS model bulanan/tahunan) untuk recurring revenue yang lebih terprediksi dibanding penjualan one-off.\n- Monetisasi Code Review & Submission Proyek: Materi teks gratis/murah, tetapi submission proyek portfolio dengan review manual dari mentor menjadi produk berbayar premium (kunci diferensiasi Dicoding).\n- Pay-for-Certificate: Akses materi gratis 100% untuk mendominasi traffic dan SEO organik, bayar hanya jika membutuhkan sertifikat kelulusan resmi.\n- B2B Corporate Onboarding: Lisensi tim untuk perusahaan/software house meng-onboard junior developer atau intern.\n\n2. Keunggulan SEO & Akuisisi Pengguna:\n- Konten teks dapat diindeks penuh oleh Google Search (SEO organic magnet), menghasilkan ribuan pencarian tutorial teknis harian tanpa biaya iklan.\n\n3. Fitur Interaktivitas Kunci:\n- In-browser Code Runner / WebContainer (Monaco Editor + Node/Python runtime langsung di browser) agar siswa tidak terhambat setup environment lokal.\n- Interactive Checkpoints / Mini Quiz di akhir setiap modul untuk memvalidasi pemahaman secara otomatis.\n\n4. Pemilihan Niche Awal:\n- Hindari materi generalis pemula (Basic HTML/CSS/Python) yang sudah jenuh di YouTube.\n- Masuk ke spesialisasi produksi bernilai tinggi: Golang Microservices & Clean Arch, Spring Boot Enterprise, Flutter Advanced Architecture, Fullstack AI Apps (LangChain/LLM Integration), dan DevOps CI/CD.\n\nCatatan: Ide bisnis edtech text-first. Keuntungan besar: biaya produksi konten jauh lebih murah dan cepat direvisi dibanding video; retensi dan completion rate teks interaktif terbukti lebih tinggi bagi software engineer.\n\n[Dipromosikan dari Ide IDEA-007]",
+      "due": "",
+      "links": [],
+      "initiative_id": null,
+      "jira_key": null,
+      "parent_id": null
     }
   ]
 }

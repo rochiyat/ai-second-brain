@@ -13,14 +13,14 @@
           "health": "on_track",
           "owner": "Rochiyat",
           "one_liner": "Sistem Penerimaan Murid Baru, formulir, tes seleksi, dan pengumuman",
-          "now": "Testing notifikasi Email & WA, flow end-to-end, konfigurasi gelombang & validasi NISN",
-          "next_milestone": "Uji Coba & UAT Alur SPMB Baru (20 Sept 2026)",
+          "now": "Log notifikasi & resend manual selesai (TICK-039 done). Konfigurasi gelombang & lookup NISN selesai (TICK-037 done). Dokumentasi pedoman per role selesai (TICK-059 done). Persiapan UAT SPMB (TICK-040).",
+          "next_milestone": "Uji Coba & UAT Alur SPMB Baru (TICK-040)",
           "blockers": [],
           "workstreams": [
             {
               "name": "Notifikasi Email & WhatsApp",
               "phase": "Testing",
-              "status": "in_progress",
+              "status": "done",
               "prd": "SPMB Notification",
               "blocker": null
             },
@@ -34,15 +34,22 @@
             {
               "name": "Program Inden & Pilihan Tahun Ajaran",
               "phase": "Design",
-              "status": "todo",
+              "status": "done",
               "prd": "SPMB Inden",
               "blocker": null
             },
             {
               "name": "Gelombang Internal vs Eksternal & Lookup NISN",
               "phase": "Development",
-              "status": "todo",
+              "status": "done",
               "prd": "SPMB Tracks",
+              "blocker": null
+            },
+            {
+              "name": "Dokumentasi Pedoman Penggunaan per Role",
+              "phase": "Documentation",
+              "status": "done",
+              "prd": "SPMB Role Guide",
               "blocker": null
             }
           ]
@@ -54,7 +61,7 @@
           "health": "on_track",
           "owner": "Rochiyat",
           "one_liner": "Pengelolaan keuangan, skema termin pembayaran SPP/SPMB & integrasi invoice",
-          "now": "Sentralisasi master tagihan ke Keuangan (TICK-048), skema Uang Muka Rp1.5jt (TICK-050) & engine diskon Uang Pangkal (TICK-051)",
+          "now": "Sentralisasi master tagihan (TICK-048 done), skema UM (TICK-050 done), termin & kuota (TICK-038 done), engine diskon (TICK-051 done), template invoice resmi (TICK-052 done), Buku Besar Keuangan (TICK-058 done). Lanjut persiapan integrasi BSI VA (TICK-053).",
           "next_milestone": "Integrasi Payment Gateway BSI VA & Rekonsiliasi Keuangan",
           "blockers": [
             {
@@ -67,22 +74,36 @@
             {
               "name": "Master Jenis & Paket Tagihan Keuangan (Global)",
               "phase": "Development",
-              "status": "in_progress",
+              "status": "done",
               "prd": "Finance Billing Setup",
               "blocker": null
             },
             {
               "name": "Engine Diskon Uang Pangkal & Termin Pembayaran",
               "phase": "Development",
-              "status": "todo",
+              "status": "done",
               "prd": "Finance Payment Plans",
               "blocker": null
             },
             {
-              "name": "Integrasi BSI Virtual Account & Template Invoice",
+              "name": "Template Invoice Resmi SPMB & Legal BMS",
+              "phase": "Design",
+              "status": "done",
+              "prd": "Finance Invoicing",
+              "blocker": null
+            },
+            {
+              "name": "Modul Buku Besar (General Ledger)",
+              "phase": "Development",
+              "status": "done",
+              "prd": "Finance General Ledger",
+              "blocker": null
+            },
+            {
+              "name": "Integrasi BSI Virtual Account",
               "phase": "Integration",
               "status": "todo",
-              "prd": "Finance Invoicing & BSI VA",
+              "prd": "BSI VA Integration",
               "blocker": "Tunggu SPK & kontak tim teknis BSI (WAIT-0002)"
             }
           ]
@@ -137,12 +158,12 @@
         {
           "id": "INIT-AB-1",
           "name": "Retail & POS Platform",
-          "status": "in_progress",
+          "status": "archived",
           "health": "on_track",
           "owner": "Rochiyat",
           "one_liner": "Modernisasi sistem POS dan supply chain bakery",
-          "now": "Jadwal eksekusi 15 Sept: PROMPT 4b (in progress), 4c, 4e (POS Client)",
-          "next_milestone": "Selesai Prompt 2f, 4b, 4c, 4e (15 Sept 2026)",
+          "now": "Proyek diarsipkan (Prototipe E2E selesai)",
+          "next_milestone": "Handover selesai ke pihak manajemen Amor Bakery",
           "blockers": [],
           "workstreams": [
             {
@@ -155,21 +176,21 @@
             {
               "name": "PROMPT 4b - POS: pembayaran",
               "phase": "Development",
-              "status": "in_progress",
+              "status": "done",
               "prd": "amor-pos-client",
               "blocker": null
             },
             {
               "name": "PROMPT 4c - POS: simpan nota dan pratinjau struk",
               "phase": "Development",
-              "status": "todo",
+              "status": "done",
               "prd": "amor-pos-client",
               "blocker": null
             },
             {
               "name": "PROMPT 4e - POS: otorisasi supervisor, void, dan retur",
               "phase": "Development",
-              "status": "todo",
+              "status": "done",
               "prd": "amor-pos-client",
               "blocker": null
             }
@@ -180,7 +201,11 @@
             ]
           }
         }
-      ]
+      ],
+      "status": "archived",
+      "archived_at": "2026-09-19",
+      "archive_reason": "Selesai tahap prototipe E2E (11 tiket selesai). Manajemen memutuskan hire developer in-house baru untuk pengembangan lanjutan.",
+      "doc_path": "Clients/Amor_Bakery/ARCHIVE_SUMMARY.md"
     },
     {
       "name": "LMS BITHEALTH",
